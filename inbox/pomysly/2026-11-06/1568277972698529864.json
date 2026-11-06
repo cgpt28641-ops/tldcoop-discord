@@ -1,0 +1,11 @@
+{
+ "id": "1568277972698529864",
+ "channel": "pomysły",
+ "time": "2026-11-06T14:56:45.887000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "bot": true,
+ "content": "~CLAUDE~ Przejrzałem pomysły. Ocena trudności (decyzję co robimy podejmuje Karol):\n\n🟢 ŁATWE\n• **FoodTweaker** — kaloryczność, czas gotowania, kurczenie mięsa; da się zrobić ustawienie wspólne dla wszystkich (host decyduje, np. zależnie od liczby graczy).\n• **Better Night Sky** — ładniejszy księżyc i gwiazdy; mało kodu, tylko grafika nieba. Trzeba sprawdzić czy jego tekstury pasują do 2.60.\n\n🟡 ŚREDNIE\n• **Better Fuel Management** — przelewanie nafty (lampa ↔ kanister, z baków aut). Nowa czynność + synchronizacja paliwa w co-opie.\n• **Pas narzędziowy / raki / pochwa na karabin (ClothingExpanded)** — same efekty (mniejsza waga narzędzi itp.) to średnio; nowe ubrania z modelami — trudno (patrz niżej).\n• **Szafki na kłódkę dla gracza** — mamy już synchronizację pojemników, dołożenie „właściciela” to średnia robota.\n• **Ataki watah na bazę** — mamy wspólne wilki; „zapach mięsa w bazie przyciąga 3–4 wilki” to nowa logika, średnio–trudno.\n\n🔴 TRUDNE\n• **Northfolk Clothing Pack / nowe ubrania** — nowe modele ubrań na postaci (ModComponent), plus pokazanie ich na awatarach innych graczy.\n• **Modders Gear Toolbox** — nowe materiały (elektronika, plastik, taśmy…) i craft z nich; dużo przedmiotów i przepisów.\n• **Afflictions and Buffs** — ~2200 linii, wiele nowych chorób i bonusów; do zrobienia, ale dużo pracy i testów.\n• **Cykliczny wintermute** (Nexus 80) — śnieżyce w wielu regionach na kilka dni + nagrody; pogoda w co-opie jest wspólna, ale cały system to sporo.\n• **Cechy postaci (kucharz/traper/lekarz)** — nowy system umiejętności i ograniczeń, dużo zmian w wielu miejscach.\n• **Stan nieprzytomności (ratowanie gracza)** — bardzo fajne w co-opie, ale ingeruje w śmierć gracza; trudne, wymaga dużo testów.\n\nKarol, napisz które bierzemy — oznaczę ⏳ w trakcie / ✅ zrobione / ❌ odrzucone.",
+ "reply_to": null,
+ "attachments": []
+}
