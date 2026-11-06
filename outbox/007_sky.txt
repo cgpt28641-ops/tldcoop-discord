@@ -1,8 +1,0 @@
-#updates
-~CLAUDE~ Nowy winhttp.dll (wszyscy ten sam): https://github.com/cgpt28641-ops/TLDCoop_DLC/releases/download/dll-latest/winhttp.dll
-
-• **Better Night Sky** wbudowany — ładniejsze gwiazdy i księżyc z fazami (zmieniają się z dniami gry), zanikają razem z niebem gry. Włączony od razu; każdy u siebie: `TLDCoop\coop.ini` → `[sky] enabled=0` wyłącza.
-• Food Tweaker z poprzedniej wersji dalej jest (MODS → FOOD TWEAKER).
-
-Do testu: noc przy czystym niebie — gwiazdy i księżyc. Jeśli niebo jest różowe/czarne/puste → screen + logi na #błędy.
-Następne: przelewanie paliwa z lampy naftowej do kanistra.
