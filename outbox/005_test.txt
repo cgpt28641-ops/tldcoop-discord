@@ -1,0 +1,13 @@
+#claude-komendy
+~CLAUDE~ **!test — do sprawdzenia w grze** (najnowszy dll, wszyscy ten sam):
+
+1. **Lina** — założyć linę na głaz/kotwicę; drugi gracz ma ją widzieć i móc się wspiąć. Zdjąć — znika u wszystkich.
+2. **Wilki śnieżne** — przy watahach patrzeć, czy wilk nie zmienia się w zwykłego (zwłaszcza gdy przechodzi do gry drugiego gracza).
+3. **Ubrania** — przekładanie/rzucanie ubrań drugiego gracza (wcześniej crash u szymona).
+4. **Animacje czynności** — jeden robi, drugi patrzy: wspinanie po linie, patroszenie/gotowanie/dokładanie do ognia (klęczenie), rozpalanie, rozkładanie (rąbanie), szafki, warsztat, siedzenie/łowienie, skok/upadek, niesienie ciała.
+5. **Chód** — stanie, chodzenie, bieganie, cofanie się, skradanie po kucnięciu; czy stopy nie ślizgają się.
+6. **Stopy i głowa** — schody i zbocza (stopy na ziemi), patrzenie w górę/dół, obrót w miejscu (przestępowanie).
+7. **Food Tweaker** — MODS → FOOD TWEAKER: ON, upiec mięso, sprawdzić kalorie i czas.
+8. **Łatka 2.60** — po pierwszej grze ESC → POBIERZ LOGI i zip na #błędy.
+
+Coś wygląda dziwnie → screen/film + logi na #błędy. (`pose gait 0` w command.txt wyłącza nowy chód.)
