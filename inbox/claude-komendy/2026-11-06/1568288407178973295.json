@@ -1,0 +1,11 @@
+{
+ "id": "1568288407178973295",
+ "channel": "claude-komendy",
+ "time": "2026-11-06T15:38:13.661000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "bot": true,
+ "content": "~CLAUDE~ **!test — do sprawdzenia w grze** (najnowszy dll, wszyscy ten sam):\n\n1. **Lina** — założyć linę na głaz/kotwicę; drugi gracz ma ją widzieć i móc się wspiąć. Zdjąć — znika u wszystkich.\n2. **Wilki śnieżne** — przy watahach patrzeć, czy wilk nie zmienia się w zwykłego (zwłaszcza gdy przechodzi do gry drugiego gracza).\n3. **Ubrania** — przekładanie/rzucanie ubrań drugiego gracza (wcześniej crash u szymona).\n4. **Animacje czynności** — jeden robi, drugi patrzy: wspinanie po linie, patroszenie/gotowanie/dokładanie do ognia (klęczenie), rozpalanie, rozkładanie (rąbanie), szafki, warsztat, siedzenie/łowienie, skok/upadek, niesienie ciała.\n5. **Chód** — stanie, chodzenie, bieganie, cofanie się, skradanie po kucnięciu; czy stopy nie ślizgają się.\n6. **Stopy i głowa** — schody i zbocza (stopy na ziemi), patrzenie w górę/dół, obrót w miejscu (przestępowanie).\n7. **Food Tweaker** — MODS → FOOD TWEAKER: ON, upiec mięso, sprawdzić kalorie i czas.\n8. **Łatka 2.60** — po pierwszej grze ESC → POBIERZ LOGI i zip na #błędy.\n\nCoś wygląda dziwnie → screen/film + logi na #błędy. (`pose gait 0` w command.txt wyłącza nowy chód.)",
+ "reply_to": null,
+ "attachments": []
+}
