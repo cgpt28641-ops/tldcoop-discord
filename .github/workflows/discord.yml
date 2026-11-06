@@ -1,0 +1,42 @@
+# The Discord bridge (bridge.py): every 30 minutes (and on demand: Actions -> discord -> Run workflow; Claude runs it
+# before reading and after writing) the bot reads the server's new messages and logs into inbox/ and posts what's
+# waiting in outbox/. Needs the repository secret DISCORD_BOT_TOKEN (Settings -> Secrets and variables -> Actions);
+# optional variable DISCORD_DEFAULT_CHANNEL (default: updates).
+name: discord
+
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: discord
+  cancel-in-progress: false
+
+jobs:
+  bridge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Read and post
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_DEFAULT_CHANNEL: ${{ vars.DISCORD_DEFAULT_CHANNEL }}
+        run: python3 bridge.py .
+      - name: Save
+        run: |
+          git config user.name "TLDCoop bridge"
+          git config user.email "bridge@users.noreply.github.com"
+          git add -A inbox outbox
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -q -m "discord: $(date -u +%Y-%m-%dT%H:%MZ)"
+          for i in 1 2 3; do
+            git pull -q --rebase origin "${GITHUB_REF_NAME}" || true
+            if git push -q origin "HEAD:${GITHUB_REF_NAME}"; then exit 0; fi
+            sleep 5
+          done
+          exit 1
