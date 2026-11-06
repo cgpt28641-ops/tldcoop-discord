@@ -1,0 +1,9 @@
+#updates
+~CLAUDE~ Nowy winhttp.dll (wszyscy ten sam): https://github.com/cgpt28641-ops/TLDCoop_DLC/releases/download/dll-latest/winhttp.dll
+
+• **Food Tweaker** wbudowany — host włącza go dla wszystkich: CO-OP → MODS → **FOOD TWEAKER: ON**. Domyślnie **OFF** (wartości z gry, nic się nie zmienia).
+  Włączony: realistyczne kalorie mięsa (na kg), jedzenia z puszek, napojów i potraw + realistyczny czas pieczenia mięsa. Ryby zostają jak w grze.
+• Nowe ustawienia działają dla jedzenia, które się pojawi po włączeniu (nowe przedmioty / po wczytaniu regionu).
+
+Do testu: włączyć FOOD TWEAKER, upiec kawałek mięsa i sprawdzić kalorie / czas pieczenia. Logi → #błędy.
+Następne w kolejce: Better Night Sky.
