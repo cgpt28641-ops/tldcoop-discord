@@ -7,7 +7,8 @@
 #        channel was read up to.
 #   out: every outbox/*.txt is posted by the bot and removed. A file's first line "#channel-name" picks the channel
 #        (default: DISCORD_DEFAULT_CHANNEL, else #updates, else the first text channel); files named in "attach: a, b" lines (paths in the
-#        repo checkout) go along. outbox/reactions.txt: status reactions on messages (react()).
+#        repo checkout) go along. outbox/reactions.lst: status reactions (react());
+#        outbox/delete.lst: "#channel message_id" lines: the bot's own messages taken down.
 # Standard library only. The token comes from the DISCORD_BOT_TOKEN secret; nothing here ever prints it.
 import json, os, re, sys, time, uuid, urllib.request, urllib.error, urllib.parse
 
@@ -164,9 +165,9 @@ STATUS = ['👀', '⏳', '✅', '❌']  # read, in progress, done, turned down: 
 
 
 def react(channels):
-    """outbox/reactions.txt: lines "#channel message_id emoji" set the bot's status reaction on that message (its other
+    """outbox/reactions.lst: lines "#channel message_id emoji" set the bot's status reaction on that message (its other
     status reactions there are taken off); "-" as the emoji takes them all off."""
-    path = os.path.join(ROOT, 'outbox', 'reactions.txt')
+    path = os.path.join(ROOT, 'outbox', 'reactions.lst')
     if not os.path.isfile(path):
         return 0
     by_name = {c['name']: c for c in channels}
@@ -196,6 +197,24 @@ def react(channels):
     return done
 
 
+def delete(channels):
+    path = os.path.join(ROOT, 'outbox', 'delete.lst')
+    if not os.path.isfile(path):
+        return 0
+    by_name = {c['name']: c for c in channels}
+    done = 0
+    for line in open(path, encoding='utf8').read().split('\n'):
+        parts = line.split()
+        if len(parts) == 2 and parts[0].startswith('#') and parts[0][1:] in by_name:
+            try:
+                call('DELETE', '/channels/%s/messages/%s' % (by_name[parts[0][1:]]['id'], parts[1]))
+                done += 1
+            except RuntimeError as e:
+                print('delete %s: %s' % (parts[1], e))
+    os.remove(path)
+    return done
+
+
 def main():
     if not TOKEN:
         print('DISCORD_BOT_TOKEN is not set: nothing to do')
@@ -207,9 +226,10 @@ def main():
     json.dump(channels, open(os.path.join(ROOT, 'inbox', 'channels.json'), 'w'), ensure_ascii=False, indent=1)
     sent = push(channels)
     reacted = react(channels)
+    deleted = delete(channels)
     new = pull(channels, state)
     json.dump(state, open(state_path, 'w'), indent=1)
-    print('channels %d, new messages %d, posted %d, reactions %d' % (len(channels), new, sent, reacted))
+    print('channels %d, new messages %d, posted %d, reactions %d, deleted %d' % (len(channels), new, sent, reacted, deleted))
 
 
 if __name__ == '__main__':
