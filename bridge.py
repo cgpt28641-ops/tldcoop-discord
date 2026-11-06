@@ -96,7 +96,7 @@ def pull(channels, state):
                 os.makedirs(folder, exist_ok=True)
                 rec = {'id': m['id'], 'channel': c['name'], 'time': m['timestamp'],
                        'author': m['author'].get('global_name') or m['author']['username'],
-                       'username': m['author']['username'], 'bot': m['author'].get('bot', False),
+                       'username': m['author']['username'], 'author_id': m['author']['id'], 'bot': m['author'].get('bot', False),
                        'content': m.get('content', ''),
                        'reply_to': (m.get('referenced_message') or {}).get('id'),
                        'attachments': []}
