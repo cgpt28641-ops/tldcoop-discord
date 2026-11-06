@@ -62,7 +62,11 @@ def safe(name):
 
 def text_channels():
     out = []
+    only = os.environ.get('DISCORD_GUILD', '').strip() or 'The Long Dark Multiplayer'
     for g in call('GET', '/users/@me/guilds'):
+        if g['name'] != only:  # (only the players' server, should the bot be added anywhere else)
+            print('skip server %s' % g['name'])
+            continue
         for c in call('GET', '/guilds/%s/channels' % g['id']):
             if c.get('type') in (0, 5):  # text, announcement
                 out.append({'id': c['id'], 'name': c['name'], 'guild': g['name'], 'position': c.get('position', 0)})
