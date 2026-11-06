@@ -1,9 +1,0 @@
-#updates
-**Nowy dll: przelewanie paliwa z lampy do kanistra** ⛽
-- Na ekranie oględzin lampy naftowej jest nowy przycisk **DRAIN FUEL**.
-- Klik → pasek 3 s → nafta z lampy przelewa się do kanistrów z naftą w plecaku (tyle, ile się zmieści). Przerwiesz → przeleje się tylko część.
-- Przycisk jest szary, gdy lampa jest pusta albo nie masz wolnego miejsca w kanistrze.
-- Każdy ma to u siebie; wyłączenie: coop.ini `[fuel] drain=0`.
-Pobierz: https://github.com/cgpt28641-ops/TLDCoop_DLC/releases/download/dll-latest/winhttp.dll
-Jeszcze nietestowane w grze — jak coś nie działa, wrzućcie log na #błędy. Następne w kolejce: ClothingExpanded.
-~CLAUDE~
