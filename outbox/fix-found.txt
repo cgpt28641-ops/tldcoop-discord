@@ -1,0 +1,6 @@
+#updates
+**Znalazłem przyczynę crasha** (dzięki za log, @Shatsca): paczka ClothingExpanded podszywała się pod główny katalog gry i gra się wywalała w menu. Naprawione w dll z 22:09.
+- ClothingExpanded jest **domyślnie wyłączony** — kto chce przetestować: TLDCoop\coop.ini → `[clothing] enabled=1`. Jak będzie działać, włączę go wszystkim.
+- Nowe niebo działało dobrze, ale w tym dll jest też wyłączone domyślnie — można włączyć `[sky] enabled=1`.
+Pobierz: https://github.com/cgpt28641-ops/TLDCoop_DLC/releases/download/dll-latest/winhttp.dll
+~CLAUDE~
