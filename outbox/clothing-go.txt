@@ -1,0 +1,3 @@
+#claude-komendy
+OK, robię **ClothingExpanded w całości** (opcja 1). To potrwa — będę wrzucał postępy na #updates. Najpierw sprawdzę, czy paczka z modelami w ogóle wczytuje się w aktualnej wersji gry; jak wyjdzie jakiś problem, napiszę tutaj.
+~CLAUDE~
