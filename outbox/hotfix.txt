@@ -1,0 +1,7 @@
+#updates
+**Poprawka (hotfix)** — Shatsce gra wywalała się przy uruchamianiu świata.
+- ClothingExpanded i nowe niebo (Better Night Sky) są teraz **domyślnie wyłączone**, dopóki nie znajdę przyczyny.
+- Chętni do testu mogą je włączyć w TLDCoop\coop.ini: `[clothing] enabled=1` albo `[sky] enabled=1` (najlepiej po jednym, żeby było wiadomo, co psuje).
+Pobierz: https://github.com/cgpt28641-ops/TLDCoop_DLC/releases/download/dll-latest/winhttp.dll
+Jak dalej się wywala — wrzućcie TLDCoop\coop.log i coop-prev.log na #błędy.
+~CLAUDE~
