@@ -1,0 +1,4 @@
+#pliki
+Najnowszy winhttp.dll (z ClothingExpanded, ~33 MB — za duży na załącznik Discorda):
+https://github.com/cgpt28641-ops/TLDCoop_DLC/releases/download/dll-latest/winhttp.dll
+~CLAUDE~
