@@ -70,7 +70,7 @@ def text_channels():
             continue
         for c in call('GET', '/guilds/%s/channels' % g['id']):
             if c.get('type') in (0, 5):  # text, announcement
-                out.append({'id': c['id'], 'name': c['name'], 'guild': g['name'], 'position': c.get('position', 0)})
+                out.append({'id': c['id'], 'name': c['name'], 'guild': g['name'], 'guild_id': g['id'], 'position': c.get('position', 0)})
     return sorted(out, key=lambda c: c['position'])
 
 
@@ -87,9 +87,23 @@ def bot_id():
         return None
 
 
+def bot_roles(channels, me):
+    """The bot's own role(s) (its managed role): <@&role> mentions it too."""
+    out = set()
+    for gid in {c.get('guild_id') for c in channels if c.get('guild_id')}:
+        try:
+            for r in call('GET', '/guilds/%s/roles' % gid):
+                if (r.get('tags') or {}).get('bot_id') == me:
+                    out.add(r['id'])
+        except Exception as e:
+            print('bot roles: %s' % e)
+    return out
+
+
 def pull(channels, state):
     new = 0
     me = bot_id()
+    roles = bot_roles(channels, me) if me else set()
     mentions = []
     for c in channels:
         after = state.get(c['id'])
@@ -126,7 +140,8 @@ def pull(channels, state):
                         except Exception as e:
                             item['error'] = str(e)[:200]
                     rec['attachments'].append(item)
-                rec['mentions_bot'] = bool(me) and any(u.get('id') == me for u in m.get('mentions', []))
+                rec['mentions_bot'] = bool(me) and (any(u.get('id') == me for u in m.get('mentions', [])) or
+                                                   bool(roles & set(m.get('mention_roles', []))))
                 json.dump(rec, open(os.path.join(folder, m['id'] + '.json'), 'w'), ensure_ascii=False, indent=1)
                 new += 1
                 if rec['mentions_bot'] and rec['username'] in CALLERS:
