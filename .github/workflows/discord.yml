@@ -31,6 +31,7 @@ jobs:
         run: |
           git config user.name "TLDCoop bridge"
           git config user.email "bridge@users.noreply.github.com"
+          mkdir -p inbox outbox
           git add -A inbox outbox
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -q -m "discord: $(date -u +%Y-%m-%dT%H:%MZ)"
