@@ -7,9 +7,9 @@
 #        channel was read up to.
 #   out: every outbox/*.txt is posted by the bot and removed. A file's first line "#channel-name" picks the channel
 #        (default: DISCORD_DEFAULT_CHANNEL, else #updates, else the first text channel); files named in "attach: a, b" lines (paths in the
-#        repo checkout) go along.
+#        repo checkout) go along. outbox/reactions.txt: status reactions on messages (react()).
 # Standard library only. The token comes from the DISCORD_BOT_TOKEN secret; nothing here ever prints it.
-import json, os, re, sys, time, uuid, urllib.request, urllib.error
+import json, os, re, sys, time, uuid, urllib.request, urllib.error, urllib.parse
 
 API = 'https://discord.com/api/v10'
 TOKEN = os.environ.get('DISCORD_BOT_TOKEN', '').strip()
@@ -160,6 +160,42 @@ def push(channels):
     return sent
 
 
+STATUS = ['👀', '⏳', '✅', '❌']  # read, in progress, done, turned down: one at a time, the bot's own
+
+
+def react(channels):
+    """outbox/reactions.txt: lines "#channel message_id emoji" set the bot's status reaction on that message (its other
+    status reactions there are taken off); "-" as the emoji takes them all off."""
+    path = os.path.join(ROOT, 'outbox', 'reactions.txt')
+    if not os.path.isfile(path):
+        return 0
+    by_name = {c['name']: c for c in channels}
+    done = 0
+    for line in open(path, encoding='utf8').read().split('\n'):
+        parts = line.split()
+        if len(parts) != 3 or not parts[0].startswith('#'):
+            continue
+        ch, mid, emoji = by_name.get(parts[0][1:]), parts[1], parts[2]
+        if not ch:
+            print('reaction: no channel %s' % parts[0])
+            continue
+        q = urllib.parse.quote
+        try:
+            for other in STATUS:
+                if other != emoji:
+                    try:
+                        call('DELETE', '/channels/%s/messages/%s/reactions/%s/@me' % (ch['id'], mid, q(other)))
+                    except RuntimeError:
+                        pass  # (not there)
+            if emoji != '-':
+                call('PUT', '/channels/%s/messages/%s/reactions/%s/@me' % (ch['id'], mid, q(emoji)))
+            done += 1
+        except RuntimeError as e:
+            print('reaction %s on %s: %s' % (emoji, mid, e))
+    os.remove(path)
+    return done
+
+
 def main():
     if not TOKEN:
         print('DISCORD_BOT_TOKEN is not set: nothing to do')
@@ -170,9 +206,10 @@ def main():
     channels = text_channels()
     json.dump(channels, open(os.path.join(ROOT, 'inbox', 'channels.json'), 'w'), ensure_ascii=False, indent=1)
     sent = push(channels)
+    reacted = react(channels)
     new = pull(channels, state)
     json.dump(state, open(state_path, 'w'), indent=1)
-    print('channels %d, new messages %d, posted %d' % (len(channels), new, sent))
+    print('channels %d, new messages %d, posted %d, reactions %d' % (len(channels), new, sent, reacted))
 
 
 if __name__ == '__main__':

@@ -8,4 +8,5 @@ The Discord bridge for TLDCoop_DLC (server "The Long Dark Multiplayer"): a bot r
   files); posted and removed on the next run.
 - Channels: `#updates` (news of changes and the dll), `#błędy` (game logs), `#pomysły` (mods to add),
   `#claude-komendy` (players' requests, commands `!status !dll !zmiany !test !stop`, questions), `#chat`.
+- Status reactions (outbox/reactions.txt, "#channel message_id emoji"): 👀 read, ⏳ in progress, ✅ done, ❌ turned down.
 - Secret: `DISCORD_BOT_TOKEN`. Private: the messages and logs are the players'.
