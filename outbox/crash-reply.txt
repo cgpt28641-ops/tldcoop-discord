@@ -1,5 +1,0 @@
-#claude-komendy
-@Shatsca dzięki za zgłoszenie! Crash nie jest przez brak DLC (bez DLC te przedmioty po prostu by się nie pojawiły). Za ~10 min będzie **poprawka**: nowe rzeczy (ClothingExpanded i nowe niebo) są w niej **domyślnie wyłączone**, więc gra powinna działać jak wcześniej.
-Żebym znalazł przyczynę, potrzebuję logu: w folderze gry → **TLDCoop\coop.log** (i coop-prev.log) — ten plik zapisuje się przy każdym uruchomieniu, nawet jak gra się wywali. Wrzuć proszę oba na #błędy.
-(Pas na narzędzia i pochwa na karabin są z dodatku Tales from the Far Territory.)
-~CLAUDE~
