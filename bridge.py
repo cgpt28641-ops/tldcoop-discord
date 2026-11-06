@@ -74,8 +74,23 @@ def text_channels():
     return sorted(out, key=lambda c: c['position'])
 
 
+# Mentions of the bot by these (Karol 06.11: "tylko kerel i shatsca") get its 👀 at once and go in inbox/mentions.lst,
+# which Claude reads first.
+CALLERS = {'kerel123', 'shatsca'}
+
+
+def bot_id():
+    try:
+        return call('GET', '/users/@me')['id']
+    except Exception as e:
+        print('bot id: %s' % e)
+        return None
+
+
 def pull(channels, state):
     new = 0
+    me = bot_id()
+    mentions = []
     for c in channels:
         after = state.get(c['id'])
         while True:
@@ -111,12 +126,23 @@ def pull(channels, state):
                         except Exception as e:
                             item['error'] = str(e)[:200]
                     rec['attachments'].append(item)
+                rec['mentions_bot'] = bool(me) and any(u.get('id') == me for u in m.get('mentions', []))
                 json.dump(rec, open(os.path.join(folder, m['id'] + '.json'), 'w'), ensure_ascii=False, indent=1)
                 new += 1
+                if rec['mentions_bot'] and rec['username'] in CALLERS:
+                    mentions.append('#%s %s %s %s' % (c['name'], m['id'], rec['username'], os.path.relpath(
+                        os.path.join(folder, m['id'] + '.json'), ROOT)))
+                    try:
+                        call('PUT', '/channels/%s/messages/%s/reactions/%s/@me' % (c['id'], m['id'], urllib.parse.quote('👀')))
+                    except Exception as e:
+                        print('mention 👀: %s' % e)
             after = msgs[-1]['id']
             state[c['id']] = after
             if len(msgs) < 50:
                 break
+    if mentions:
+        with open(os.path.join(ROOT, 'inbox', 'mentions.lst'), 'a', encoding='utf-8') as f:
+            f.write('\n'.join(mentions) + '\n')
     return new
 
 
