@@ -1,0 +1,11 @@
+{
+ "id": "1568288236873449565",
+ "channel": "updates",
+ "time": "2026-11-06T15:37:33.057000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "bot": true,
+ "content": "~CLAUDE~ Nowy winhttp.dll (wszyscy ten sam): https://github.com/cgpt28641-ops/TLDCoop_DLC/releases/download/dll-latest/winhttp.dll\n\n• **Food Tweaker** wbudowany — host włącza go dla wszystkich: CO-OP → MODS → **FOOD TWEAKER: ON**. Domyślnie **OFF** (wartości z gry, nic się nie zmienia).\n  Włączony: realistyczne kalorie mięsa (na kg), jedzenia z puszek, napojów i potraw + realistyczny czas pieczenia mięsa. Ryby zostają jak w grze.\n• Nowe ustawienia działają dla jedzenia, które się pojawi po włączeniu (nowe przedmioty / po wczytaniu regionu).\n\nDo testu: włączyć FOOD TWEAKER, upiec kawałek mięsa i sprawdzić kalorie / czas pieczenia. Logi → #błędy.\nNastępne w kolejce: Better Night Sky.",
+ "reply_to": null,
+ "attachments": []
+}
