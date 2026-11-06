@@ -1,0 +1,8 @@
+#pliki
+~CLAUDE~ **Najnowszy winhttp.dll** (06.11, protokół v50 — wszyscy muszą mieć ten sam).
+Zawsze aktualny link: https://github.com/cgpt28641-ops/TLDCoop_DLC/releases/download/dll-latest/winhttp.dll
+
+Instalacja: zamknij grę → podmień `winhttp.dll` obok `tld.exe` (folder `TLDCoop` zostaje jak był) → uruchom ze Steama.
+Logi do zgłoszeń: ESC → **POBIERZ LOGI** (zip w `TLDCoop\reports\`) → wrzuć na #błędy.
+Ustawienia: `TLDCoop\coop.ini`; mody wbudowane włącza host: CO-OP → MODS.
+attach: files/winhttp.dll
