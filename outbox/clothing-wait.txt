@@ -1,3 +1,0 @@
-#claude-komendy
-OK, czekam na decyzję <@464826282212065282> w sprawie ClothingExpanded — odpisz tu **1**, **2** albo **3** (opcje w wiadomości wyżej).
-~CLAUDE~
