@@ -1,1 +1,32 @@
-[]
+[
+ {
+  "id": "1568239468106879018",
+  "name": "chat",
+  "guild": "The Long Dark Multiplayer",
+  "position": 0
+ },
+ {
+  "id": "1568239675838308503",
+  "name": "claude-komendy",
+  "guild": "The Long Dark Multiplayer",
+  "position": 1
+ },
+ {
+  "id": "1568239828405985330",
+  "name": "pomysły",
+  "guild": "The Long Dark Multiplayer",
+  "position": 2
+ },
+ {
+  "id": "1568240888612917290",
+  "name": "błędy",
+  "guild": "The Long Dark Multiplayer",
+  "position": 3
+ },
+ {
+  "id": "1568255338367553596",
+  "name": "updates",
+  "guild": "The Long Dark Multiplayer",
+  "position": 4
+ }
+]
