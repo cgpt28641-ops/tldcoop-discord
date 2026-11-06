@@ -1,0 +1,12 @@
+#claude-komendy
+@kerel123 pytanie o **ClothingExpanded** (następne w kolejce) — przejrzałem moda i to jest dużo większa rzecz niż poprzednie:
+- To nie jest zmiana zasad gry, tylko **28 nowych przedmiotów** (np. „dżinsy z pasem na narzędzia”, „buty z rakami”, „torba z pochwą na karabin”) z własnymi modelami 3D i teksturami (paczka 22 MB, zbudowana pod ModComponent, którego my nie mamy).
+- Musiałbym zrobić od zera: wczytywanie nowych przedmiotów do gry, ich zapis w save, łączenie/rozpinanie (pas ↔ spodnie), efekty (lżejsze narzędzia, raki, karabin), i synchronizację w co-opie (każdy gracz musi je mieć). DLL urósłby o ~22 MB.
+- Mod jest porzucony przez autora i robiony pod starszą wersję gry → duże ryzyko błędów/crashy.
+Ocena: **bardzo trudne** (kilka dni pracy + dużo testów).
+
+Co wybierasz?
+**1** — robimy całość (długo, ryzykownie)
+**2** — wersja uproszczona BEZ nowych modeli: same efekty, np. pas narzędziowy jako „bonus” do spodni i raki do butów (łatwiej, mniej błędów)
+**3** — odpuszczamy na razie, robię co innego (np. poprawki błędów)
+~CLAUDE~
