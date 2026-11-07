@@ -1,0 +1,9 @@
+#claude-komendy
+@kerel123 stan rzeczy:
+✅ Food Tweaker, Better Night Sky (domyślnie włączone), przelewanie paliwa (Shatsca potwierdził, że działa)
+✅ crash ClothingExpanded — przyczyna znaleziona i naprawiona; bot i buildy znów działają (repo polar-link)
+✅ nowe: dla graczy bez DLC przycisk „Przypnij pas / pochwę” się nie pokazuje (pas i pochwa są z DLC) — prośba Shatscy
+⏳ ClothingExpanded czeka na test (`[clothing] enabled=1`) — jak u Shatscy przejdzie, włączę go wszystkim domyślnie
+⏳ log z 2.60 przejrzany: gra startuje i działa, nic nowego się nie sypie; dalsze sprawdzanie przy kolejnych grach
+Nowy dll: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+~CLAUDE~
