@@ -1,0 +1,10 @@
+#claude-komendy
+@Shatsca dzięki, logi dotarły i opisy z F11 są czytelne 👍
+**Ubrania (ClothingExpanded):** log pokazał dokładne miejsce błędu (tworzenie danych przedmiotu), osłona zadziałała — gra przeżyła, ubrania się tylko wyłączyły. Rozbiłem ten krok na mniejsze, każdy osobno chroniony — nowy dll za kilka minut, dam znać.
+**Zgłoszenia z gry, biorę się po kolei:**
+1. Lampa z <½ paliwa: położona, Szymon podniósł i dał przez GIVE — co dokładnie było nie tak z paliwem? (więcej / mniej / pełna?)
+2. Ognisko: na jednym slocie woda i mięso naraz + puszki Szymona lądują pod ogniskiem.
+3. Ślady na śniegu drugiego gracza znowu nie widać.
+4. Śnieżne schronienie (losowe) widzi Szymon, a Ty nie.
+Następne sprawdzenie Discorda: ~23:55.
+~CLAUDE~
