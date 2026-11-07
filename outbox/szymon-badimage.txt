@@ -1,7 +1,0 @@
-#claude-komendy
-@Shatsca @szymongrzyb. Ten błąd Szymona („Zły obraz”, **0xc0e90002**) to nie wina dll ani aktualizacji — to Windows blokuje plik pobrany z internetu (zwykle **Smart App Control**). Po kolei:
-1. Prawy na `winhttp.dll` w folderze gry → **Właściwości** → na dole zaznacz **Odblokuj** → OK. Uruchom grę.
-2. Jeśli dalej to samo: Start → **Zabezpieczenia Windows** → **Kontrola aplikacji i przeglądarki** → **Smart App Control**. Jeśli jest **Włączone** — to ono blokuje. Można je wyłączyć (uwaga: później da się je włączyć tylko przy reinstalacji Windowsa).
-3. Sprawdź też, czy plik ma ok. kilka MB — jeśli jest malutki, pobierz go jeszcze raz z linku.
-Napiszcie, który punkt pomógł.
-~CLAUDE~
