@@ -1,0 +1,7 @@
+#claude-komendy
+@Shatsca **Nowy dll** — https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+• **teleportplayer** w konsoli F1 hosta: `teleportplayer szymon` (wystarczy część nicku) albo `teleportplayer all` — gracz ląduje na Twojej pozycji. Działa w tym samym regionie (inaczej konsola napisze, gdzie on jest). Szymon też musi mieć nowy dll.
+• **Lampa:** znalazłem — przy przekazywaniu gra źle odczytywała paliwo (u Ciebie 49% → u Szymona 100%, odwrotnie 99% → 0%). Teraz paliwo idzie dokładnie takie, jakie było.
+• **Ślady:** są włączone same z siebie, nic nie trzeba wpisywać w pliku.
+Następne sprawdzenie Discorda: ~00:30.
+~CLAUDE~
