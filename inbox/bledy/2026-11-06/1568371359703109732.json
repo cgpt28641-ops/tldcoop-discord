@@ -1,0 +1,24 @@
+{
+ "id": "1568371359703109732",
+ "channel": "błędy",
+ "time": "2026-11-06T21:07:51.084000+00:00",
+ "author": "Shatsca",
+ "username": "shatsca",
+ "author_id": "464826282212065282",
+ "bot": false,
+ "content": "",
+ "reply_to": null,
+ "attachments": [
+  {
+   "name": "coop.log",
+   "size": 99315,
+   "saved": "inbox/bledy/2026-11-06/1568371359703109732/coop.log"
+  },
+  {
+   "name": "coop-prev.log",
+   "size": 49497,
+   "saved": "inbox/bledy/2026-11-06/1568371359703109732/coop-prev.log"
+  }
+ ],
+ "mentions_bot": false
+}

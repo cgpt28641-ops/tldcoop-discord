@@ -1,0 +1,13 @@
+{
+ "id": "1568374049460199475",
+ "channel": "błędy",
+ "time": "2026-11-06T21:18:32.372000+00:00",
+ "author": "Shatsca",
+ "username": "shatsca",
+ "author_id": "464826282212065282",
+ "bot": false,
+ "content": "po wpisaniu w coop.ini \n[clothing] enabled=1\n\ngra crashuje - to jest przyczyna",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}

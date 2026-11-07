@@ -3,36 +3,42 @@
   "id": "1568239468106879018",
   "name": "chat",
   "guild": "The Long Dark Multiplayer",
+  "guild_id": "1568239466546593863",
   "position": 0
  },
  {
   "id": "1568239675838308503",
   "name": "claude-komendy",
   "guild": "The Long Dark Multiplayer",
+  "guild_id": "1568239466546593863",
   "position": 1
  },
  {
   "id": "1568239828405985330",
   "name": "pomysły",
   "guild": "The Long Dark Multiplayer",
+  "guild_id": "1568239466546593863",
   "position": 2
  },
  {
   "id": "1568240888612917290",
   "name": "błędy",
   "guild": "The Long Dark Multiplayer",
+  "guild_id": "1568239466546593863",
   "position": 3
  },
  {
   "id": "1568255338367553596",
   "name": "updates",
   "guild": "The Long Dark Multiplayer",
+  "guild_id": "1568239466546593863",
   "position": 4
  },
  {
   "id": "1568290631816843348",
   "name": "pliki",
   "guild": "The Long Dark Multiplayer",
+  "guild_id": "1568239466546593863",
   "position": 5
  }
 ]

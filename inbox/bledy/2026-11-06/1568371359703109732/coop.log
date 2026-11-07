@@ -1,0 +1,924 @@
+[22:01:49.974] [info] [t2436] TLDCoop loader Nov  6 2026 20:52:05, proxy winhttp (92 forwards)
+[22:01:49.974] [info] [t2436] game dir: X:\Apps\Steam\steamapps\common\TheLongDark
+[22:01:49.996] [info] [t2436] waiting for GameAssembly.dll
+[22:01:50.171] [info] [t2436] GameAssembly.dll loaded at 00007FFD6FE30000
+[22:01:50.192] [info] [t2436] hooked il2cpp_init at 00007FFD701FB440
+[22:01:50.213] [info] [t2436] hooked il2cpp_init_utf16 at 00007FFD701FB470
+[22:01:50.417] [info] [t2436] il2cpp_init("IL2CPP Root Domain") returned 1
+[22:01:50.419] [info] [t2436] IL2CPP runtime ready; game version '2.60 189457 S'
+[22:01:50.419] [WARN] [t2436] untested game version (tested: '2.59 189140 S'); expect breakage until re-verified
+[22:01:50.419] [info] [t2436] type dump is current for this build, skipping
+[22:01:50.430] [WARN] [t2436] field IntestinalParasites.m_LocalizedDisplayName not found
+[22:01:50.430] [WARN] [t2436] field CabinFever.m_LocalizedDisplayName not found
+[22:01:50.430] [WARN] [t2436] field Hunger.m_LocalizedDisplayName not found
+[22:01:50.430] [WARN] [t2436] field Thirst.m_LocalizedDisplayName not found
+[22:01:50.430] [WARN] [t2436] field Fatigue.m_LocalizedDisplayName not found
+[22:01:50.430] [WARN] [t2436] field Freezing.m_LocalizedDisplayName not found
+[22:01:50.430] [info] [t2436] game state: 17 of 17 afflictions can be read (the others see them)
+[22:01:50.430] [info] [t2436] game state: ready
+[22:01:50.431] [info] [t2436] avatar: ready; story bodies supported
+[22:01:50.431] [info] [t2436] tracks: off (the others leave no footprints)
+[22:01:50.468] [info] [t2436] hook AuroraManager.UpdateAuroraValue: rva 0xc2d760
+[22:01:50.489] [info] [t2436] hooked AuroraManager.UpdateAuroraValue at 00007FFD70A5D760
+[22:01:50.489] [info] [t2436] world sync: ready
+[22:01:50.490] [info] [t2436] wildlife: addressable animal prefabs: loaded on demand
+[22:01:50.491] [info] [t2436] wildlife: 50% more animals for each player beyond the first ([wildlife] per_player; the host's counts)
+[22:01:50.491] [info] [t2436] wildlife: ownership on ([wildlife] ownership=1; the host's counts)
+[22:01:50.491] [info] [t2436] hook SpawnRegion.Spawn: rva 0x61e830
+[22:01:50.512] [info] [t2436] hooked SpawnRegion.Spawn at 00007FFD7044E830
+[22:01:50.512] [info] [t2436] hook SpawnRegion.UpdateFromManager: rva 0x61be90
+[22:01:50.532] [info] [t2436] hooked SpawnRegion.UpdateFromManager at 00007FFD7044BE90
+[22:01:50.532] [info] [t2436] hook SpawnRegion.CalculateTargetPopulation: rva 0x61f960
+[22:01:50.552] [info] [t2436] hooked SpawnRegion.CalculateTargetPopulation at 00007FFD7044F960
+[22:01:50.552] [info] [t2436] hook SpawnRegion.GetCurrentActivePopulation: rva 0x61e170
+[22:01:50.572] [info] [t2436] hooked SpawnRegion.GetCurrentActivePopulation at 00007FFD7044E170
+[22:01:50.572] [info] [t2436] hook BaseAiManager.CanUpdateAI: rva 0xc34df0
+[22:01:50.593] [info] [t2436] hooked BaseAiManager.CanUpdateAI at 00007FFD70A64DF0
+[22:01:50.597] [info] [t2436] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=mackenzie_indoor hud names=1 radar=1 chart=1
+[22:01:50.597] [info] [t2436] hook Panel_WeaponPicker.Enable: rva 0xbac4b0
+[22:01:50.618] [info] [t2436] hooked Panel_WeaponPicker.Enable at 00007FFD709DC4B0
+[22:01:50.618] [info] [t2436] wildlife sync: ready
+[22:01:50.618] [info] [t2436] wildlife: struggle_pose ON (forward 0.00 m, side 0.00 m, turn 180)
+[22:01:50.618] [info] [t2436] hook BaseAi.Update: rva 0x5a9830
+[22:01:50.639] [info] [t2436] hooked BaseAi.Update at 00007FFD703D9830
+[22:01:50.639] [info] [t2436] hook BaseAi.LateUpdate: rva 0x5aa990
+[22:01:50.658] [info] [t2436] hooked BaseAi.LateUpdate at 00007FFD703DA990
+[22:01:50.659] [info] [t2436] hook GameManager.GetPlayerObject: rva 0xc6f100
+[22:01:50.679] [info] [t2436] hooked GameManager.GetPlayerObject at 00007FFD70A9F100
+[22:01:50.679] [info] [t2436] hook GameManager.GetPlayerTransform: rva 0xc6f3c0
+[22:01:50.699] [info] [t2436] hooked GameManager.GetPlayerTransform at 00007FFD70A9F3C0
+[22:01:50.699] [info] [t2436] hook PlayerStruggle.Begin: rva 0xe3a7c0
+[22:01:50.719] [info] [t2436] hooked PlayerStruggle.Begin at 00007FFD70C6A7C0
+[22:01:50.719] [info] [t2436] hook AiTarget.ApplyDamage: rva 0x5f0240
+[22:01:50.739] [info] [t2436] hooked AiTarget.ApplyDamage at 00007FFD70420240
+[22:01:50.739] [info] [t2436] hook DamageEventTable.MaybeApplyAttack: rva 0x6038b0
+[22:01:50.761] [info] [t2436] hooked DamageEventTable.MaybeApplyAttack at 00007FFD704338B0
+[22:01:50.761] [info] [t2436] hook AiTarget.GetEyePos: rva 0x5f0e00
+[22:01:50.781] [info] [t2436] hooked AiTarget.GetEyePos at 00007FFD70420E00
+[22:01:50.781] [info] [t2436] hook AiTarget.HoldingLitTorch: rva 0x5f1910
+[22:01:50.801] [info] [t2436] hooked AiTarget.HoldingLitTorch at 00007FFD70421910
+[22:01:50.801] [info] [t2436] hook AiTarget.HoldingLitFlare: rva 0x5f13d0
+[22:01:50.821] [info] [t2436] hooked AiTarget.HoldingLitFlare at 00007FFD704213D0
+[22:01:50.821] [info] [t2436] hook AiTarget.HoldingRaisedSpear: rva 0x5f16a0
+[22:01:50.840] [info] [t2436] hooked AiTarget.HoldingRaisedSpear at 00007FFD704216A0
+[22:01:50.840] [info] [t2436] hook BaseAi.ComputeDistanceForTarget: rva 0x5b5330
+[22:01:50.860] [info] [t2436] hooked BaseAi.ComputeDistanceForTarget at 00007FFD703E5330
+[22:01:50.860] [info] [t2436] hook BaseAi.CanSmellSource: rva 0x5b9500
+[22:01:50.880] [info] [t2436] hooked BaseAi.CanSmellSource at 00007FFD703E9500
+[22:01:50.880] [info] [t2436] wildlife targets: ready (animals can hunt the other player)
+[22:01:50.880] [info] [t2436] hook vp_Bullet.SpawnImpactEffects: rva 0x557520
+[22:01:50.900] [info] [t2436] hooked vp_Bullet.SpawnImpactEffects at 00007FFD70387520
+[22:01:50.900] [info] [t2436] hook ArrowItem.InflictDamage: rva 0x823e20
+[22:01:50.920] [info] [t2436] hooked ArrowItem.InflictDamage at 00007FFD70653E20
+[22:01:50.920] [info] [t2436] hook FlareGunRoundItem.InflictDamage: rva 0x84f5d0
+[22:01:50.940] [info] [t2436] hooked FlareGunRoundItem.InflictDamage at 00007FFD7067F5D0
+[22:01:50.940] [info] [t2436] hook BaseAi.MaybeFleeFromThrownItem: rva 0x5bf540
+[22:01:50.960] [info] [t2436] hooked BaseAi.MaybeFleeFromThrownItem at 00007FFD703EF540
+[22:01:50.960] [info] [t2436] hook vp_Bullet.Start: rva 0x555730
+[22:01:50.980] [info] [t2436] hooked vp_Bullet.Start at 00007FFD70385730
+[22:01:50.980] [info] [t2436] hook ArrowItem.Fire: rva 0x81d840
+[22:01:51.000] [info] [t2436] hooked ArrowItem.Fire at 00007FFD7064D840
+[22:01:51.000] [info] [t2436] hook FlareGunRoundItem.Fire: rva 0x84b160
+[22:01:51.021] [info] [t2436] hooked FlareGunRoundItem.Fire at 00007FFD7067B160
+[22:01:51.021] [info] [t2436] hook InputManager.GetAltFire: rva 0xca0940
+[22:01:51.041] [info] [t2436] hooked InputManager.GetAltFire at 00007FFD70AD0940
+[22:01:51.041] [info] [t2436] hook InputManager.GetAltFirePressed: rva 0xca08a0
+[22:01:51.060] [info] [t2436] hooked InputManager.GetAltFirePressed at 00007FFD70AD08A0
+[22:01:51.060] [info] [t2436] hook InputManager.GetAltFireReleased: rva 0xca09e0
+[22:01:51.080] [info] [t2436] hooked InputManager.GetAltFireReleased at 00007FFD70AD09E0
+[22:01:51.080] [info] [t2436] hook InputManager.GetFirePressed: rva 0xca0670
+[22:01:51.099] [info] [t2436] hooked InputManager.GetFirePressed at 00007FFD70AD0670
+[22:01:51.099] [info] [t2436] hook InputManager.GetFireReleased: rva 0xca07a0
+[22:01:51.119] [info] [t2436] hooked InputManager.GetFireReleased at 00007FFD70AD07A0
+[22:01:51.119] [info] [t2436] wildlife hits: ready (the other player's weapons reach the host's animals)
+[22:01:51.119] [info] [t2436] hook Panel_BodyHarvest.HarvestSuccessful: rva 0x9b8540
+[22:01:51.139] [info] [t2436] hooked Panel_BodyHarvest.HarvestSuccessful at 00007FFD707E8540
+[22:01:51.139] [info] [t2436] hook Panel_BodyHarvest.QuarterSuccessful: rva 0x9b82c0
+[22:01:51.159] [info] [t2436] hooked Panel_BodyHarvest.QuarterSuccessful at 00007FFD707E82C0
+[22:01:51.159] [info] [t2436] wildlife carcasses: ready (kills and harvests are shared)
+[22:01:51.159] [info] [t2436] items: wetness and condition shared
+[22:01:51.159] [info] [t2436] hook SnareItem.DoRoll: rva 0x891540
+[22:01:51.179] [info] [t2436] hooked SnareItem.DoRoll at 00007FFD706C1540
+[22:01:51.179] [info] [t2436] hook CookingPotItem.PickUpCookedItem: rva 0x839350
+[22:01:51.200] [info] [t2436] hooked CookingPotItem.PickUpCookedItem at 00007FFD70669350
+[22:01:51.200] [info] [t2436] hook CookingPotItem.StartCooking: rva 0x835ae0
+[22:01:51.220] [info] [t2436] hooked CookingPotItem.StartCooking at 00007FFD70665AE0
+[22:01:51.220] [info] [t2436] hook CookingPotItem.StartBoilingWater: rva 0x836a40
+[22:01:51.239] [info] [t2436] hooked CookingPotItem.StartBoilingWater at 00007FFD70666A40
+[22:01:51.239] [info] [t2436] hook CookingPotItem.StartMeltingSnow: rva 0x8368a0
+[22:01:51.259] [info] [t2436] hooked CookingPotItem.StartMeltingSnow at 00007FFD706668A0
+[22:01:51.259] [info] [t2436] hook GameManager.LoadMainMenu: rva 0xc6dd40
+[22:01:51.279] [info] [t2436] hooked GameManager.LoadMainMenu at 00007FFD70A9DD40
+[22:01:51.279] [info] [t2436] hook GameManager.AsyncLoadMainMenu: rva 0xc81600
+[22:01:51.299] [info] [t2436] hooked GameManager.AsyncLoadMainMenu at 00007FFD70AB1600
+[22:01:51.299] [info] [t2436] world items: ready (loose items are shared)
+[22:01:51.299] [info] [t2436] hook Container.AddGear: rva 0x9073a0
+[22:01:51.319] [info] [t2436] hooked Container.AddGear at 00007FFD707373A0
+[22:01:51.319] [info] [t2436] hook Container.RemoveGear: rva 0x907900
+[22:01:51.339] [info] [t2436] hooked Container.RemoveGear at 00007FFD70737900
+[22:01:51.339] [info] [t2436] hook Container.AddToExistingStackable: rva 0x90a590
+[22:01:51.358] [info] [t2436] hooked Container.AddToExistingStackable at 00007FFD7073A590
+[22:01:51.358] [info] [t2436] hook Panel_Container.Enable: rva 0x9e3620
+[22:01:51.378] [info] [t2436] hooked Panel_Container.Enable at 00007FFD70813620
+[22:01:51.378] [info] [t2436] hook Container.PopulateWithRandomGear: rva 0x90c800
+[22:01:51.398] [info] [t2436] hooked Container.PopulateWithRandomGear at 00007FFD7073C800
+[22:01:51.398] [info] [t2436] containers: 50% more loot in containers for each player beyond the first ([loot] per_player, the host's)
+[22:01:51.398] [info] [t2436] hook GearItem.RollSpawnChance: rva 0x86f270
+[22:01:51.418] [info] [t2436] hooked GearItem.RollSpawnChance at 00007FFD7069F270
+[22:01:51.418] [info] [t2436] items: 50% more loose items in buildings for each player beyond the first (the host's [loot] per_player)
+[22:01:51.418] [info] [t2436] hook Container.BeginContainerOpen: rva 0x9093b0
+[22:01:51.437] [info] [t2436] hooked Container.BeginContainerOpen at 00007FFD707393B0
+[22:01:51.437] [info] [t2436] hook Container.ShowContainerContents: rva 0x908e40
+[22:01:51.457] [info] [t2436] hooked Container.ShowContainerContents at 00007FFD70738E40
+[22:01:51.457] [info] [t2436] world containers: ready (container contents are shared)
+[22:01:51.459] [info] [t2436] objects: climbing ropes on anchors shared (put down, taken)
+[22:01:51.459] [info] [t2436] objects: interiors' doors and closets (OpenClose) shared open and shut
+[22:01:51.459] [info] [t2436] objects: repairs (RepairableInteractiveItem) shared
+[22:01:51.459] [info] [t2436] hook BreakDown.DoBreakDown: rva 0x8f7060
+[22:01:51.479] [info] [t2436] hooked BreakDown.DoBreakDown at 00007FFD70727060
+[22:01:51.479] [info] [t2436] hook Harvestable.Harvest: rva 0x92a5b0
+[22:01:51.498] [info] [t2436] hooked Harvestable.Harvest at 00007FFD7075A5B0
+[22:01:51.498] [info] [t2436] hook DecorationItem.FinalizePlacementRecursive: rva 0x6d7af0
+[22:01:51.519] [info] [t2436] hooked DecorationItem.FinalizePlacementRecursive at 00007FFD70507AF0
+[22:01:51.519] [info] [t2436] hook PlaceableManager.MoveToPlayer: rva 0x11e9110
+[22:01:51.539] [info] [t2436] hooked PlaceableManager.MoveToPlayer at 00007FFD71019110
+[22:01:51.539] [info] [t2436] hook Container.AddDecorationItem: rva 0x907d20
+[22:01:51.559] [info] [t2436] hooked Container.AddDecorationItem at 00007FFD70737D20
+[22:01:51.559] [info] [t2436] hook DecorationItem.PerformInteraction: rva 0x6d9ca0
+[22:01:51.578] [info] [t2436] hooked DecorationItem.PerformInteraction at 00007FFD70509CA0
+[22:01:51.578] [info] [t2436] world objects: ready (what's broken down or harvested is shared)
+[22:01:51.579] [info] [t2436] hook Fire.AddFuel: rva 0x7f2250
+[22:01:51.598] [info] [t2436] hooked Fire.AddFuel at 00007FFD70622250
+[22:01:51.598] [info] [t2436] hook Fire.ReduceDurationByTODSeconds: rva 0x7f4800
+[22:01:51.618] [info] [t2436] hooked Fire.ReduceDurationByTODSeconds at 00007FFD70624800
+[22:01:51.618] [info] [t2436] world fires: ready (fires are shared)
+[22:01:51.618] [info] [t2436] water: ready (toilets and other water sources are shared)
+[22:01:51.618] [info] [t2436] hook BloodTrail.LeaveBloodDrop: rva 0x77da40
+[22:01:51.638] [info] [t2436] hooked BloodTrail.LeaveBloodDrop at 00007FFD705ADA40
+[22:01:51.638] [info] [t2436] hook BloodTrail.LeaveBloodStain: rva 0x77e0e0
+[22:01:51.657] [info] [t2436] hooked BloodTrail.LeaveBloodStain at 00007FFD705AE0E0
+[22:01:51.657] [info] [t2436] hook BloodTrail.LeaveBloodCluster: rva 0x77f3c0
+[22:01:51.676] [info] [t2436] hooked BloodTrail.LeaveBloodCluster at 00007FFD705AF3C0
+[22:01:51.676] [info] [t2436] blood: ready (a bleeding player's blood is seen by everyone)
+[22:01:51.676] [info] [t2436] backup: ready (the saves are copied before each co-op game)
+[22:01:51.676] [info] [t2436] hook DynamicDecalsManager.PlaceDownSprayPaintDecal: rva 0xc3bce0
+[22:01:51.696] [info] [t2436] hooked DynamicDecalsManager.PlaceDownSprayPaintDecal at 00007FFD70A6BCE0
+[22:01:51.696] [info] [t2436] hook DynamicDecalsManager.RemoveDynamicDecal: rva 0xc3bdd0
+[22:01:51.716] [info] [t2436] hooked DynamicDecalsManager.RemoveDynamicDecal at 00007FFD70A6BDD0
+[22:01:51.716] [info] [t2436] spray: ready (spray paint markings, and so the map's, are everyone's)
+[22:01:51.718] [info] [t2436] hook TodAmbientLight.SetAmbientLightValue: rva 0x74b030
+[22:01:51.738] [info] [t2436] hooked TodAmbientLight.SetAmbientLightValue at 00007FFD7057B030
+[22:01:51.738] [info] [t2436] hook InteriorLightingManager.Update: rva 0x7b5460
+[22:01:51.759] [info] [t2436] hooked InteriorLightingManager.Update at 00007FFD705E5460
+[22:01:51.759] [info] [t2436] hook InteriorLightingManager.UpdateLightShaft: rva 0x7b6be0
+[22:01:51.779] [info] [t2436] hooked InteriorLightingManager.UpdateLightShaft at 00007FFD705E6BE0
+[22:01:51.779] [info] [t2436] hook LightShaftGimble.UpdateLight: rva 0x7c2250
+[22:01:51.799] [info] [t2436] hooked LightShaftGimble.UpdateLight at 00007FFD705F2250
+[22:01:51.799] [info] [t2436] hook LightShaftTod.Update: rva 0x7c2c80
+[22:01:51.819] [info] [t2436] hooked LightShaftTod.Update at 00007FFD705F2C80
+[22:01:51.819] [info] [t2436] hook DarkLightingManager.UpdateConstantLights: rva 0x704590
+[22:01:51.838] [info] [t2436] hooked DarkLightingManager.UpdateConstantLights at 00007FFD70534590
+[22:01:51.839] [info] [t2436] hook DarkLightingManager.UpdateNonTodLights: rva 0x7061a0
+[22:01:51.858] [info] [t2436] hooked DarkLightingManager.UpdateNonTodLights at 00007FFD705361A0
+[22:01:51.858] [info] [t2436] hook DarkLightingManager.UpdateColouredLights: rva 0x704f90
+[22:01:51.877] [info] [t2436] hooked DarkLightingManager.UpdateColouredLights at 00007FFD70534F90
+[22:01:51.877] [info] [t2436] ambient: Ambient Lights ready (92 interiors with light data)
+[22:01:51.877] [info] [t2436] hook GameManager.InstantiatePlayerObject: rva 0xc78fb0
+[22:01:51.897] [info] [t2436] hooked GameManager.InstantiatePlayerObject at 00007FFD70AA8FB0
+[22:01:51.897] [info] [t2436] hook AuroraModularElectrolizer.Initialize: rva 0x1238920
+[22:01:51.917] [info] [t2436] hooked AuroraModularElectrolizer.Initialize at 00007FFD71068920
+[22:01:51.917] [info] [t2436] hook AuroraManager.RegisterAuroraLightSimple: rva 0xc2b0b0
+[22:01:51.937] [info] [t2436] hooked AuroraManager.RegisterAuroraLightSimple at 00007FFD70A5B0B0
+[22:01:51.937] [info] [t2436] hook AuroraManager.Update: rva 0xc2a200
+[22:01:51.956] [info] [t2436] hooked AuroraManager.Update at 00007FFD70A5A200
+[22:01:51.956] [info] [t2436] hook PlayerManager.UpdateHUDText: rva 0xcf1280
+[22:01:51.976] [info] [t2436] hooked PlayerManager.UpdateHUDText at 00007FFD70B21280
+[22:01:51.976] [info] [t2436] hook PlayerManager.InteractiveObjectsProcessInteraction: rva 0xd06c60
+[22:01:51.996] [info] [t2436] hooked PlayerManager.InteractiveObjectsProcessInteraction at 00007FFD70B36C60
+[22:01:51.996] [info] [t2436] hook Weather.IsTooDarkForAction: rva 0x755840
+[22:01:52.016] [info] [t2436] hooked Weather.IsTooDarkForAction at 00007FFD70585840
+[22:01:52.016] [info] [t2436] houselights: House Lights ready
+[22:01:52.016] [info] [t2436] hook GearItem.Awake (food tweaker): rva 0x858ac0
+[22:01:52.037] [info] [t2436] hooked GearItem.Awake (food tweaker) at 00007FFD70688AC0
+[22:01:52.037] [info] [t2436] hook CookingPotItem.ModifiedCookTimeMinutes (food tweaker): rva 0x83d880
+[22:01:52.056] [info] [t2436] hooked CookingPotItem.ModifiedCookTimeMinutes (food tweaker) at 00007FFD7066D880
+[22:01:52.056] [info] [t2436] food tweaker: ready (off unless the host turns it on: MODS)
+[22:01:52.056] [info] [t2436] hook UniStormWeatherSystem.Init (night sky): rva 0xefae90
+[22:01:52.076] [info] [t2436] hooked UniStormWeatherSystem.Init (night sky) at 00007FFD70D2AE90
+[22:01:52.076] [info] [t2436] night sky: ready (coop.ini [sky] enabled)
+[22:01:52.076] [info] [t2436] hook Panel_Inventory_Examine.RefreshMainWindow (fuel): rva 0xab9f40
+[22:01:52.096] [info] [t2436] hooked Panel_Inventory_Examine.RefreshMainWindow (fuel) at 00007FFD708E9F40
+[22:01:52.096] [info] [t2436] hook Panel_Inventory_Examine.OnSelectUnload (fuel): rva 0xabf7d0
+[22:01:52.116] [info] [t2436] hooked Panel_Inventory_Examine.OnSelectUnload (fuel) at 00007FFD708EF7D0
+[22:01:52.116] [info] [t2436] hook Panel_Inventory_Examine.OnUnload (fuel): rva 0xabf830
+[22:01:52.135] [info] [t2436] hooked Panel_Inventory_Examine.OnUnload (fuel) at 00007FFD708EF830
+[22:01:52.135] [info] [t2436] hook Panel_Inventory_Examine.SelectUnloadButton (fuel): rva 0xabb210
+[22:01:52.154] [info] [t2436] hooked Panel_Inventory_Examine.SelectUnloadButton (fuel) at 00007FFD708EB210
+[22:01:52.154] [info] [t2436] fuel: ready (a lamp's examine screen: DRAIN FUEL)
+[22:01:52.158] [info] [t2436] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=mackenzie_indoor hud names=1 radar=1 chart=1
+[22:01:52.158] [info] [t2436] clothing: off (coop.ini [clothing] enabled=0)
+[22:01:52.158] [info] [t2436] hook GearItem.InstantiateGearItem(string) (automat): rva 0x873e80
+[22:01:52.178] [info] [t2436] hooked GearItem.InstantiateGearItem(string) (automat) at 00007FFD706A3E80
+[22:01:52.178] [info] [t2436] hook Localization.Get (automat): rva 0xe1a230
+[22:01:52.198] [info] [t2436] hooked Localization.Get (automat) at 00007FFD70C4A230
+[22:01:52.198] [info] [t2436] hook GearItem.InstantiateGearItem(AssetReference) (automat): rva 0x873f20
+[22:01:52.218] [info] [t2436] hooked GearItem.InstantiateGearItem(AssetReference) (automat) at 00007FFD706A3F20
+[22:01:52.218] [info] [t2436] hook GearItem.InstantiateAndDeserializeGearItem(AssetReference, string) (automat): rva 0x874240
+[22:01:52.237] [info] [t2436] hooked GearItem.InstantiateAndDeserializeGearItem(AssetReference, string) (automat) at 00007FFD706A4240
+[22:01:52.237] [info] [t2436] hook GearItem.InstantiateAndDeserializeGearItem(AssetReference, proxy) (automat): rva 0x874340
+[22:01:52.256] [info] [t2436] hooked GearItem.InstantiateAndDeserializeGearItem(AssetReference, proxy) (automat) at 00007FFD706A4340
+[22:01:52.256] [info] [t2436] hook GearItem.InstantiateAndDeserializeGearItem(string, string) (automat): rva 0x873fc0
+[22:01:52.276] [info] [t2436] hooked GearItem.InstantiateAndDeserializeGearItem(string, string) (automat) at 00007FFD706A3FC0
+[22:01:52.276] [info] [t2436] hook GearItem.InstantiateAndDeserializeGearItem(string, proxy) (automat): rva 0x8740c0
+[22:01:52.296] [info] [t2436] hooked GearItem.InstantiateAndDeserializeGearItem(string, proxy) (automat) at 00007FFD706A40C0
+[22:01:52.296] [info] [t2436] hook Panel_BreakDown.BreakDownFinished (automat): rva 0x9c2eb0
+[22:01:52.318] [info] [t2436] hooked Panel_BreakDown.BreakDownFinished (automat) at 00007FFD707F2EB0
+[22:01:52.318] [info] [t2436] hook Utils.GetInventoryIconTexture(data) (automat): rva 0xf2eb50
+[22:01:52.338] [info] [t2436] hooked Utils.GetInventoryIconTexture(data) (automat) at 00007FFD70D5EB50
+[22:01:52.338] [info] [t2436] hook Utils.GetInventoryIconTextureFromPrefabName (automat): rva 0xf2fcc0
+[22:01:52.357] [info] [t2436] hooked Utils.GetInventoryIconTextureFromPrefabName (automat) at 00007FFD70D5FCC0
+[22:01:52.357] [info] [t2436] hook Utils.GetGearCoverflowTexture (automat): rva 0xf2e6f0
+[22:01:52.377] [info] [t2436] hooked Utils.GetGearCoverflowTexture (automat) at 00007FFD70D5E6F0
+[22:01:52.377] [info] [t2436] hook Utils.GetGearCoverflowDamageTexture (automat): rva 0xf2e9f0
+[22:01:52.396] [info] [t2436] hooked Utils.GetGearCoverflowDamageTexture (automat) at 00007FFD70D5E9F0
+[22:01:52.396] [info] [t2436] hook BlueprintData.GetCraftingIcon (automat): rva 0x1251460
+[22:01:52.416] [info] [t2436] hooked BlueprintData.GetCraftingIcon (automat) at 00007FFD71081460
+[22:01:52.416] [info] [t2436] automat items: icons on (5 of 5 calls)
+[22:01:52.416] [info] [t2436] automat items: ready (3 items); boards from electronics: off (test=0)
+[22:01:52.416] [info] [t2436] automat: off (coop.ini [automat] test=0)
+[22:01:52.416] [info] [t2436] trees: Dynamic Trees ready
+[22:01:52.416] [WARN] [t2436] class UnityEngine.DynamicGI not found in UnityEngine.CoreModule.dll
+[22:01:52.416] [info] [t2436] interiors: DynamicGI.UpdateEnvironment isn't in this build (skipped)
+[22:01:52.417] [info] [t2436] interiors: scene roots read with Scene.GetRootGameObjectsInternal
+[22:01:52.418] [info] [t2436] hook LoadScene.Activate: rva 0xbbaec0
+[22:01:52.438] [info] [t2436] hooked LoadScene.Activate at 00007FFD709EAEC0
+[22:01:52.438] [info] [t2436] hook GameManager.LoadSceneWithLoadingScreen: rva 0xc6c420
+[22:01:52.457] [info] [t2436] hooked GameManager.LoadSceneWithLoadingScreen at 00007FFD70A9C420
+[22:01:52.457] [info] [t2436] hook RandomSpawnObject.Start: rva 0x9473e0
+[22:01:52.477] [info] [t2436] hooked RandomSpawnObject.Start at 00007FFD707773E0
+[22:01:52.477] [info] [t2436] hook PlaceableManager.Add: rva 0x11e6ce0
+[22:01:52.497] [info] [t2436] hooked PlaceableManager.Add at 00007FFD71016CE0
+[22:01:52.497] [info] [t2436] hook PlaceableManager.SerializeInventory: rva 0x11e8370
+[22:01:52.516] [info] [t2436] hooked PlaceableManager.SerializeInventory at 00007FFD71018370
+[22:01:52.516] [info] [t2436] hook PlaceableManager.SerializeScenePlacements: rva 0x11e7f70
+[22:01:52.536] [info] [t2436] hooked PlaceableManager.SerializeScenePlacements at 00007FFD71017F70
+[22:01:52.536] [info] [t2436] hook GearManager.Serialize: rva 0xc846d0
+[22:01:52.556] [info] [t2436] hooked GearManager.Serialize at 00007FFD70AB46D0
+[22:01:52.556] [info] [t2436] hook GearManager.Deserialize(string): rva 0xc84db0
+[22:01:52.575] [info] [t2436] hooked GearManager.Deserialize(string) at 00007FFD70AB4DB0
+[22:01:52.575] [info] [t2436] hook GearManager.Deserialize(string, list): rva 0xc84e10
+[22:01:52.594] [info] [t2436] hooked GearManager.Deserialize(string, list) at 00007FFD70AB4E10
+[22:01:52.594] [info] [t2436] hook GearManager.Deserialize(GearSaveList, list): rva 0xc84ed0
+[22:01:52.614] [info] [t2436] hooked GearManager.Deserialize(GearSaveList, list) at 00007FFD70AB4ED0
+[22:01:52.614] [info] [t2436] hook ContainerManager.Serialize: rva 0xc38ac0
+[22:01:52.636] [info] [t2436] hooked ContainerManager.Serialize at 00007FFD70A68AC0
+[22:01:52.636] [info] [t2436] hook FireManager.Serialize: rva 0xc50e10
+[22:01:52.656] [info] [t2436] hooked FireManager.Serialize at 00007FFD70A80E10
+[22:01:52.656] [info] [t2436] hook PlayerManager.Serialize: rva 0xceaa80
+[22:01:52.675] [info] [t2436] hooked PlayerManager.Serialize at 00007FFD70B1AA80
+[22:01:52.676] [info] [t2436] hook PlayerManager.ObjectToPlaceOverlapsWithObjectsThatBlockPlacement: rva 0xd30bf0
+[22:01:52.695] [info] [t2436] hooked PlayerManager.ObjectToPlaceOverlapsWithObjectsThatBlockPlacement at 00007FFD70B60BF0
+[22:01:52.695] [info] [t2436] hook PlayerManager.HasCollisionPenetration: rva 0xd33050
+[22:01:52.715] [info] [t2436] hooked PlayerManager.HasCollisionPenetration at 00007FFD70B63050
+[22:01:52.715] [info] [t2436] hook PlayerManager.IsHitPointOutOfBounds: rva 0xd25550
+[22:01:52.735] [info] [t2436] hooked PlayerManager.IsHitPointOutOfBounds at 00007FFD70B55550
+[22:01:52.735] [info] [t2436] hook Wind.UpdateWindOcclusion: rva 0x768f00
+[22:01:52.755] [info] [t2436] hooked Wind.UpdateWindOcclusion at 00007FFD70598F00
+[22:01:52.755] [info] [t2436] hook Wind.IsPositionOccludedFromWind: rva 0x7685e0
+[22:01:52.775] [info] [t2436] hooked Wind.IsPositionOccludedFromWind at 00007FFD705985E0
+[22:01:52.775] [info] [t2436] hook Wind.Start: rva 0x763e10
+[22:01:52.795] [info] [t2436] hooked Wind.Start at 00007FFD70593E10
+[22:01:52.795] [info] [t2436] hook Weather.CalculateCurrentTemperature: rva 0x758210
+[22:01:52.814] [info] [t2436] hooked Weather.CalculateCurrentTemperature at 00007FFD70588210
+[22:01:52.814] [info] [t2436] hook Weather.IsIndoorEnvironment: rva 0x755350
+[22:01:52.834] [info] [t2436] hooked Weather.IsIndoorEnvironment at 00007FFD70585350
+[22:01:52.834] [info] [t2436] hook ClothingItem.MaybeGetWetOnGround: rva 0x831630
+[22:01:52.853] [info] [t2436] hooked ClothingItem.MaybeGetWetOnGround at 00007FFD70661630
+[22:01:52.853] [info] [t2436] hook GenericIndoors.Start: rva 0xea8d80
+[22:01:52.873] [info] [t2436] hooked GenericIndoors.Start at 00007FFD70CD8D80
+[22:01:52.873] [info] [t2436] hook EvolveItem.ObjectInIndoorTrigger: rva 0x846720
+[22:01:52.893] [info] [t2436] hooked EvolveItem.ObjectInIndoorTrigger at 00007FFD70676720
+[22:01:52.893] [info] [t2436] hook SafehouseManager.InCustomizableSafehouse: rva 0xd58c40
+[22:01:52.913] [info] [t2436] hooked SafehouseManager.InCustomizableSafehouse at 00007FFD70B88C40
+[22:01:52.913] [info] [t2436] hook SafehouseManager.IsDecorationItemInsideSafehouse: rva 0xd5a260
+[22:01:52.932] [info] [t2436] hooked SafehouseManager.IsDecorationItemInsideSafehouse at 00007FFD70B8A260
+[22:01:52.932] [info] [t2436] hook FallDamage.ApplyFallDamage: rva 0x8c6810
+[22:01:52.952] [info] [t2436] hooked FallDamage.ApplyFallDamage at 00007FFD706F6810
+[22:01:52.953] [info] [t2436] hook SaveGameSystem.SaveSceneData: rva 0xea1120
+[22:01:52.973] [info] [t2436] hooked SaveGameSystem.SaveSceneData at 00007FFD70CD1120
+[22:01:52.973] [info] [t2436] hook SaveGameSystem.OnSaveCompleted: rva 0xe92750
+[22:01:52.993] [info] [t2436] hooked SaveGameSystem.OnSaveCompleted at 00007FFD70CC2750
+[22:01:52.993] [info] [t2436] hook SaveGameSystem.RestoreGame: rva 0xe91020
+[22:01:53.012] [info] [t2436] hooked SaveGameSystem.RestoreGame at 00007FFD70CC1020
+[22:01:53.012] [info] [t2436] hook SaveGameSystem.DeleteSaveFiles: rva 0xe91b50
+[22:01:53.032] [info] [t2436] hooked SaveGameSystem.DeleteSaveFiles at 00007FFD70CC1B50
+[22:01:53.032] [info] [t2436] hook SafehouseManager.StartCustomizing: rva 0xd59d00
+[22:01:53.051] [info] [t2436] hooked SafehouseManager.StartCustomizing at 00007FFD70B89D00
+[22:01:53.051] [info] [t2436] hook JunkManager.ClearJunk: rva 0xcd08d0
+[22:01:53.071] [info] [t2436] hooked JunkManager.ClearJunk at 00007FFD70B008D0
+[22:01:53.071] [info] [t2436] hook FireManager.Deserialize: rva 0xc51440
+[22:01:53.091] [info] [t2436] hooked FireManager.Deserialize at 00007FFD70A81440
+[22:01:53.091] [info] [t2436] interiors: milestone 1b (rooms saved with the game) ready; spawned-name suffix '(PLACED)', placement root 'DesignPlaceable'
+[22:01:53.091] [info] [t2436] interiors: importing old saves' interiors ready
+[22:01:53.105] [info] [t2436] hook vp_FPSCamera.LateUpdate: rva 0x565a30
+[22:01:53.125] [info] [t2436] hooked vp_FPSCamera.LateUpdate at 00007FFD70395A30
+[22:01:53.125] [info] [t2436] hook GameManager.DoExitToMainMenu: rva 0xc7afa0
+[22:01:53.145] [info] [t2436] hooked GameManager.DoExitToMainMenu at 00007FFD70AAAFA0
+[22:01:53.145] [info] [t2436] hook GameManager.LoadMainMenu: rva 0xc6dd40
+[22:01:53.145] [info] [t2436] hook GameManager.LoadMainMenu: the game's method is hooked already; ours goes on top of it
+[22:01:53.165] [info] [t2436] hooked GameManager.LoadMainMenu at 00007FFD70A9DD40
+[22:01:53.165] [info] [t2436] hook MainCameraFrustrum.RecalculateFrustumPlanes(Camera): rva 0xf1adf0
+[22:01:53.185] [info] [t2436] hooked MainCameraFrustrum.RecalculateFrustumPlanes(Camera) at 00007FFD70D4ADF0
+[22:01:53.185] [info] [t2436] hook MainCameraFrustrum.RecalculateFrustumPlanes(Camera, Plane[]&, float): rva 0xf1b760
+[22:01:53.204] [info] [t2436] hooked MainCameraFrustrum.RecalculateFrustumPlanes(Camera, Plane[]&, float) at 00007FFD70D4B760
+[22:01:53.204] [info] [t2436] hook MainCameraFrustrum.RecalculateFrustumCorners: rva 0xf1c260
+[22:01:53.224] [info] [t2436] hooked MainCameraFrustrum.RecalculateFrustumCorners at 00007FFD70D4C260
+[22:01:53.224] [info] [t2436] hook Utils.PositionIsOnscreen: rva 0xf2dbf0
+[22:01:53.244] [info] [t2436] hooked Utils.PositionIsOnscreen at 00007FFD70D5DBF0
+[22:01:53.244] [info] [t2436] hook WeatherParticleManager.ScheduleFallingSnowParticleJobs: rva 0x11d7160
+[22:01:53.264] [info] [t2436] hooked WeatherParticleManager.ScheduleFallingSnowParticleJobs at 00007FFD71007160
+[22:01:53.264] [info] [t2436] hook WeatherParticleManager.ScheduleBlowingSnowParticleJobs: rva 0x11d71c0
+[22:01:53.284] [info] [t2436] hooked WeatherParticleManager.ScheduleBlowingSnowParticleJobs at 00007FFD710071C0
+[22:01:53.284] [info] [t2436] hook Camera.FireOnPreCull: rva 0x3c87f60
+[22:01:53.304] [info] [t2436] hooked Camera.FireOnPreCull at 00007FFD73AB7F60
+[22:01:53.304] [info] [t2436] hook Camera.FireOnPostRender: rva 0x3c88020
+[22:01:53.323] [info] [t2436] hooked Camera.FireOnPostRender at 00007FFD73AB8020
+[22:01:53.323] [info] [t2436] hook Utils.SetAmbientLightScaled: rva 0xf3e100
+[22:01:53.343] [info] [t2436] hooked Utils.SetAmbientLightScaled at 00007FFD70D6E100
+[22:01:53.343] [info] [t2436] hook InteriorLightingManager.Update: rva 0x7b5460
+[22:01:53.343] [info] [t2436] hook InteriorLightingManager.Update: the game's method is hooked already; ours goes on top of it
+[22:01:53.363] [info] [t2436] hooked InteriorLightingManager.Update at 00007FFD705E5460
+[22:01:53.363] [info] [t2436] interiors: doors: ready (door boxes from colliders and meshes; walking through possible; velocity kept yes)
+[22:01:53.363] [info] [t2436] interiors: windows: ready (stand-in eye yes, snow box yes, sheet fog yes; 4 building(s) with offline window data, 33 hand row(s))
+[22:01:53.363] [info] [t2436] interiors: Seamless Interiors ready (126 buildings in 12 regions)
+[22:01:53.363] [info] [t2436] pictures: ready
+[22:01:53.363] [info] [t2436] hook Panel_Boot.Update (start screen): rva 0x9c0b80
+[22:01:53.383] [info] [t2436] hooked Panel_Boot.Update (start screen) at 00007FFD707F0B80
+[22:01:53.383] [info] [t2436] start screen: Karol's picture instead of TLD's warnings when the game starts
+[22:01:53.383] [info] [t2436] activity: ready (7 control modes, 9 panels, footing from the height)
+[22:01:53.383] [info] [t2436] zoom: ready (hold the zoom key, the mouse wheel zooms more or less)
+[22:01:53.387] [info] [t2436] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=mackenzie_indoor hud names=1 radar=1 chart=1
+[22:01:53.387] [info] [t2436] report: the report key is F11; in co-op everyone's game makes a report with it
+[22:01:53.387] [info] [t2436] hook BasicMenu.OnItemClicked: rva 0x664ec0
+[22:01:53.407] [info] [t2436] hooked BasicMenu.OnItemClicked at 00007FFD70494EC0
+[22:01:53.407] [info] [t2436] hook BasicMenu.OnItemDoubleClicked: rva 0x665040
+[22:01:53.427] [info] [t2436] hooked BasicMenu.OnItemDoubleClicked at 00007FFD70495040
+[22:01:53.427] [info] [t2436] hook BasicMenu.OnConfirm: rva 0x664e80
+[22:01:53.446] [info] [t2436] hooked BasicMenu.OnConfirm at 00007FFD70494E80
+[22:01:53.446] [info] [t2436] hook Panel_PauseMenu.ConfigureMenu: rva 0xb6ac10
+[22:01:53.467] [info] [t2436] hooked Panel_PauseMenu.ConfigureMenu at 00007FFD7099AC10
+[22:01:53.467] [info] [t2436] save: ready ('ZAPISZ GRĘ' in ESC's menu)
+[22:01:53.470] [info] [t2436] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=mackenzie_indoor hud names=1 radar=1 chart=1
+[22:01:53.471] [info] [t2436] world join: ready (a friend joining a world for the first time goes to the host)
+[22:01:53.471] [info] [t2436] hook GameManager.HandlePlayerDeath: rva 0xc7e9d0
+[22:01:53.490] [info] [t2436] hooked GameManager.HandlePlayerDeath at 00007FFD70AAE9D0
+[22:01:53.491] [info] [t2436] hook SaveGameSystem.DeleteSaveFilesForGameId: rva 0xe91c20
+[22:01:53.510] [info] [t2436] hooked SaveGameSystem.DeleteSaveFilesForGameId at 00007FFD70CC1C20
+[22:01:53.510] [info] [t2436] hook Panel_LifeAfterDeath.Enable: rva 0xaffa10
+[22:01:53.531] [info] [t2436] hooked Panel_LifeAfterDeath.Enable at 00007FFD7092FA10
+[22:01:53.531] [info] [t2436] hook Panel_LifeAfterDeath.HandleOnLeftButtonPressed: rva 0xb01710
+[22:01:53.550] [info] [t2436] hooked Panel_LifeAfterDeath.HandleOnLeftButtonPressed at 00007FFD70931710
+[22:01:53.550] [info] [t2436] hook Panel_LifeAfterDeath.HandleOnRightButtonPressed: rva 0xb018e0
+[22:01:53.571] [info] [t2436] hooked Panel_LifeAfterDeath.HandleOnRightButtonPressed at 00007FFD709318E0
+[22:01:53.571] [info] [t2436] hook Panel_LifeAfterDeath.HandleOnBackButtonPressed: rva 0xb01990
+[22:01:53.591] [info] [t2436] hooked Panel_LifeAfterDeath.HandleOnBackButtonPressed at 00007FFD70931990
+[22:01:53.591] [info] [t2436] hook Panel_LifeAfterDeath.ContinueToLogPanel: rva 0xb01cf0
+[22:01:53.610] [info] [t2436] hooked Panel_LifeAfterDeath.ContinueToLogPanel at 00007FFD70931CF0
+[22:01:53.610] [info] [t2436] death: ready (a death in co-op leaves a body; the player comes back as a new survivor)
+[22:01:53.610] [info] [t2436] hook Rest.AccelerateTimeOfDay: rva 0x805910
+[22:01:53.630] [info] [t2436] hooked Rest.AccelerateTimeOfDay at 00007FFD70635910
+[22:01:53.630] [info] [t2436] hook PassTime.Begin: rva 0x800aa0
+[22:01:53.650] [info] [t2436] hooked PassTime.Begin at 00007FFD70630AA0
+[22:01:53.650] [info] [t2436] hook PassTime.AccelerateTimeOfDay: rva 0x801230
+[22:01:53.669] [info] [t2436] hooked PassTime.AccelerateTimeOfDay at 00007FFD70631230
+[22:01:53.669] [info] [t2436] hook TimeOfDay.DebugOnly_UpdateTimeOfDayScale: rva 0x7184a0
+[22:01:53.689] [info] [t2436] hooked TimeOfDay.DebugOnly_UpdateTimeOfDayScale at 00007FFD705484A0
+[22:01:53.689] [info] [t2436] hook Hunger.Update: rva 0x65b650
+[22:01:53.709] [info] [t2436] hooked Hunger.Update at 00007FFD7048B650
+[22:01:53.709] [info] [t2436] hook Thirst.Update: rva 0x65f080
+[22:01:53.729] [info] [t2436] hooked Thirst.Update at 00007FFD7048F080
+[22:01:53.729] [info] [t2436] hook Fatigue.Update: rva 0x653240
+[22:01:53.749] [info] [t2436] hooked Fatigue.Update at 00007FFD70483240
+[22:01:53.749] [info] [t2436] hook Freezing.Update: rva 0x6560c0
+[22:01:53.770] [info] [t2436] hooked Freezing.Update at 00007FFD704860C0
+[22:01:53.770] [info] [t2436] hook Condition.Update: rva 0x6467c0
+[22:01:53.790] [info] [t2436] hooked Condition.Update at 00007FFD704767C0
+[22:01:53.790] [info] [t2436] hook PlayerManager.UpdateBuffDurations: rva 0xce2b80
+[22:01:53.810] [info] [t2436] hooked PlayerManager.UpdateBuffDurations at 00007FFD70B12B80
+[22:01:53.810] [info] [t2436] hook IceFishingHole.Update: rva 0x92eb60
+[22:01:53.829] [info] [t2436] hooked IceFishingHole.Update at 00007FFD7075EB60
+[22:01:53.829] [info] [t2436] hook Panel_GenericProgressBar.Launch: rva 0xa78f40
+[22:01:53.849] [info] [t2436] hooked Panel_GenericProgressBar.Launch at 00007FFD708A8F40
+[22:01:53.849] [info] [t2436] hook TimeOfDay.SetDayLengthScale: rva 0x715f40
+[22:01:53.869] [info] [t2436] hooked TimeOfDay.SetDayLengthScale at 00007FFD70545F40
+[22:01:53.869] [info] [t2436] lapse: ready (in co-op an action's hours are our body's; the clock stays)
+[22:01:53.869] [info] [t2436] hook Panel_HUD.EnableTimeOfDayScaleDisplay: rva 0xa82ed0
+[22:01:53.889] [info] [t2436] hooked Panel_HUD.EnableTimeOfDayScaleDisplay at 00007FFD708B2ED0
+[22:01:53.889] [info] [t2436] hook Panel_GenericProgressBar.ProgressBarEnded: rva 0xa79d60
+[22:01:53.908] [info] [t2436] hooked Panel_GenericProgressBar.ProgressBarEnded at 00007FFD708A9D60
+[22:01:53.908] [info] [t2436] hook TimeOfDay.Accelerate: rva 0x716d80
+[22:01:53.928] [info] [t2436] hooked TimeOfDay.Accelerate at 00007FFD70546D80
+[22:01:53.928] [info] [t2436] hook Rest.BeginSleeping: rva 0x8061f0
+[22:01:53.947] [info] [t2436] hooked Rest.BeginSleeping at 00007FFD706361F0
+[22:01:53.948] [info] [t2436] hook Rest.EndSleeping: rva 0x801cd0
+[22:01:53.967] [info] [t2436] hooked Rest.EndSleeping at 00007FFD70631CD0
+[22:01:53.967] [info] [t2436] hook Rest.AllowUnlimitedSleep: rva 0x802780
+[22:01:53.986] [info] [t2436] hooked Rest.AllowUnlimitedSleep at 00007FFD70632780
+[22:01:53.986] [info] [t2436] hook Rest.UpdateRestForCures: rva 0x802ca0
+[22:01:54.006] [info] [t2436] hooked Rest.UpdateRestForCures at 00007FFD70632CA0
+[22:01:54.006] [info] [t2436] hook PassTime.End: rva 0x800dd0
+[22:01:54.025] [info] [t2436] hooked PassTime.End at 00007FFD70630DD0
+[22:01:54.025] [info] [t2436] hook Panel_Rest.Enable: rva 0xb78d50
+[22:01:54.047] [info] [t2436] hooked Panel_Rest.Enable at 00007FFD709A8D50
+[22:01:54.047] [info] [t2436] hook Panel_Rest.UpdateVisuals: rva 0xb783d0
+[22:01:54.067] [info] [t2436] hooked Panel_Rest.UpdateVisuals at 00007FFD709A83D0
+[22:01:54.067] [info] [t2436] hook Panel_Rest.OnIncreaseHours: rva 0xb79c80
+[22:01:54.086] [info] [t2436] hooked Panel_Rest.OnIncreaseHours at 00007FFD709A9C80
+[22:01:54.087] [info] [t2436] hook Panel_Rest.DoRest: rva 0xb7ac90
+[22:01:54.106] [info] [t2436] hooked Panel_Rest.DoRest at 00007FFD709AAC90
+[22:01:54.106] [info] [t2436] hook Panel_Rest.DoPassTime: rva 0xb798a0
+[22:01:54.125] [info] [t2436] hooked Panel_Rest.DoPassTime at 00007FFD709A98A0
+[22:01:54.125] [info] [t2436] hook Panel_Rest.OnPickUp: rva 0xb79960
+[22:01:54.145] [info] [t2436] hooked Panel_Rest.OnPickUp at 00007FFD709A9960
+[22:01:54.145] [info] [t2436] sleep: ready (in co-op, time passes for sleep or waiting only when everyone is in)
+[22:01:54.145] [info] [t2436] hook PlayerManager.FindInteractiveObject: rva 0xd06260
+[22:01:54.165] [info] [t2436] hooked PlayerManager.FindInteractiveObject at 00007FFD70B36260
+[22:01:54.165] [info] [t2436] hook SimpleInteraction.PerformInteraction: rva 0x11f9580
+[22:01:54.187] [info] [t2436] hooked SimpleInteraction.PerformInteraction at 00007FFD71029580
+[22:01:54.187] [info] [t2436] hook Panel_Inventory.OnDrop: rva 0xaa59f0
+[22:01:54.207] [info] [t2436] hooked Panel_Inventory.OnDrop at 00007FFD708D59F0
+[22:01:54.207] [info] [t2436] hook Panel_PickUnits.DropGear: rva 0xb6e120
+[22:01:54.226] [info] [t2436] hooked Panel_PickUnits.DropGear at 00007FFD7099E120
+[22:01:54.226] [info] [t2436] hook ItemDescriptionPage.GetDropButtonLocalizationId: rva 0x6a4590
+[22:01:54.246] [info] [t2436] hooked ItemDescriptionPage.GetDropButtonLocalizationId at 00007FFD704D4590
+[22:01:54.246] [info] [t2436] hook Panel_PickUnits.Refresh: rva 0xb6d800
+[22:01:54.266] [info] [t2436] hooked Panel_PickUnits.Refresh at 00007FFD7099D800
+[22:01:54.266] [info] [t2436] give: ready (look at a friend close by and interact to give them something)
+[22:01:54.266] [info] [t2436] hook SaveGameSystem.SaveGlobalData: rva 0xe93a60
+[22:01:54.285] [info] [t2436] hooked SaveGameSystem.SaveGlobalData at 00007FFD70CC3A60
+[22:01:54.285] [info] [t2436] world keep: ready (the friend's changes kept for later go with the host's save)
+[22:01:54.286] [info] [t2436] hook ExperienceModeManager.Deserialize: rva 0xc49790
+[22:01:54.305] [info] [t2436] hooked ExperienceModeManager.Deserialize at 00007FFD70A79790
+[22:01:54.305] [info] [t2436] hook ExperienceModeManager.Serialize: rva 0xc494f0
+[22:01:54.325] [info] [t2436] hooked ExperienceModeManager.Serialize at 00007FFD70A794F0
+[22:01:54.325] [info] [t2436] hook SaveGameSystem.SaveInfoData: rva 0xe9d0e0
+[22:01:54.345] [info] [t2436] hooked SaveGameSystem.SaveInfoData at 00007FFD70CCD0E0
+[22:01:54.345] [info] [t2436] hook GameManager.GetRandomSeed: rva 0xc7b210
+[22:01:54.365] [info] [t2436] hooked GameManager.GetRandomSeed at 00007FFD70AAB210
+[22:01:54.365] [info] [t2436] world mode: ready (a friend plays at the host's experience mode; their save keeps its own); TLD's rolls use the host's game seed, indoors as if everyone came in from one spot
+[22:01:54.365] [info] [t2436] dev commands: wildlife helpers ready
+[22:01:54.365] [info] [t2436] dev commands: ready (write one to TLDCoop\command.txt)
+[22:01:54.369] [info] [t2436] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=mackenzie_indoor hud names=1 radar=1 chart=1
+[22:01:54.373] [info] [t2436] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=mackenzie_indoor hud names=1 radar=1 chart=1
+[22:01:54.373] [info] [t2436] ambient: on (intensity 1.10 range 1.00 night 1 ambience 0.80 fill 0.70/0.50)
+[22:01:54.373] [info] [t2436] trees: on
+[22:01:54.373] [info] [t2436] interiors: rooms lit as the game lights its interiors ([interiors] indoor_light=0)
+[22:01:54.373] [info] [t2436] interiors: Seamless Interiors off in coop.ini (old saves' interiors imported; buildings beyond SI's configs found; chimney smoke and window glow on; window views on, quality 1; door portals on, walked through too)
+[22:01:54.373] [info] [t2436] hud: names on, radar on, charting on
+[22:01:54.373] [info] [t2436] emotes: keys wave=F5, point=F6, come=F7, stop=F8, yes=F3, no=F4
+[22:01:54.373] [info] [t2436] net: offline until CO-OP is picked (NEW, RESUME or LOAD in the Survival menu)
+[22:01:54.373] [info] [t2436] hook GameManager.Update: rva 0xc65f30
+[22:01:54.393] [info] [t2436] hooked GameManager.Update at 00007FFD70A95F30
+[22:01:54.393] [info] [t2436] hook GameManager.LateUpdate: rva 0xc672e0
+[22:01:54.413] [info] [t2436] hooked GameManager.LateUpdate at 00007FFD70A972E0
+[22:01:54.413] [info] [t2436] hook GameManager.Awake: rva 0xc61aa0
+[22:01:54.432] [info] [t2436] hooked GameManager.Awake at 00007FFD70A91AA0
+[22:01:54.432] [info] [t2436] hook GameManager.OnApplicationFocus: rva 0xc7b7c0
+[22:01:54.452] [info] [t2436] hooked GameManager.OnApplicationFocus at 00007FFD70AAB7C0
+[22:01:54.452] [info] [t2436] hook InputManager.ProcessScreenshotInput: rva 0xc8fcb0
+[22:01:54.472] [info] [t2436] hooked InputManager.ProcessScreenshotInput at 00007FFD70ABFCB0
+[22:01:54.472] [info] [t2436] screenshots: TLD's F8/F9/F10 screenshot keys off
+[22:01:54.472] [info] [t2436] hook Panel_PauseMenu.Enable: rva 0xb6ae50
+[22:01:54.491] [info] [t2436] hooked Panel_PauseMenu.Enable at 00007FFD7099AE50
+[22:01:54.491] [info] [t2436] hook GameManager.PauseWhenFocusLost: rva 0xc7f720
+[22:01:54.511] [info] [t2436] hooked GameManager.PauseWhenFocusLost at 00007FFD70AAF720
+[22:01:54.511] [info] [t2436] ui: screen dumps off ([debug] ui_dump=1 in coop.ini turns them on)
+[22:01:54.511] [info] [t2436] hook Panel_MainMenu.IsSubMenuEnabled: rva 0xb09f80
+[22:01:54.531] [info] [t2436] hooked Panel_MainMenu.IsSubMenuEnabled at 00007FFD70939F80
+[22:01:54.532] [info] [t2436] hook Panel_SelectRegion_Map.Enable: rva 0xb8ac20
+[22:01:54.552] [info] [t2436] hooked Panel_SelectRegion_Map.Enable at 00007FFD709BAC20
+[22:01:54.552] [info] [t2436] hook Panel_CustomXPSetup.Enable: rva 0xa0c780
+[22:01:54.572] [info] [t2436] hooked Panel_CustomXPSetup.Enable at 00007FFD7083C780
+[22:01:54.572] [info] [t2436] hook Panel_Sandbox.OnClickNew: rva 0xb7e190
+[22:01:54.591] [info] [t2436] hooked Panel_Sandbox.OnClickNew at 00007FFD709AE190
+[22:01:54.591] [info] [t2436] hook Panel_Sandbox.OnClickResume: rva 0xb7e3e0
+[22:01:54.611] [info] [t2436] hooked Panel_Sandbox.OnClickResume at 00007FFD709AE3E0
+[22:01:54.611] [info] [t2436] hook Panel_Sandbox.OnClickLoad: rva 0xb7e300
+[22:01:54.630] [info] [t2436] hooked Panel_Sandbox.OnClickLoad at 00007FFD709AE300
+[22:01:54.630] [info] [t2436] hook Panel_ChooseSandbox.OnClickBack: rva 0x9d1b30
+[22:01:54.650] [info] [t2436] hooked Panel_ChooseSandbox.OnClickBack at 00007FFD70801B30
+[22:01:54.650] [info] [t2436] hook Panel_Sandbox.Enable: rva 0xb7dee0
+[22:01:54.669] [info] [t2436] hooked Panel_Sandbox.Enable at 00007FFD709ADEE0
+[22:01:54.669] [info] [t2436] hook Panel_SelectExperience.Enable: rva 0xb87a50
+[22:01:54.689] [info] [t2436] hooked Panel_SelectExperience.Enable at 00007FFD709B7A50
+[22:01:54.689] [info] [t2436] hook Panel_SelectExperience.OnClickBack: rva 0xb87c40
+[22:01:54.708] [info] [t2436] hooked Panel_SelectExperience.OnClickBack at 00007FFD709B7C40
+[22:01:54.708] [info] [t2436] hook Panel_SelectSurvivor.Enable: rva 0xb90600
+[22:01:54.728] [info] [t2436] hooked Panel_SelectSurvivor.Enable at 00007FFD709C0600
+[22:01:54.728] [info] [t2436] hook UIButton.OnClick: rva 0xa49b90
+[22:01:54.748] [info] [t2436] hooked UIButton.OnClick at 00007FFD70879B90
+[22:01:57.978] [info] [t2436] start screen: TLD's boot screen #1 is 'StudioStatement'
+[22:01:57.998] [info] [t2436] start screen: picture 1 of 3
+[22:01:57.998] [info] [t2436] start screen: Karol's picture on the boot screen, 1920x1080 (1282 x 722 NGUI, uv 0.000 0.000 1.000 0.999)
+[22:01:57.998] [info] [t2436] start screen: TLD's warnings and boot loading hidden; 4 "continue" label(s) kept
+[22:02:06.578] [info] [t2436] start screen: TLD's boot screen #2 is 'PhotosensitivityWarning'
+[22:02:06.596] [info] [t2436] start screen: picture 2 of 3
+[22:02:06.596] [info] [t2436] start screen: Karol's picture on the boot screen, 1920x1080 (1282 x 722 NGUI, uv 0.000 0.000 1.000 0.999)
+[22:02:09.628] [info] [t2436] start screen: TLD's boot screen #3 is 'MainDisclaimerRoot'
+[22:02:09.646] [info] [t2436] start screen: picture 3 of 3
+[22:02:09.646] [info] [t2436] start screen: Karol's picture on the boot screen, 1920x1080 (1282 x 722 NGUI, uv 0.000 0.000 1.000 0.999)
+[22:02:11.956] [info] [t2436] first GameManager.Update on main thread
+[22:02:11.956] [info] [t2436] steam_api64.dll loaded; SteamNetworkingMessages v002: yes, SteamMatchmaking v009: yes
+[22:02:11.956] [info] [t2436] steam_api64.dll stays loaded until the game ends
+[22:02:11.956] [info] [t2436] steamclient64.dll stays loaded until the game ends
+[22:02:11.956] [info] [t2436] scene: '' -> 'MainMenu'
+[22:02:11.980] [info] [t2436] hooked SteamAPI_ManualDispatch_GetNextCallback at 00007FFDFB4F7B10
+[22:02:12.004] [info] [t2436] hooked AK::SoundEngine::PostEvent(id) at 00007FFD94C9B9A0
+[22:02:12.027] [info] [t2436] hooked AK::SoundEngine::PostEvent(name) at 00007FFD94C9BC80
+[22:02:12.051] [info] [t2436] hooked AK::SoundEngine::PostEvent(wide name) at 00007FFD94C9BDB0
+[22:02:12.075] [info] [t2436] hooked AK::SoundEngine::ExecuteActionOnEvent(id) at 00007FFD94C98580
+[22:02:12.098] [info] [t2436] hooked AK::SoundEngine::ExecuteActionOnEvent(name) at 00007FFD94C98720
+[22:02:12.122] [info] [t2436] hooked AK::SoundEngine::StopPlayingID at 00007FFD94CA30E0
+[22:02:12.122] [info] [t2436] wildlife: 6 of 6 Wwise hooks in (animal sounds shared)
+[22:02:12.122] [info] [t2436] interiors: off (every door is the game's own)
+[22:02:12.122] [info] [t2436] chat: listening to the game window's keys (ENTER opens the chat)
+[22:02:12.123] [info] [t2436] frame: 0 ms since the last frame (the game itself -166 ms, co-op 166 ms: wildlife_sync::on_frame 142 ms, steam_dispatch::on_frame 24 ms) [slow frames so far: 1]
+[22:02:12.169] [info] [t2436] interiors: sky's light 0.56 0.57 0.57 (probe 1.00) from the outdoors; player outside
+[22:02:17.246] [info] [t2436] devconsole: loading TLD's console
+[22:02:17.371] [info] [t2436] devconsole: TLD's developer console is in (F1 opens it; 'help' lists its commands)
+[22:02:17.947] [info] [t2436] frame: 575 ms since the last frame (the game itself 575 ms, co-op 0 ms) [slow frames so far: 3]
+[22:02:20.753] [info] [t2436] trees: textures loaded
+[22:02:20.792] [info] [t2436] trees: 16 textures loaded at the main menu (667 ms)
+[22:02:20.792] [info] [t2436] frame: 674 ms since the last frame (the game itself 7 ms, co-op 667 ms: dynamic_trees::on_frame 667 ms) [slow frames so far: 4]
+[22:02:22.048] [info] [t2436] menu: removed 62 game-logic components from the cloned screen
+[22:02:22.051] [info] [t2436] menu: SOLO / CO-OP screen opened (choices drawn 133x54 units)
+[22:02:23.010] [info] [t2436] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=mackenzie_indoor hud names=1 radar=1 chart=1
+[22:02:23.031] [info] [t2436] settings saved: mode=host transport=steam code=(set) join_code=(none) name=Shatsca body=mackenzie_indoor
+[22:02:23.031] [info] [t2436] ambient: on (intensity 1.10 range 1.00 night 1 ambience 0.80 fill 0.70/0.50)
+[22:02:23.031] [info] [t2436] trees: on
+[22:02:23.031] [info] [t2436] interiors: rooms lit as the game lights its interiors ([interiors] indoor_light=0)
+[22:02:23.031] [info] [t2436] interiors: Seamless Interiors off in coop.ini (old saves' interiors imported; buildings beyond SI's configs found; chimney smoke and window glow on; window views on, quality 1; door portals on, walked through too)
+[22:02:23.031] [info] [t2436] hud: names on, radar on, charting on
+[22:02:23.031] [info] [t2436] emotes: keys wave=F5, point=F6, come=F7, stop=F8, yes=F3, no=F4
+[22:02:23.031] [info] [t2436] dlc: OptionalContentManager.InstalledContent is System.Collections.Generic.Dictionary<System.String,UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator>
+[22:02:23.032] [info] [t2436] net: steam: waiting for Steam to start
+[22:02:23.032] [info] [t2436] net: hosting as 'Shatsca' over steam (game 2.60 189457 S): waiting for Steam to start
+[22:02:23.032] [info] [t2436] net: game keeps running when unfocused
+[22:02:23.032] [info] [t2436] menu: CO-OP picked; opening the steam lobby (code set)
+[22:02:23.033] [info] [t3712] net: steam: send rate 512 KB/s - 4 MB/s, send buffer 4 MB
+[22:02:23.033] [info] [t3712] net: steam: creating a Steam lobby for code W5LYAE
+[22:02:23.035] [info] [t2436] menu: removed 87 game-logic components from the cloned screen
+[22:02:23.038] [info] [t2436] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=mackenzie_indoor hud names=1 radar=1 chart=1
+[22:02:23.039] [info] [t2436] menu: row colours: selected white, others 0.48 0.48 0.48
+[22:02:23.040] [info] [t2436] menu: the code's boxes made (6 of 6, copy / paste yes)
+[22:02:23.041] [info] [t2436] avatar: character preview stage ready (layer 31)
+[22:02:23.056] [info] [t2436] avatar: body pack loaded
+[22:02:23.165] [info] [t2436] avatar: preview shows 'mackenzie_indoor'
+[22:02:23.165] [info] [t2436] menu: the preview shows mackenzie_indoor
+[22:02:23.165] [info] [t2436] menu: co-op setup opened for NEW GAME (mode host, character mackenzie_indoor, 12 arrows, confirm yes)
+[22:02:23.175] [info] [t2436] wildlife: ownership on (each animal is run by one game, the host decides which)
+[22:02:23.303] [info] [t3712] net: steam: hosting; your code is W5LYAE (checking it's findable on Steam)
+[22:02:23.552] [info] [t3712] net: steam: self-check 1: Steam returned 0 lobby(ies) for W5LYAE
+[22:02:25.800] [info] [t3712] net: steam: self-check 2: Steam returned 1 lobby(ies) for W5LYAE, including ours
+[22:02:25.800] [info] [t3712] net: steam: hosting; your code is W5LYAE (verified: findable on Steam)
+[22:02:26.903] [info] [t2436] settings saved: mode=host transport=steam code=(set) join_code=(none) name=Shatsca body=mackenzie_indoor
+[22:02:26.903] [info] [t2436] ambient: on (intensity 1.10 range 1.00 night 1 ambience 0.80 fill 0.70/0.50)
+[22:02:26.903] [info] [t2436] trees: on
+[22:02:26.903] [info] [t2436] interiors: rooms lit as the game lights its interiors ([interiors] indoor_light=0)
+[22:02:26.903] [info] [t2436] interiors: Seamless Interiors off in coop.ini (old saves' interiors imported; buildings beyond SI's configs found; chimney smoke and window glow on; window views on, quality 1; door portals on, walked through too)
+[22:02:26.903] [info] [t2436] hud: names on, radar on, charting on
+[22:02:26.903] [info] [t2436] emotes: keys wave=F5, point=F6, come=F7, stop=F8, yes=F3, no=F4
+[22:02:26.903] [info] [t2436] net: same connection settings; session kept
+[22:02:26.903] [info] [t2436] net: game keeps running when unfocused
+[22:02:26.903] [info] [t2436] menu: confirmed (mode host, character mackenzie_indoor, voice male, code set); the lobby next
+[22:02:26.904] [info] [t2436] menu: lobby open (hosting; NEW GAME)
+[22:02:28.062] [info] [t2436] menu: START (nobody else in yet); on to TLD's NEW GAME
+[22:02:28.062] [info] [t2436] avatar: character preview closed
+[22:02:33.918] [info] [t2436] scene: 'MainMenu' -> ''
+[22:02:33.918] [info] [t2436] scene change 'MainMenu' -> '': reporting 'loading' until it's in (level clock 17.81 s)
+[22:02:36.905] [info] [t2436] menu: Male / Female answered by the setup's VOICE (MĘSKI)
+[22:02:42.616] [info] [t2436] net: game keeps running when unfocused
+[22:02:43.854] [info] [t2436] scene: '' -> 'MountainTownRegion'
+[22:02:43.854] [info] [t2436] scene change '' -> 'MountainTownRegion': reporting 'loading' until it's in (level clock 0.00 s)
+[22:02:43.855] [info] [t2436] world: 10 weather sets here: Blizzard_MountainTown (Blizzard), Clear_MountainTown (Clear), Cloudy_MountainTown (Cloudy), DenseFog_MountainTown (DenseFog), HeavySnow_MountainTown (HeavySnow), LightFog_MountainTown (LightFog), LightSnow_MountainTown (LightSnow), PartlyCloudy_MountainTown (PartlyCloudy), ClearAurora (ClearAurora), ElectrostaticFog (ElectrostaticFog)
+[22:02:43.855] [info] [t2436] world: sharing weather set 'Clear_MountainTown' (Clear, 0% through; state 70 chars)
+[22:02:43.856] [info] [t2436] wildlife: the host spawns in 'MountainTownRegion' (nothing shared there yet: its own animals are shared)
+[22:02:43.856] [info] [t2436] wildlife: ownership on in 'MountainTownRegion' (we are the arbiter)
+[22:02:43.856] [info] [t2436] wildlife: we spawn in 'MountainTownRegion' and nothing is shared there yet: our 0 animal(s) are shared from now
+[22:02:43.857] [info] [t2436] wildlife: the host's spawn regions in 'MountainTownRegion' (84) kept for whoever spawns there next
+[22:02:43.857] [info] [t2436] keep: nothing kept with this game (sandbox29:29:-796325046)
+[22:02:43.857] [info] [t2436] ambient: no light data for MountainTownRegion; TLD's own lighting
+[22:02:43.864] [info] [t2436] trees: this save's trees carry snow 0.0
+[22:02:43.864] [info] [t2436] interiors: layers 26 / 25 / 16
+[22:02:43.865] [info] [t2436] notice: Saves backed up
+[22:02:43.866] [info] [t2436] frame: 1533 ms since the last frame (the game itself 1526 ms, co-op 6 ms: dynamic_trees::on_frame 6 ms) [slow frames so far: 5]
+[22:02:43.891] [info] [t2436] hud: scene MountainTownRegion is region MountainTownRegion on TLD's map
+[22:02:43.893] [info] [t2436] hud: made our widgets' root under TLD's HUD (names on, radar on, charting on)
+[22:02:43.893] [info] [t21468] backup: the saves (15.6 MB) copied to X:\Apps\Steam\steamapps\common\TheLongDark\TLDCoop\backups\2026-11-06_22-02-43; 5 kept, 1 old one(s) removed
+[22:02:44.021] [info] [t2436] telemetry: pos=(2009.20, 379.92, 1441.17) yaw=2.0 pitch=0.0 body=2.0 | day 1 15:35 (t=0.6500) | Clear(4) 0.0C wind 0.0mph outdoors | 122 fps
+[22:02:44.866] [info] [t2436] trees: a tree material shows 'TRN_TreeBarkPine_Snow_A' (material alive; ours #-1, snow 0.0, outdoors)
+[22:02:44.999] [info] [t2436] trees: 186 tree materials found (186 in all)
+[22:02:45.000] [info] [t2436] trees: snow 0.0 (state 0): 186 materials changed
+[22:02:46.013] [info] [t2436] telemetry: pos=(2009.20, 379.92, 1441.17) yaw=2.0 pitch=0.0 body=2.0 | day 1 15:35 (t=0.6500) | Clear(4) 0.0C wind 0.0mph outdoors | 548 fps
+[22:02:48.012] [info] [t2436] telemetry: pos=(2009.20, 379.92, 1441.17) yaw=2.0 pitch=0.0 body=2.0 | day 1 15:35 (t=0.6500) | Clear(4) 0.0C wind 0.0mph outdoors | 620 fps
+[22:02:48.548] [info] [t2436] hud: charted (732, 1282) in MountainTownRegion, 150 m around: 1 spots on our map
+[22:02:48.836] [info] [t2436] scene 'MountainTownRegion': player placed at (731.6, 203.1, 1282.1) (level clock 0.10 s)
+[22:02:48.836] [info] [t2436] frame: 461 ms since the last frame (the game itself 461 ms, co-op 0 ms) [slow frames so far: 6]
+[22:02:48.866] [info] [t2436] world: sharing weather set 'LightSnow_MountainTown' (LightSnow, 0% through; state 115 chars)
+[22:02:49.203] [info] [t2436] wildlife: 1 of our animal(s) shared from now (we spawn in 'MountainTownRegion')
+[22:02:49.203] [info] [t2436] wildlife: #19603264 (wolf) shared by the host, its owner
+[22:02:49.402] [info] [t2436] wildlife: 1 of our animal(s) shared from now (we spawn in 'MountainTownRegion')
+[22:02:49.402] [info] [t2436] wildlife: #19603265 (wolf) shared by the host, its owner
+[22:02:49.452] [info] [t2436] wildlife: the host spawns in 'MountainTownRegion'
+[22:02:49.506] [info] [t2436] wildlife: 1 of our animal(s) shared from now (we spawn in 'MountainTownRegion')
+[22:02:49.506] [info] [t2436] wildlife: #19603266 (wolf) shared by the host, its owner
+[22:02:50.016] [info] [t2436] telemetry: pos=(731.64, 202.56, 1282.12) yaw=357.2 pitch=0.0 body=357.2 | day 1 11:05 (t=0.4620) | LightSnow(1) -17.6C wind 4.6mph outdoors | 200 fps
+[22:02:50.747] [info] [t2436] scene 'MountainTownRegion' is in after 6892 ms: player at (731.6, 202.6, 1282.1), placed 1 time(s), level clock 2.01 s
+[22:02:50.788] [info] [t2436] items: TLD's save leaves out gear whose parent has a RadialObjectSpawner (GearManager.Serialize: 81217 chars of loose gear here, 16.6 ms)
+[22:02:50.791] [info] [t2436] items: GEAR_VisorNoteMTKey1 (91facd9e) at (964.1, 305.2, 1238.1) is one of a kind: each player has their own
+[22:02:50.791] [info] [t2436] items: GEAR_InsulatedFlask_F (bb6761e1) at (1985.0, 441.5, 1476.7) is one of a kind: each player has their own
+[22:02:50.791] [info] [t2436] items: GEAR_VisorNoteMT1 (d303b83a) at (964.0, 305.2, 1238.2) is one of a kind: each player has their own
+[22:02:50.791] [info] [t2436] items: GEAR_MountainTownFarmKey (6094a10f) at (584.1, 221.0, 1554.7) is one of a kind: each player has their own
+[22:02:50.791] [info] [t2436] items: 167 loose items in MountainTownRegion (158 given an id now, 0 without one), scan 3.1 ms
+[22:02:50.814] [info] [t2436] objects: 0 thing(s) to repair in MountainTownRegion (0 repaired)
+[22:02:50.843] [info] [t2436] containers: read 114 container(s) of MountainTownRegion (kept for the others while we're elsewhere)
+[22:02:51.854] [info] [t2436] hud: made the radar (TLD's map in a round mask)
+[22:02:51.854] [info] [t2436] hud: radar: the region map's centre in the map's space (0.0, -0.0), scale 1.000 x 1.000 (its local position said (0.0, -0.0), scale 1.000 x 1.000; pivot 0.50, 0.50)
+[22:02:51.871] [info] [t2436] hud: radar: copied TLD's MountainTownRegion map (650x650 at 0,-0, scene radius 1650 m)
+[22:02:51.871] [info] [t2436] hud: radar shows paper (no map texture) (region MountainTownRegion)
+[22:02:51.905] [info] [t2436] hud: radar shows the map (region MountainTownRegion)
+[22:02:51.998] [info] [t2436] wildlife: saved with our game: 3 animal(s) of the registry, the spawn regions of 1 scene(s)
+[22:02:51.999] [info] [t2436] keep: saved with our game: 119 change(s) kept for scenes we weren't in (sandbox29_29_-796325046.bin)
+[22:02:52.137] [info] [t2436] telemetry: pos=(731.64, 202.56, 1282.12) yaw=357.2 pitch=0.0 body=357.2 | day 1 11:05 (t=0.4622) | LightSnow(1) -17.6C wind 4.6mph outdoors | 159 fps
+[22:02:54.137] [info] [t2436] telemetry: pos=(728.53, 202.70, 1285.41) yaw=313.6 pitch=5.4 body=313.6 | day 1 11:06 (t=0.4625) | LightSnow(1) -17.6C wind 4.6mph outdoors | 176 fps
+[22:02:56.139] [info] [t2436] telemetry: pos=(717.48, 204.04, 1295.70) yaw=307.8 pitch=2.8 body=307.8 | day 1 11:06 (t=0.4628) | LightSnow(1) -17.6C wind 4.7mph outdoors | 187 fps
+[22:02:58.138] [info] [t2436] telemetry: pos=(702.50, 205.71, 1304.46) yaw=294.6 pitch=1.0 body=294.6 | day 1 11:06 (t=0.4631) | LightSnow(1) -17.6C wind 4.7mph outdoors | 187 fps
+[22:02:59.898] [info] [t2436] interiors: the game's save 'sandbox29' completed: 4
+[22:03:00.141] [info] [t2436] telemetry: pos=(700.84, 205.87, 1305.20) yaw=290.0 pitch=0.6 body=290.0 | day 1 11:07 (t=0.4634) | LightSnow(1) -17.5C wind 4.7mph outdoors | 171 fps
+[22:03:02.138] [info] [t2436] telemetry: pos=(700.84, 205.87, 1305.20) yaw=290.0 pitch=0.6 body=290.0 | day 1 11:07 (t=0.4637) | LightSnow(1) -17.5C wind 4.7mph outdoors | 192 fps
+[22:03:02.734] [info] [t2436] save: 'ZAPISZ GRĘ' added to ESC's menu (row 4)
+[22:03:04.140] [info] [t2436] telemetry: pos=(700.84, 205.87, 1305.20) yaw=287.6 pitch=0.6 body=287.6 | day 1 11:07 (t=0.4637) | LightSnow(1) -17.5C wind 4.7mph outdoors | 230 fps
+[22:03:05.254] [WARN] [t2436] UnityEngine.Camera.get_fieldOfView threw System.NullReferenceException (x1)
+[22:03:05.258] [info] [t2436] activity: 0 -> 8
+[22:03:05.258] [info] [t2436] wildlife: #19603264 (wolf) frozen in 'MountainTownRegion' at (614, 209, 1238), hp 100: nobody is there
+[22:03:05.258] [info] [t2436] wildlife: #19603265 (wolf) frozen in 'MountainTownRegion' at (811, 225, 1319), hp 100: nobody is there
+[22:03:05.258] [info] [t2436] wildlife: #19603266 (wolf) frozen in 'MountainTownRegion' at (553, 241, 1396), hp 100: nobody is there
+[22:03:05.258] [info] [t2436] items: left MountainTownRegion
+[22:03:05.259] [info] [t2436] frame: 444 ms since the last frame (the game itself 444 ms, co-op 0 ms) [slow frames so far: 7]
+[22:03:05.305] [WARN] [t2436] UnityEngine.Camera.get_fieldOfView threw System.NullReferenceException (x10)
+[22:03:05.627] [info] [t2436] net: game keeps running when unfocused
+[22:03:05.998] [info] [t2436] scene: 'MountainTownRegion' -> 'MainMenu'
+[22:03:05.998] [info] [t2436] scene change 'MountainTownRegion' -> 'MainMenu': reporting 'loading' until it's in (level clock 0.00 s)
+[22:03:05.998] [info] [t2436] wildlife: main menu: the registry (3) and the spawn regions kept (1 scene(s)) are put away
+[22:03:05.998] [info] [t2436] wildlife: ownership: left 'MountainTownRegion' (not in the game): 0 copies gone, 3 of ours no longer shared
+[22:03:05.998] [info] [t2436] containers: back at the main menu; forgetting contents kept for 1 scene(s)
+[22:03:06.287] [info] [t2436] world: our scene is loading; the others keep our last world state
+[22:03:06.297] [info] [t2436] wildlife: TLD's own spawning is off here (another game spawns in this scene)
+[22:03:08.385] [info] [t2436] net: stopped
+[22:03:08.385] [info] [t2436] net: off (back at the Survival menu)
+[22:03:08.391] [info] [t2436] wildlife: ownership off
+[22:03:08.391] [info] [t2436] containers: not connected; nothing to share
+[22:03:11.146] [info] [t2436] menu: removed 62 game-logic components from the cloned screen
+[22:03:11.149] [info] [t2436] menu: SOLO / CO-OP screen opened (choices drawn 133x54 units)
+[22:03:11.978] [info] [t2436] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=mackenzie_indoor hud names=1 radar=1 chart=1
+[22:03:11.987] [info] [t2436] settings saved: mode=host transport=steam code=(set) join_code=(none) name=Shatsca body=mackenzie_indoor
+[22:03:11.987] [info] [t2436] ambient: on (intensity 1.10 range 1.00 night 1 ambience 0.80 fill 0.70/0.50)
+[22:03:11.987] [info] [t2436] trees: on
+[22:03:11.987] [info] [t2436] interiors: rooms lit as the game lights its interiors ([interiors] indoor_light=0)
+[22:03:11.987] [info] [t2436] interiors: Seamless Interiors off in coop.ini (old saves' interiors imported; buildings beyond SI's configs found; chimney smoke and window glow on; window views on, quality 1; door portals on, walked through too)
+[22:03:11.987] [info] [t2436] hud: names on, radar on, charting on
+[22:03:11.987] [info] [t2436] emotes: keys wave=F5, point=F6, come=F7, stop=F8, yes=F3, no=F4
+[22:03:11.987] [info] [t2436] net: steam: waiting for Steam to start
+[22:03:11.987] [info] [t2436] net: hosting as 'Shatsca' over steam (game 2.60 189457 S): waiting for Steam to start
+[22:03:11.987] [info] [t2436] net: game keeps running when unfocused
+[22:03:11.987] [info] [t2436] menu: CO-OP picked; opening the steam lobby (code set)
+[22:03:11.987] [info] [t4136] net: steam: send rate 512 KB/s - 4 MB/s, send buffer 4 MB
+[22:03:11.987] [info] [t4136] net: steam: creating a Steam lobby for code W5LYAE
+[22:03:11.988] [info] [t2436] menu: removed 61 game-logic components from the cloned screen
+[22:03:11.992] [info] [t2436] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=mackenzie_indoor hud names=1 radar=1 chart=1
+[22:03:11.993] [info] [t2436] menu: row colours: selected white, others 0.48 0.48 0.48
+[22:03:11.993] [info] [t2436] menu: the code's boxes made (6 of 6, copy / paste yes)
+[22:03:11.995] [info] [t2436] avatar: character preview stage ready (layer 31)
+[22:03:12.018] [info] [t2436] avatar: preview shows 'mackenzie_indoor'
+[22:03:12.018] [info] [t2436] menu: the preview shows mackenzie_indoor
+[22:03:12.018] [info] [t2436] menu: co-op setup opened for RESUME (mode host, character mackenzie_indoor, 12 arrows, confirm yes)
+[22:03:12.026] [info] [t2436] wildlife: ownership on (each animal is run by one game, the host decides which)
+[22:03:12.124] [info] [t2436] frames: 258 fps on average this minute (3.9 ms a frame, the worst 1533 ms); co-op 0.31 ms a frame (8%): coop_menu::on_frame 0.15, dynamic_trees::on_frame 0.05, wildlife_sync::on_frame 0.02, house_lights::on_frame 0.02, push_local_state 0.01
+[22:03:12.172] [info] [t2436] interiors: sky's light 0.02 0.02 0.02 (probe 1.00) from the outdoors; player outside
+[22:03:12.248] [info] [t4136] net: steam: hosting; your code is W5LYAE (checking it's findable on Steam)
+[22:03:12.500] [info] [t4136] net: steam: self-check 1: Steam returned 0 lobby(ies) for W5LYAE
+[22:03:13.000] [info] [t2436] menu: the MODS page
+[22:03:14.751] [info] [t4136] net: steam: self-check 2: Steam returned 1 lobby(ies) for W5LYAE, including ours
+[22:03:14.751] [info] [t4136] net: steam: hosting; your code is W5LYAE (verified: findable on Steam)
+[22:03:16.321] [info] [t2436] menu: the preview shows mackenzie_indoor
+[22:03:18.086] [info] [t2436] settings saved: mode=host transport=steam code=(set) join_code=(none) name=Shatsca body=mackenzie_indoor
+[22:03:18.086] [info] [t2436] ambient: on (intensity 1.10 range 1.00 night 1 ambience 0.80 fill 0.70/0.50)
+[22:03:18.086] [info] [t2436] trees: on
+[22:03:18.086] [info] [t2436] interiors: rooms lit as the game lights its interiors ([interiors] indoor_light=0)
+[22:03:18.086] [info] [t2436] interiors: Seamless Interiors off in coop.ini (old saves' interiors imported; buildings beyond SI's configs found; chimney smoke and window glow on; window views on, quality 1; door portals on, walked through too)
+[22:03:18.086] [info] [t2436] hud: names on, radar on, charting on
+[22:03:18.086] [info] [t2436] emotes: keys wave=F5, point=F6, come=F7, stop=F8, yes=F3, no=F4
+[22:03:18.086] [info] [t2436] net: same connection settings; session kept
+[22:03:18.086] [info] [t2436] net: game keeps running when unfocused
+[22:03:18.086] [info] [t2436] menu: confirmed (mode host, character mackenzie_indoor, voice save's, code set); the lobby next
+[22:03:18.087] [info] [t2436] menu: lobby open (hosting; RESUME)
+[22:03:18.974] [info] [t2436] menu: START (nobody else in yet); on to TLD's RESUME
+[22:03:18.974] [info] [t2436] avatar: character preview closed
+[22:03:20.088] [info] [t2436] net: game keeps running when unfocused
+[22:03:20.678] [info] [t2436] food tweaker: GEAR_CoffeeCup now 5 calories
+[22:03:21.104] [info] [t2436] food tweaker: GEAR_CandyBar now 585 calories
+[22:03:21.193] [info] [t2436] food tweaker: GEAR_SodaGrape now 170 calories
+[22:03:21.194] [info] [t2436] food tweaker: GEAR_SodaGrape now 170 calories
+[22:03:21.196] [info] [t2436] food tweaker: GEAR_PinnacleCanPeaches now 245 calories
+[22:03:21.350] [info] [t2436] scene: 'MainMenu' -> 'MountainTownRegion'
+[22:03:21.350] [info] [t2436] scene change 'MainMenu' -> 'MountainTownRegion': reporting 'loading' until it's in (level clock 0.01 s)
+[22:03:21.350] [info] [t2436] wildlife: the host spawns in 'MountainTownRegion' (nothing shared there yet: its own animals are shared)
+[22:03:21.350] [info] [t2436] wildlife: ownership on in 'MountainTownRegion' (we are the arbiter)
+[22:03:21.350] [info] [t2436] wildlife: we spawn in 'MountainTownRegion' and nothing is shared there yet: our 0 animal(s) are shared from now
+[22:03:21.351] [info] [t2436] keep: loaded 119 change(s) kept with this game for scenes we weren't in (sandbox29_29_-796325046.bin)
+[22:03:21.351] [info] [t2436] ambient: no light data for MountainTownRegion; TLD's own lighting
+[22:03:21.353] [info] [t2436] notice: Saves backed up
+[22:03:21.353] [info] [t2436] frame: 1532 ms since the last frame (the game itself 1532 ms, co-op 0 ms) [slow frames so far: 9]
+[22:03:21.353] [info] [t2436] telemetry: pos=(2009.20, 379.92, 1441.17) yaw=2.0 pitch=0.0 body=214.0 | day 1 11:05 (t=0.4622) | LightSnow(1) 0.0C wind 4.6mph outdoors | 165 fps
+[22:03:21.396] [info] [t11772] backup: the saves (15.9 MB) copied to X:\Apps\Steam\steamapps\common\TheLongDark\TLDCoop\backups\2026-11-06_22-03-21; 5 kept, 1 old one(s) removed
+[22:03:21.656] [info] [t2436] scene 'MountainTownRegion': player placed at (731.6, 202.6, 1282.1) (level clock 0.01 s)
+[22:03:21.656] [info] [t2436] wildlife: #19603264 owner nobody -> the host (its owner left the scene)
+[22:03:21.854] [info] [t2436] wildlife: we run #19603264 now (wolf, Wander, hp 100; one made for it)
+[22:03:21.854] [info] [t2436] wildlife: #19603265 owner nobody -> the host (its owner left the scene)
+[22:03:21.856] [info] [t2436] wildlife: we run #19603265 now (wolf, Wander, hp 100; one made for it)
+[22:03:21.856] [info] [t2436] wildlife: #19603266 owner nobody -> the host (its owner left the scene)
+[22:03:21.857] [info] [t2436] wildlife: we run #19603266 now (wolf, Wander, hp 100; one made for it)
+[22:03:21.857] [info] [t2436] wildlife: the host spawns in 'MountainTownRegion'
+[22:03:21.858] [info] [t2436] frame: 505 ms since the last frame (the game itself 304 ms, co-op 201 ms: wildlife_sync::on_frame 201 ms) [slow frames so far: 10]
+[22:03:21.926] [info] [t2436] hud: radar: the region map's centre in the map's space (0.0, -0.0), scale 1.000 x 1.000 (its local position said (0.0, -0.0), scale 1.000 x 1.000; pivot 0.50, 0.50)
+[22:03:21.934] [info] [t2436] hud: radar: copied TLD's MountainTownRegion map (650x650 at 0,-0, scene radius 1650 m)
+[22:03:21.934] [info] [t2436] hud: radar shows paper (no map texture) (region MountainTownRegion)
+[22:03:21.944] [info] [t2436] hud: radar shows the map (region MountainTownRegion)
+[22:03:22.557] [info] [t2436] trees: 144 tree materials found (148 in all)
+[22:03:22.558] [info] [t2436] trees: snow 0.1 (state 0): 144 materials changed
+[22:03:23.341] [info] [t2436] telemetry: pos=(731.61, 202.20, 1285.14) yaw=334.0 pitch=-3.9 body=334.0 | day 1 11:05 (t=0.4624) | LightSnow(1) -17.6C wind 4.6mph outdoors | 110 fps
+[22:03:23.925] [info] [t2436] scene 'MountainTownRegion' is in after 2575 ms: player at (730.3, 201.9, 1287.6), placed 1 time(s), level clock 2.01 s
+[22:03:23.925] [info] [t2436] activity: 8 -> 0
+[22:03:23.925] [info] [t2436] items: GEAR_VisorNoteMT1 (d303b83a) at (964.0, 305.2, 1238.2) is one of a kind: each player has their own
+[22:03:23.925] [info] [t2436] items: GEAR_MountainTownFarmKey (6094a10f) at (584.1, 221.0, 1554.7) is one of a kind: each player has their own
+[22:03:23.925] [info] [t2436] items: GEAR_VisorNoteMTKey1 (91facd9e) at (964.1, 305.2, 1238.1) is one of a kind: each player has their own
+[22:03:23.926] [info] [t2436] items: GEAR_InsulatedFlask_F (bb6761e1) at (1985.0, 441.5, 1476.7) is one of a kind: each player has their own
+[22:03:23.926] [info] [t2436] items: 167 loose items in MountainTownRegion (0 given an id now, 0 without one), scan 0.8 ms
+[22:03:23.976] [info] [t2436] containers: read 114 container(s) of MountainTownRegion (kept for the others while we're elsewhere)
+[22:03:25.344] [info] [t2436] telemetry: pos=(725.99, 202.52, 1292.13) yaw=321.8 pitch=-6.9 body=321.8 | day 1 11:06 (t=0.4627) | LightSnow(1) -17.6C wind 4.6mph outdoors | 182 fps
+[22:03:27.342] [info] [t2436] telemetry: pos=(725.26, 202.52, 1293.05) yaw=313.4 pitch=-6.9 body=313.4 | day 1 11:06 (t=0.4630) | LightSnow(1) -17.6C wind 4.6mph outdoors | 175 fps
+[22:03:29.343] [info] [t2436] telemetry: pos=(725.26, 202.52, 1293.05) yaw=313.4 pitch=-6.9 body=313.4 | day 1 11:07 (t=0.4633) | LightSnow(1) -17.5C wind 4.6mph outdoors | 175 fps
+[22:03:31.345] [info] [t2436] telemetry: pos=(725.26, 202.52, 1293.05) yaw=313.4 pitch=-6.9 body=313.4 | day 1 11:07 (t=0.4636) | LightSnow(1) -17.5C wind 4.6mph outdoors | 176 fps
+[22:03:33.345] [info] [t2436] telemetry: pos=(725.26, 202.52, 1293.05) yaw=312.9 pitch=-7.5 body=312.9 | day 1 11:07 (t=0.4638) | LightSnow(1) -17.5C wind 4.6mph outdoors | 180 fps
+[22:03:35.343] [info] [t2436] telemetry: pos=(720.69, 202.63, 1299.49) yaw=12.7 pitch=2.0 body=12.7 | day 1 11:08 (t=0.4641) | LightSnow(1) -17.5C wind 4.6mph outdoors | 184 fps
+[22:03:37.341] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.3 pitch=-1.0 body=357.3 | day 1 11:08 (t=0.4644) | LightSnow(1) -17.5C wind 4.7mph outdoors | 176 fps
+[22:03:38.685] [info] [t2436] activity: 0 -> 6
+[22:03:39.436] [info] [t2436] activity: 6 -> 0
+[22:03:39.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.3 pitch=-1.0 body=357.3 | day 1 11:09 (t=0.4647) | LightSnow(1) -17.5C wind 4.6mph outdoors | 161 fps
+[22:03:41.435] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.5 pitch=-1.0 body=357.5 | day 1 11:09 (t=0.4650) | LightSnow(1) -17.5C wind 4.6mph outdoors | 190 fps
+[22:03:43.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.3 pitch=-1.1 body=357.3 | day 1 11:09 (t=0.4652) | LightSnow(1) -17.5C wind 4.6mph outdoors | 194 fps
+[22:03:44.860] [info] [t2436] trees: a tree material shows '-' (material alive; ours #1, snow 0.4, outdoors)
+[22:03:45.438] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.2 pitch=-1.2 body=357.2 | day 1 11:10 (t=0.4655) | LightSnow(1) -17.4C wind 4.6mph outdoors | 186 fps
+[22:03:47.438] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.1 pitch=-1.2 body=357.1 | day 1 11:10 (t=0.4658) | LightSnow(1) -17.4C wind 4.6mph outdoors | 190 fps
+[22:03:49.435] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.1 pitch=-1.3 body=357.1 | day 1 11:11 (t=0.4661) | LightSnow(1) -17.4C wind 4.6mph outdoors | 188 fps
+[22:03:51.439] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.0 pitch=-1.4 body=357.0 | day 1 11:11 (t=0.4663) | LightSnow(1) -17.4C wind 4.6mph outdoors | 188 fps
+[22:03:53.433] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.0 pitch=-1.5 body=357.0 | day 1 11:11 (t=0.4666) | LightSnow(1) -17.4C wind 4.6mph outdoors | 190 fps
+[22:03:55.435] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.0 pitch=-1.7 body=357.0 | day 1 11:12 (t=0.4669) | LightSnow(1) -17.3C wind 4.6mph outdoors | 190 fps
+[22:03:57.435] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.1 pitch=-1.8 body=357.1 | day 1 11:12 (t=0.4672) | LightSnow(1) -17.3C wind 4.7mph outdoors | 188 fps
+[22:03:59.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.1 pitch=-1.9 body=357.1 | day 1 11:13 (t=0.4675) | LightSnow(1) -17.3C wind 4.6mph outdoors | 188 fps
+[22:04:01.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.2 pitch=-2.0 body=357.2 | day 1 11:13 (t=0.4677) | LightSnow(1) -17.3C wind 4.7mph outdoors | 192 fps
+[22:04:03.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.4 pitch=-2.1 body=357.4 | day 1 11:13 (t=0.4680) | LightSnow(1) -17.3C wind 4.7mph outdoors | 190 fps
+[22:04:05.438] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.4 pitch=-2.1 body=357.4 | day 1 11:14 (t=0.4683) | LightSnow(1) -17.3C wind 4.6mph outdoors | 190 fps
+[22:04:07.433] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.4 pitch=-2.0 body=357.4 | day 1 11:14 (t=0.4686) | LightSnow(1) -17.3C wind 4.6mph outdoors | 192 fps
+[22:04:09.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.2 pitch=-1.8 body=357.2 | day 1 11:15 (t=0.4688) | LightSnow(1) -17.2C wind 4.6mph outdoors | 194 fps
+[22:04:11.433] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.1 pitch=-1.7 body=357.1 | day 1 11:15 (t=0.4691) | LightSnow(1) -17.2C wind 4.6mph outdoors | 190 fps
+[22:04:12.125] [info] [t2436] frames: 187 fps on average this minute (5.3 ms a frame, the worst 1532 ms); co-op 0.36 ms a frame (7%): coop_menu::on_frame 0.16, house_lights::on_frame 0.06, world_objects::on_frame 0.04, wildlife_sync::on_frame 0.03, world_items::on_frame 0.01
+[22:04:12.177] [info] [t2436] interiors: sky's light 0.39 0.41 0.42 (probe 1.00) from the outdoors; player outside
+[22:04:13.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.0 pitch=-1.4 body=357.0 | day 1 11:15 (t=0.4694) | LightSnow(1) -17.2C wind 4.6mph outdoors | 192 fps
+[22:04:15.439] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=356.9 pitch=-1.2 body=356.9 | day 1 11:16 (t=0.4697) | LightSnow(1) -17.2C wind 4.6mph outdoors | 194 fps
+[22:04:17.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=356.9 pitch=-1.0 body=356.9 | day 1 11:16 (t=0.4700) | LightSnow(1) -17.2C wind 4.6mph outdoors | 192 fps
+[22:04:19.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.0 pitch=-0.9 body=357.0 | day 1 11:17 (t=0.4702) | LightSnow(1) -17.1C wind 4.6mph outdoors | 192 fps
+[22:04:21.439] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.0 pitch=-0.9 body=357.0 | day 1 11:17 (t=0.4705) | LightSnow(1) -17.1C wind 4.6mph outdoors | 194 fps
+[22:04:23.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.2 pitch=-0.9 body=357.2 | day 1 11:17 (t=0.4708) | LightSnow(1) -17.1C wind 4.6mph outdoors | 192 fps
+[22:04:25.435] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.4 pitch=-1.0 body=357.4 | day 1 11:18 (t=0.4711) | LightSnow(1) -17.1C wind 4.6mph outdoors | 193 fps
+[22:04:27.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.7 pitch=-1.2 body=357.7 | day 1 11:18 (t=0.4713) | LightSnow(1) -17.1C wind 4.6mph outdoors | 195 fps
+[22:04:29.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.1 pitch=-1.4 body=358.1 | day 1 11:19 (t=0.4716) | LightSnow(1) -17.1C wind 4.6mph outdoors | 186 fps
+[22:04:31.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.3 pitch=-1.7 body=358.3 | day 1 11:19 (t=0.4719) | LightSnow(1) -17.1C wind 4.6mph outdoors | 186 fps
+[22:04:33.438] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.5 pitch=-1.8 body=358.5 | day 1 11:19 (t=0.4722) | LightSnow(1) -17.1C wind 4.6mph outdoors | 190 fps
+[22:04:35.438] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.6 pitch=-2.0 body=358.6 | day 1 11:20 (t=0.4725) | LightSnow(1) -17.0C wind 4.6mph outdoors | 188 fps
+[22:04:37.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.4 pitch=-2.1 body=358.4 | day 1 11:20 (t=0.4727) | LightSnow(1) -17.0C wind 4.6mph outdoors | 188 fps
+[22:04:39.435] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.2 pitch=-2.1 body=358.2 | day 1 11:21 (t=0.4730) | LightSnow(1) -17.0C wind 4.6mph outdoors | 190 fps
+[22:04:41.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.0 pitch=-2.0 body=358.0 | day 1 11:21 (t=0.4733) | LightSnow(1) -17.0C wind 4.6mph outdoors | 190 fps
+[22:04:43.439] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.8 pitch=-1.9 body=357.8 | day 1 11:21 (t=0.4736) | LightSnow(1) -17.0C wind 4.6mph outdoors | 190 fps
+[22:04:44.864] [info] [t2436] trees: a tree material shows '-' (material alive; ours #1, snow 1.0, outdoors)
+[22:04:45.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.8 body=357.6 | day 1 11:22 (t=0.4738) | LightSnow(1) -16.9C wind 4.6mph outdoors | 192 fps
+[22:04:47.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.4 pitch=-1.6 body=357.4 | day 1 11:22 (t=0.4741) | LightSnow(1) -16.9C wind 4.6mph outdoors | 184 fps
+[22:04:49.438] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.2 pitch=-1.3 body=357.2 | day 1 11:23 (t=0.4744) | LightSnow(1) -16.9C wind 4.6mph outdoors | 193 fps
+[22:04:51.435] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.1 pitch=-1.1 body=357.1 | day 1 11:23 (t=0.4747) | LightSnow(1) -16.9C wind 4.7mph outdoors | 194 fps
+[22:04:53.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.1 pitch=-0.8 body=357.1 | day 1 11:23 (t=0.4750) | LightSnow(1) -16.9C wind 4.6mph outdoors | 192 fps
+[22:04:55.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.3 pitch=-0.7 body=357.3 | day 1 11:24 (t=0.4752) | LightSnow(1) -16.9C wind 4.6mph outdoors | 196 fps
+[22:04:57.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.3 pitch=-0.6 body=357.3 | day 1 11:24 (t=0.4755) | LightSnow(1) -16.9C wind 4.6mph outdoors | 192 fps
+[22:04:59.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.2 pitch=-0.6 body=357.2 | day 1 11:25 (t=0.4758) | LightSnow(1) -16.8C wind 4.6mph outdoors | 190 fps
+[22:05:01.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.2 pitch=-0.7 body=357.2 | day 1 11:25 (t=0.4761) | LightSnow(1) -16.8C wind 4.6mph outdoors | 195 fps
+[22:05:03.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.2 pitch=-0.7 body=357.2 | day 1 11:25 (t=0.4763) | LightSnow(1) -16.8C wind 4.6mph outdoors | 193 fps
+[22:05:05.438] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.3 pitch=-0.7 body=357.3 | day 1 11:26 (t=0.4766) | LightSnow(1) -16.8C wind 4.8mph outdoors | 191 fps
+[22:05:07.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.4 pitch=-0.8 body=357.4 | day 1 11:26 (t=0.4769) | LightSnow(1) -16.8C wind 4.6mph outdoors | 195 fps
+[22:05:09.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.3 pitch=-1.0 body=357.3 | day 1 11:27 (t=0.4772) | LightSnow(1) -16.7C wind 4.6mph outdoors | 192 fps
+[22:05:11.435] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.3 pitch=-1.2 body=357.3 | day 1 11:27 (t=0.4775) | LightSnow(1) -16.7C wind 4.7mph outdoors | 194 fps
+[22:05:12.126] [info] [t2436] frames: 191 fps on average this minute (5.2 ms a frame, the worst 30 ms); co-op 0.37 ms a frame (7%): coop_menu::on_frame 0.16, house_lights::on_frame 0.07, world_objects::on_frame 0.04, wildlife_sync::on_frame 0.02, world_items::on_frame 0.01
+[22:05:12.178] [info] [t2436] interiors: sky's light 0.35 0.37 0.38 (probe 1.00) from the outdoors; player outside
+[22:05:13.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.3 pitch=-1.2 body=357.3 | day 1 11:27 (t=0.4777) | LightSnow(1) -16.7C wind 4.6mph outdoors | 172 fps
+[22:05:15.439] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.3 pitch=-1.2 body=357.3 | day 1 11:28 (t=0.4780) | LightSnow(1) -16.7C wind 4.6mph outdoors | 179 fps
+[22:05:17.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.3 pitch=-1.2 body=357.3 | day 1 11:28 (t=0.4783) | LightSnow(1) -16.7C wind 4.6mph outdoors | 182 fps
+[22:05:19.435] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.4 pitch=-1.3 body=357.4 | day 1 11:29 (t=0.4786) | LightSnow(1) -16.7C wind 4.7mph outdoors | 190 fps
+[22:05:19.903] [info] [t2436] chat: ENTER, but no chat: not connected (co-op off or the link is down)
+[22:05:21.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.5 pitch=-1.5 body=357.5 | day 1 11:29 (t=0.4788) | LightSnow(1) -16.7C wind 4.6mph outdoors | 185 fps
+[22:05:23.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.6 body=357.6 | day 1 11:29 (t=0.4791) | LightSnow(1) -16.7C wind 4.6mph outdoors | 192 fps
+[22:05:25.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.6 body=357.6 | day 1 11:30 (t=0.4794) | LightSnow(1) -16.6C wind 4.6mph outdoors | 190 fps
+[22:05:27.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.7 pitch=-1.6 body=357.7 | day 1 11:30 (t=0.4797) | LightSnow(1) -16.6C wind 4.6mph outdoors | 192 fps
+[22:05:29.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.5 body=357.6 | day 1 11:31 (t=0.4800) | LightSnow(1) -16.6C wind 4.6mph outdoors | 193 fps
+[22:05:31.435] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.4 pitch=-1.4 body=357.4 | day 1 11:31 (t=0.4802) | LightSnow(1) -16.6C wind 4.6mph outdoors | 192 fps
+[22:05:33.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.3 pitch=-1.1 body=357.3 | day 1 11:31 (t=0.4805) | LightSnow(1) -16.6C wind 4.7mph outdoors | 192 fps
+[22:05:35.435] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.2 pitch=-0.9 body=357.2 | day 1 11:32 (t=0.4808) | LightSnow(1) -16.5C wind 4.6mph outdoors | 194 fps
+[22:05:37.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.1 pitch=-0.8 body=357.1 | day 1 11:32 (t=0.4811) | LightSnow(1) -16.5C wind 4.6mph outdoors | 193 fps
+[22:05:39.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.1 pitch=-0.7 body=357.1 | day 1 11:33 (t=0.4813) | LightSnow(1) -16.5C wind 4.6mph outdoors | 192 fps
+[22:05:41.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.4 pitch=-0.8 body=357.4 | day 1 11:33 (t=0.4816) | LightSnow(1) -16.5C wind 4.6mph outdoors | 196 fps
+[22:05:43.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-0.8 body=357.6 | day 1 11:33 (t=0.4819) | LightSnow(1) -16.5C wind 4.6mph outdoors | 193 fps
+[22:05:44.869] [info] [t2436] trees: a tree material shows '-' (material alive; ours #1, snow 1.6, outdoors)
+[22:05:45.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.0 pitch=-0.9 body=358.0 | day 1 11:34 (t=0.4822) | LightSnow(1) -16.5C wind 4.6mph outdoors | 196 fps
+[22:05:47.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.4 pitch=-1.0 body=358.4 | day 1 11:34 (t=0.4825) | LightSnow(1) -16.5C wind 4.6mph outdoors | 191 fps
+[22:05:49.438] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.7 pitch=-1.1 body=358.7 | day 1 11:35 (t=0.4827) | LightSnow(1) -16.4C wind 4.7mph outdoors | 192 fps
+[22:05:51.433] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.9 pitch=-1.3 body=358.9 | day 1 11:35 (t=0.4830) | LightSnow(1) -16.4C wind 4.6mph outdoors | 194 fps
+[22:05:53.438] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.9 pitch=-1.4 body=358.9 | day 1 11:35 (t=0.4833) | LightSnow(1) -16.4C wind 4.6mph outdoors | 193 fps
+[22:05:55.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.8 pitch=-1.5 body=358.8 | day 1 11:36 (t=0.4836) | LightSnow(1) -16.4C wind 4.6mph outdoors | 192 fps
+[22:05:57.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.5 pitch=-1.5 body=358.5 | day 1 11:36 (t=0.4838) | LightSnow(1) -16.4C wind 4.7mph outdoors | 190 fps
+[22:05:59.438] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=358.2 pitch=-1.6 body=358.2 | day 1 11:37 (t=0.4841) | LightSnow(1) -16.3C wind 4.6mph outdoors | 188 fps
+[22:06:01.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.9 pitch=-1.6 body=357.9 | day 1 11:37 (t=0.4844) | LightSnow(1) -16.3C wind 4.6mph outdoors | 182 fps
+[22:06:03.439] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.7 pitch=-1.5 body=357.7 | day 1 11:37 (t=0.4847) | LightSnow(1) -16.3C wind 4.7mph outdoors | 190 fps
+[22:06:05.439] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.3 body=357.6 | day 1 11:38 (t=0.4850) | LightSnow(1) -16.3C wind 4.6mph outdoors | 176 fps
+[22:06:07.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.3 body=357.6 | day 1 11:38 (t=0.4852) | LightSnow(1) -16.3C wind 4.6mph outdoors | 170 fps
+[22:06:09.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.3 body=357.6 | day 1 11:39 (t=0.4855) | LightSnow(1) -16.3C wind 4.6mph outdoors | 172 fps
+[22:06:11.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.3 body=357.6 | day 1 11:39 (t=0.4858) | LightSnow(1) -16.3C wind 4.8mph outdoors | 181 fps
+[22:06:12.091] [info] [t2436] fuel: drained 0.177 l from the lamp into the pack's kerosene
+[22:06:12.129] [info] [t2436] frames: 188 fps on average this minute (5.3 ms a frame, the worst 30 ms); co-op 0.36 ms a frame (7%): coop_menu::on_frame 0.16, house_lights::on_frame 0.07, world_objects::on_frame 0.04, wildlife_sync::on_frame 0.02, world_items::on_frame 0.01
+[22:06:12.178] [info] [t2436] interiors: sky's light 0.35 0.37 0.38 (probe 1.00) from the outdoors; player outside
+[22:06:13.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.3 body=357.6 | day 1 11:39 (t=0.4861) | LightSnow(1) -16.3C wind 4.6mph outdoors | 183 fps
+[22:06:14.121] [info] [t2436] net: window lost focus; co-op keeps the game running
+[22:06:15.437] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.3 body=357.6 | day 1 11:40 (t=0.4863) | LightSnow(1) -16.2C wind 4.6mph outdoors | 174 fps
+[22:06:17.438] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.3 body=357.6 | day 1 11:40 (t=0.4866) | LightSnow(1) -16.2C wind 4.7mph outdoors | 168 fps
+[22:06:19.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.3 body=357.6 | day 1 11:41 (t=0.4869) | LightSnow(1) -16.2C wind 4.7mph outdoors | 184 fps
+[22:06:21.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.3 body=357.6 | day 1 11:41 (t=0.4872) | LightSnow(1) -16.2C wind 4.6mph outdoors | 187 fps
+[22:06:23.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.3 body=357.6 | day 1 11:41 (t=0.4875) | LightSnow(1) -16.2C wind 4.6mph outdoors | 186 fps
+[22:06:25.438] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.3 body=357.6 | day 1 11:42 (t=0.4877) | LightSnow(1) -16.1C wind 4.6mph outdoors | 186 fps
+[22:06:26.358] [info] [t2436] chat: ENTER, but no chat: not connected (co-op off or the link is down)
+[22:06:27.436] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.3 body=357.6 | day 1 11:42 (t=0.4880) | LightSnow(1) -16.1C wind 4.7mph outdoors | 188 fps
+[22:06:29.434] [info] [t2436] telemetry: pos=(718.67, 202.75, 1307.32) yaw=357.6 pitch=-1.2 body=357.6 | day 1 11:43 (t=0.4883) | LightSnow(1) -16.1C wind 4.6mph outdoors | 170 fps
+[22:06:31.456] [info] [t2436] telemetry: pos=(719.07, 202.73, 1308.34) yaw=14.0 pitch=4.9 body=14.0 | day 1 11:43 (t=0.4886) | LightSnow(1) -16.1C wind 4.6mph outdoors | 175 fps
+[22:06:33.450] [info] [t2436] telemetry: pos=(719.07, 202.73, 1308.34) yaw=14.0 pitch=4.9 body=14.0 | day 1 11:43 (t=0.4888) | LightSnow(1) -16.1C wind 4.6mph outdoors | 174 fps
+[22:06:35.452] [info] [t2436] telemetry: pos=(719.07, 202.73, 1308.34) yaw=14.0 pitch=4.9 body=14.0 | day 1 11:44 (t=0.4891) | LightSnow(1) -16.1C wind 4.6mph outdoors | 174 fps
+[22:06:37.455] [info] [t2436] telemetry: pos=(719.07, 202.73, 1308.34) yaw=14.0 pitch=4.9 body=14.0 | day 1 11:44 (t=0.4894) | LightSnow(1) -16.1C wind 4.6mph outdoors | 177 fps
+[22:06:39.453] [info] [t2436] telemetry: pos=(719.07, 202.73, 1308.34) yaw=14.0 pitch=4.9 body=14.0 | day 1 11:45 (t=0.4897) | LightSnow(1) -16.0C wind 4.6mph outdoors | 178 fps
+[22:06:41.453] [info] [t2436] telemetry: pos=(719.07, 202.73, 1308.34) yaw=355.6 pitch=-6.9 body=355.6 | day 1 11:45 (t=0.4900) | LightSnow(1) -16.0C wind 4.6mph outdoors | 182 fps
+[22:06:43.452] [info] [t2436] telemetry: pos=(717.21, 202.69, 1313.67) yaw=290.2 pitch=-4.1 body=290.2 | day 1 11:45 (t=0.4902) | LightSnow(1) -16.0C wind 4.7mph outdoors | 180 fps
+[22:06:44.873] [info] [t2436] trees: a tree material shows '-' (material alive; ours #1, snow 2.2, outdoors)
+[22:06:45.451] [info] [t2436] telemetry: pos=(714.62, 202.46, 1320.35) yaw=345.8 pitch=-41.9 body=345.8 | day 1 11:46 (t=0.4905) | LightSnow(1) -16.0C wind 4.6mph outdoors | 186 fps
+[22:06:47.450] [info] [t2436] telemetry: pos=(714.34, 202.31, 1321.73) yaw=348.1 pitch=-6.2 body=348.1 | day 1 11:46 (t=0.4908) | LightSnow(1) -16.0C wind 4.6mph outdoors | 194 fps
+[22:06:49.450] [info] [t2436] telemetry: pos=(714.33, 202.31, 1321.75) yaw=348.1 pitch=-6.2 body=348.1 | day 1 11:47 (t=0.4911) | LightSnow(1) -15.9C wind 4.6mph outdoors | 182 fps
+[22:06:51.452] [info] [t2436] telemetry: pos=(713.23, 202.43, 1323.79) yaw=62.0 pitch=2.0 body=62.0 | day 1 11:47 (t=0.4913) | LightSnow(1) -15.9C wind 4.6mph outdoors | 177 fps
+[22:06:53.454] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=104.0 pitch=-15.3 body=104.0 | day 1 11:47 (t=0.4916) | LightSnow(1) -15.9C wind 4.6mph outdoors | 178 fps
+[22:06:54.309] [info] [t2436] objects: we harvested OBJ_CatTailShrub (5af96665); told the other player
+[22:06:55.451] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=104.1 pitch=-15.4 body=104.1 | day 1 11:48 (t=0.4919) | LightSnow(1) -15.9C wind 4.7mph outdoors | 176 fps
+[22:06:57.453] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=23.8 pitch=-20.3 body=23.8 | day 1 11:48 (t=0.4922) | LightSnow(1) -15.9C wind 4.8mph outdoors | 164 fps
+[22:06:59.451] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=23.8 pitch=-20.3 body=23.8 | day 1 11:49 (t=0.4925) | LightSnow(1) -15.9C wind 4.6mph outdoors | 170 fps
+[22:07:01.451] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=23.8 pitch=-20.3 body=23.8 | day 1 11:49 (t=0.4927) | LightSnow(1) -15.9C wind 4.6mph outdoors | 174 fps
+[22:07:03.452] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=23.8 pitch=-20.3 body=23.8 | day 1 11:49 (t=0.4930) | LightSnow(1) -15.9C wind 4.6mph outdoors | 177 fps
+[22:07:05.451] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=321.6 pitch=-11.2 body=321.6 | day 1 11:50 (t=0.4933) | LightSnow(1) -15.8C wind 4.6mph outdoors | 179 fps
+[22:07:06.565] [info] [t2436] save: 'ZAPISZ GRĘ' added to ESC's menu (row 4)
+[22:07:07.451] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=319.5 pitch=-11.1 body=319.5 | day 1 11:50 (t=0.4934) | LightSnow(1) -15.8C wind 4.7mph outdoors | 206 fps
+[22:07:09.450] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=319.5 pitch=-11.1 body=319.5 | day 1 11:50 (t=0.4934) | LightSnow(1) -15.8C wind 4.7mph outdoors | 220 fps
+[22:07:11.317] [info] [t2436] save: 'ZAPISZ GRĘ' added to ESC's menu (row 4)
+[22:07:11.453] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=319.5 pitch=-11.1 body=319.5 | day 1 11:50 (t=0.4934) | LightSnow(1) -15.8C wind 4.7mph outdoors | 220 fps
+[22:07:12.133] [info] [t2436] frames: 183 fps on average this minute (5.5 ms a frame, the worst 33 ms); co-op 0.38 ms a frame (7%): coop_menu::on_frame 0.17, house_lights::on_frame 0.07, world_objects::on_frame 0.04, wildlife_sync::on_frame 0.02, world_items::on_frame 0.01
+[22:07:13.433] [info] [t2436] interiors: sky's light 0.35 0.37 0.38 (probe 1.00) from the outdoors; player outside
+[22:07:13.450] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=319.5 pitch=-11.2 body=319.5 | day 1 11:50 (t=0.4935) | LightSnow(1) -15.8C wind 4.7mph outdoors | 220 fps
+[22:07:15.451] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=319.5 pitch=-11.2 body=319.5 | day 1 11:50 (t=0.4936) | LightSnow(1) -15.8C wind 4.8mph outdoors | 222 fps
+[22:07:15.556] [info] [t2436] save: 'ZAPISZ GRĘ' chosen; the game saves as the menu closes
+[22:07:15.879] [info] [t2436] wildlife: saved with our game: 3 animal(s) of the registry, the spawn regions of 1 scene(s)
+[22:07:15.880] [info] [t2436] keep: saved with our game: 119 change(s) kept for scenes we weren't in (sandbox29_29_-796325046.bin)
+[22:07:15.939] [info] [t2436] save: the game saved (from ESC's menu)
+[22:07:17.453] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=319.2 pitch=-6.9 body=319.2 | day 1 11:51 (t=0.4938) | LightSnow(1) -15.8C wind 4.6mph outdoors | 177 fps
+[22:07:19.450] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=319.1 pitch=-6.9 body=319.1 | day 1 11:51 (t=0.4941) | LightSnow(1) -15.8C wind 4.7mph outdoors | 197 fps
+[22:07:21.452] [info] [t2436] telemetry: pos=(715.74, 202.02, 1324.00) yaw=319.1 pitch=-6.9 body=319.1 | day 1 11:51 (t=0.4941) | LightSnow(1) -15.8C wind 4.7mph outdoors | 229 fps
+[22:07:21.959] [info] [t2436] activity: 0 -> 8
+[22:07:21.960] [info] [t2436] wildlife: #19603264 (wolf) frozen in 'MountainTownRegion' at (614, 209, 1238), hp 100: nobody is there
+[22:07:21.960] [info] [t2436] wildlife: #19603265 (wolf) frozen in 'MountainTownRegion' at (811, 225, 1318), hp 100: nobody is there
+[22:07:21.960] [info] [t2436] wildlife: #19603266 (wolf) frozen in 'MountainTownRegion' at (549, 239, 1408), hp 100: nobody is there
+[22:07:21.960] [info] [t2436] items: left MountainTownRegion
+[22:07:22.322] [info] [t2436] net: game keeps running when unfocused
+[22:07:22.719] [info] [t2436] scene: 'MountainTownRegion' -> 'MainMenu'
+[22:07:22.719] [info] [t2436] scene change 'MountainTownRegion' -> 'MainMenu': reporting 'loading' until it's in (level clock 0.00 s)
+[22:07:22.719] [info] [t2436] wildlife: main menu: the registry (3) and the spawn regions kept (1 scene(s)) are put away
+[22:07:22.719] [info] [t2436] wildlife: ownership: left 'MountainTownRegion' (not in the game): 0 copies gone, 3 of ours no longer shared
+[22:07:22.720] [info] [t2436] containers: back at the main menu; forgetting contents kept for 1 scene(s)
+[22:07:22.721] [info] [t2436] frame: 654 ms since the last frame (the game itself 654 ms, co-op 0 ms) [slow frames so far: 11]
+[22:07:23.065] [info] [t2436] world: our scene is loading; the others keep our last world state
