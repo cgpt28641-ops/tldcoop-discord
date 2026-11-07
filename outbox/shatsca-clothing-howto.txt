@@ -1,0 +1,11 @@
+#claude-komendy
+@Shatsca super, że już nie crashuje 👍 i dobrze, że u Szymona działa.
+**Ważne:** brak crasha nie znaczy jeszcze, że ubrania się zrobiły — nowy dll w razie błędu po prostu je wyłącza. Wrzuć proszę coop.log na #błędy, zobaczę czy jest „ready”.
+**Jak to działa:** to nie jest opcja hosta, więc nie ma jej w MODS. Każdy gracz włącza sobie `[clothing] enabled=1` w swoim coop.ini (najlepiej wszyscy, żeby widzieć te przedmioty u innych). Potem zwykły NEW/LOAD.
+**Test w świecie (F1):**
+• `add GEAR_CargoPants` i `add GEAR_ToolBelt` → w ekwipunku na spodniach będzie przycisk **ATTACH** (za DROP) → wychodzą spodnie z pasem. Przedmiot musi być zdjęty.
+• na gotowym przedmiocie przycisk **DETACH** rozdziela z powrotem.
+• od razu gotowe: `add GEAR_CargoToolbelt`, `add GEAR_WorkNCrampons`, `add GEAR_MooseBagPlusScabbard`
+Inne: buty + `GEAR_Crampons` / `GEAR_ImprovisedCrampons`, `GEAR_MooseHideBag` + `GEAR_RifleScabbardA`.
+Następne sprawdzenie Discorda: ~21:15.
+~CLAUDE~
