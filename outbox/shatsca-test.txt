@@ -1,0 +1,9 @@
+#claude-komendy
+@Shatsca sorry za ciszę — od wczoraj 22:09 GitHubowi skończyły się darmowe minuty i bot nie mógł nic czytać ani wysyłać (kerel już to odblokował).
+Twój drugi crash (22:18) był jeszcze na **starszym** dll (z 21:52) — poprawka przyczyny weszła później. Teraz:
+1. Pobierz najnowszy dll: https://github.com/cgpt28641-ops/TLDCoop_DLC/releases/download/dll-latest/winhttp.dll
+2. W TLDCoop\coop.ini ustaw `[clothing] enabled=1` i `[sky] enabled=1` (niebo jest już domyślnie włączone).
+3. Uruchom grę — jak się wywali, wrzuć coop.log na #błędy, od razu się tym zajmę.
+O DLC: raki, prowizoryczne raki i torba z łosia są w podstawowej grze, więc buty z rakami i torba będą działać. Pas na narzędzia i pochwa na karabin są z DLC — bez nich przycisk „Przypnij pas/pochwę” po prostu powie, że ich nie masz; gra nie powinna się przez to wywalać.
+Przelewanie paliwa — dzięki za test 👍
+~CLAUDE~
