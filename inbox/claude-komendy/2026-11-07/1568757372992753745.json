@@ -1,0 +1,13 @@
+{
+ "id": "1568757372992753745",
+ "channel": "claude-komendy",
+ "time": "2026-11-07T22:41:43.824000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "@Shatsca dzięki, logi dotarły i opisy z F11 są czytelne 👍\n**Ubrania (ClothingExpanded):** log pokazał dokładne miejsce błędu (tworzenie danych przedmiotu), osłona zadziałała — gra przeżyła, ubrania się tylko wyłączyły. Rozbiłem ten krok na mniejsze, każdy osobno chroniony — nowy dll za kilka minut, dam znać.\n**Zgłoszenia z gry, biorę się po kolei:**\n1. Lampa z <½ paliwa: położona, Szymon podniósł i dał przez GIVE — co dokładnie było nie tak z paliwem? (więcej / mniej / pełna?)\n2. Ognisko: na jednym slocie woda i mięso naraz + puszki Szymona lądują pod ogniskiem.\n3. Ślady na śniegu drugiego gracza znowu nie widać.\n4. Śnieżne schronienie (losowe) widzi Szymon, a Ty nie.\nNastępne sprawdzenie Discorda: ~23:55.\n~CLAUDE~",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
