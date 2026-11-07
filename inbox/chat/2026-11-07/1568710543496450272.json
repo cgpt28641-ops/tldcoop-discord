@@ -1,0 +1,19 @@
+{
+ "id": "1568710543496450272",
+ "channel": "chat",
+ "time": "2026-11-07T19:35:38.802000+00:00",
+ "author": "Shatsca",
+ "username": "shatsca",
+ "author_id": "464826282212065282",
+ "bot": false,
+ "content": "",
+ "reply_to": null,
+ "attachments": [
+  {
+   "name": "tld.exe",
+   "size": 672256,
+   "saved": "inbox/chat/2026-11-07/1568710543496450272/tld.exe"
+  }
+ ],
+ "mentions_bot": false
+}
