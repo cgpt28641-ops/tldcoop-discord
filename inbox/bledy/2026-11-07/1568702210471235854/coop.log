@@ -1,0 +1,553 @@
+[20:00:45.185] [info] [t14916] TLDCoop loader Nov  7 2026 12:02:04, proxy winhttp (92 forwards)
+[20:00:45.185] [info] [t14916] game dir: X:\Apps\Steam\steamapps\common\TheLongDark
+[20:00:45.203] [info] [t14916] waiting for GameAssembly.dll
+[20:00:45.459] [info] [t14916] GameAssembly.dll loaded at 00007FFD6EBB0000
+[20:00:45.478] [info] [t14916] hooked il2cpp_init at 00007FFD6EF7B440
+[20:00:45.495] [info] [t14916] hooked il2cpp_init_utf16 at 00007FFD6EF7B470
+[20:00:45.700] [info] [t14916] il2cpp_init("IL2CPP Root Domain") returned 1
+[20:00:45.706] [info] [t14916] IL2CPP runtime ready; game version '2.60 189457 S'
+[20:00:45.706] [WARN] [t14916] untested game version (tested: '2.59 189140 S'); expect breakage until re-verified
+[20:00:45.711] [info] [t14916] type dump is current for this build, skipping
+[20:00:45.722] [WARN] [t14916] field IntestinalParasites.m_LocalizedDisplayName not found
+[20:00:45.722] [WARN] [t14916] field CabinFever.m_LocalizedDisplayName not found
+[20:00:45.722] [WARN] [t14916] field Hunger.m_LocalizedDisplayName not found
+[20:00:45.722] [WARN] [t14916] field Thirst.m_LocalizedDisplayName not found
+[20:00:45.722] [WARN] [t14916] field Fatigue.m_LocalizedDisplayName not found
+[20:00:45.722] [WARN] [t14916] field Freezing.m_LocalizedDisplayName not found
+[20:00:45.722] [info] [t14916] game state: 17 of 17 afflictions can be read (the others see them)
+[20:00:45.722] [info] [t14916] game state: ready
+[20:00:45.724] [info] [t14916] avatar: ready; story bodies supported
+[20:00:45.724] [info] [t14916] tracks: off (the others leave no footprints)
+[20:00:45.759] [info] [t14916] hook AuroraManager.UpdateAuroraValue: rva 0xc2d760
+[20:00:45.778] [info] [t14916] hooked AuroraManager.UpdateAuroraValue at 00007FFD6F7DD760
+[20:00:45.778] [info] [t14916] world sync: ready
+[20:00:45.779] [info] [t14916] wildlife: addressable animal prefabs: loaded on demand
+[20:00:45.786] [info] [t14916] wildlife: 50% more animals for each player beyond the first ([wildlife] per_player; the host's counts)
+[20:00:45.786] [info] [t14916] wildlife: ownership on ([wildlife] ownership=1; the host's counts)
+[20:00:45.786] [info] [t14916] hook SpawnRegion.Spawn: rva 0x61e830
+[20:00:45.804] [info] [t14916] hooked SpawnRegion.Spawn at 00007FFD6F1CE830
+[20:00:45.804] [info] [t14916] hook SpawnRegion.UpdateFromManager: rva 0x61be90
+[20:00:45.823] [info] [t14916] hooked SpawnRegion.UpdateFromManager at 00007FFD6F1CBE90
+[20:00:45.823] [info] [t14916] hook SpawnRegion.CalculateTargetPopulation: rva 0x61f960
+[20:00:45.840] [info] [t14916] hooked SpawnRegion.CalculateTargetPopulation at 00007FFD6F1CF960
+[20:00:45.840] [info] [t14916] hook SpawnRegion.GetCurrentActivePopulation: rva 0x61e170
+[20:00:45.859] [info] [t14916] hooked SpawnRegion.GetCurrentActivePopulation at 00007FFD6F1CE170
+[20:00:45.859] [info] [t14916] hook BaseAiManager.CanUpdateAI: rva 0xc34df0
+[20:00:45.876] [info] [t14916] hooked BaseAiManager.CanUpdateAI at 00007FFD6F7E4DF0
+[20:00:45.880] [info] [t14916] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=molly hud names=1 radar=1 chart=1
+[20:00:45.880] [info] [t14916] hook Panel_WeaponPicker.Enable: rva 0xbac4b0
+[20:00:45.898] [info] [t14916] hooked Panel_WeaponPicker.Enable at 00007FFD6F75C4B0
+[20:00:45.898] [info] [t14916] wildlife sync: ready
+[20:00:45.899] [info] [t14916] wildlife: struggle_pose ON (forward 0.00 m, side 0.00 m, turn 180)
+[20:00:45.899] [info] [t14916] hook BaseAi.Update: rva 0x5a9830
+[20:00:45.917] [info] [t14916] hooked BaseAi.Update at 00007FFD6F159830
+[20:00:45.917] [info] [t14916] hook BaseAi.LateUpdate: rva 0x5aa990
+[20:00:45.934] [info] [t14916] hooked BaseAi.LateUpdate at 00007FFD6F15A990
+[20:00:45.934] [info] [t14916] hook GameManager.GetPlayerObject: rva 0xc6f100
+[20:00:45.952] [info] [t14916] hooked GameManager.GetPlayerObject at 00007FFD6F81F100
+[20:00:45.952] [info] [t14916] hook GameManager.GetPlayerTransform: rva 0xc6f3c0
+[20:00:45.970] [info] [t14916] hooked GameManager.GetPlayerTransform at 00007FFD6F81F3C0
+[20:00:45.970] [info] [t14916] hook PlayerStruggle.Begin: rva 0xe3a7c0
+[20:00:45.988] [info] [t14916] hooked PlayerStruggle.Begin at 00007FFD6F9EA7C0
+[20:00:45.988] [info] [t14916] hook AiTarget.ApplyDamage: rva 0x5f0240
+[20:00:46.006] [info] [t14916] hooked AiTarget.ApplyDamage at 00007FFD6F1A0240
+[20:00:46.006] [info] [t14916] hook DamageEventTable.MaybeApplyAttack: rva 0x6038b0
+[20:00:46.024] [info] [t14916] hooked DamageEventTable.MaybeApplyAttack at 00007FFD6F1B38B0
+[20:00:46.024] [info] [t14916] hook AiTarget.GetEyePos: rva 0x5f0e00
+[20:00:46.041] [info] [t14916] hooked AiTarget.GetEyePos at 00007FFD6F1A0E00
+[20:00:46.041] [info] [t14916] hook AiTarget.HoldingLitTorch: rva 0x5f1910
+[20:00:46.059] [info] [t14916] hooked AiTarget.HoldingLitTorch at 00007FFD6F1A1910
+[20:00:46.059] [info] [t14916] hook AiTarget.HoldingLitFlare: rva 0x5f13d0
+[20:00:46.077] [info] [t14916] hooked AiTarget.HoldingLitFlare at 00007FFD6F1A13D0
+[20:00:46.077] [info] [t14916] hook AiTarget.HoldingRaisedSpear: rva 0x5f16a0
+[20:00:46.094] [info] [t14916] hooked AiTarget.HoldingRaisedSpear at 00007FFD6F1A16A0
+[20:00:46.094] [info] [t14916] hook BaseAi.ComputeDistanceForTarget: rva 0x5b5330
+[20:00:46.113] [info] [t14916] hooked BaseAi.ComputeDistanceForTarget at 00007FFD6F165330
+[20:00:46.113] [info] [t14916] hook BaseAi.CanSmellSource: rva 0x5b9500
+[20:00:46.131] [info] [t14916] hooked BaseAi.CanSmellSource at 00007FFD6F169500
+[20:00:46.131] [info] [t14916] wildlife targets: ready (animals can hunt the other player)
+[20:00:46.131] [info] [t14916] hook vp_Bullet.SpawnImpactEffects: rva 0x557520
+[20:00:46.150] [info] [t14916] hooked vp_Bullet.SpawnImpactEffects at 00007FFD6F107520
+[20:00:46.150] [info] [t14916] hook ArrowItem.InflictDamage: rva 0x823e20
+[20:00:46.168] [info] [t14916] hooked ArrowItem.InflictDamage at 00007FFD6F3D3E20
+[20:00:46.168] [info] [t14916] hook FlareGunRoundItem.InflictDamage: rva 0x84f5d0
+[20:00:46.187] [info] [t14916] hooked FlareGunRoundItem.InflictDamage at 00007FFD6F3FF5D0
+[20:00:46.187] [info] [t14916] hook BaseAi.MaybeFleeFromThrownItem: rva 0x5bf540
+[20:00:46.205] [info] [t14916] hooked BaseAi.MaybeFleeFromThrownItem at 00007FFD6F16F540
+[20:00:46.205] [info] [t14916] hook vp_Bullet.Start: rva 0x555730
+[20:00:46.223] [info] [t14916] hooked vp_Bullet.Start at 00007FFD6F105730
+[20:00:46.223] [info] [t14916] hook ArrowItem.Fire: rva 0x81d840
+[20:00:46.242] [info] [t14916] hooked ArrowItem.Fire at 00007FFD6F3CD840
+[20:00:46.242] [info] [t14916] hook FlareGunRoundItem.Fire: rva 0x84b160
+[20:00:46.260] [info] [t14916] hooked FlareGunRoundItem.Fire at 00007FFD6F3FB160
+[20:00:46.260] [info] [t14916] hook InputManager.GetAltFire: rva 0xca0940
+[20:00:46.278] [info] [t14916] hooked InputManager.GetAltFire at 00007FFD6F850940
+[20:00:46.278] [info] [t14916] hook InputManager.GetAltFirePressed: rva 0xca08a0
+[20:00:46.296] [info] [t14916] hooked InputManager.GetAltFirePressed at 00007FFD6F8508A0
+[20:00:46.296] [info] [t14916] hook InputManager.GetAltFireReleased: rva 0xca09e0
+[20:00:46.314] [info] [t14916] hooked InputManager.GetAltFireReleased at 00007FFD6F8509E0
+[20:00:46.314] [info] [t14916] hook InputManager.GetFirePressed: rva 0xca0670
+[20:00:46.332] [info] [t14916] hooked InputManager.GetFirePressed at 00007FFD6F850670
+[20:00:46.332] [info] [t14916] hook InputManager.GetFireReleased: rva 0xca07a0
+[20:00:46.349] [info] [t14916] hooked InputManager.GetFireReleased at 00007FFD6F8507A0
+[20:00:46.349] [info] [t14916] wildlife hits: ready (the other player's weapons reach the host's animals)
+[20:00:46.350] [info] [t14916] hook Panel_BodyHarvest.HarvestSuccessful: rva 0x9b8540
+[20:00:46.368] [info] [t14916] hooked Panel_BodyHarvest.HarvestSuccessful at 00007FFD6F568540
+[20:00:46.368] [info] [t14916] hook Panel_BodyHarvest.QuarterSuccessful: rva 0x9b82c0
+[20:00:46.385] [info] [t14916] hooked Panel_BodyHarvest.QuarterSuccessful at 00007FFD6F5682C0
+[20:00:46.385] [info] [t14916] wildlife carcasses: ready (kills and harvests are shared)
+[20:00:46.386] [info] [t14916] items: wetness and condition shared
+[20:00:46.386] [info] [t14916] hook SnareItem.DoRoll: rva 0x891540
+[20:00:46.404] [info] [t14916] hooked SnareItem.DoRoll at 00007FFD6F441540
+[20:00:46.404] [info] [t14916] hook CookingPotItem.PickUpCookedItem: rva 0x839350
+[20:00:46.422] [info] [t14916] hooked CookingPotItem.PickUpCookedItem at 00007FFD6F3E9350
+[20:00:46.422] [info] [t14916] hook CookingPotItem.StartCooking: rva 0x835ae0
+[20:00:46.440] [info] [t14916] hooked CookingPotItem.StartCooking at 00007FFD6F3E5AE0
+[20:00:46.440] [info] [t14916] hook CookingPotItem.StartBoilingWater: rva 0x836a40
+[20:00:46.457] [info] [t14916] hooked CookingPotItem.StartBoilingWater at 00007FFD6F3E6A40
+[20:00:46.457] [info] [t14916] hook CookingPotItem.StartMeltingSnow: rva 0x8368a0
+[20:00:46.475] [info] [t14916] hooked CookingPotItem.StartMeltingSnow at 00007FFD6F3E68A0
+[20:00:46.475] [info] [t14916] hook GameManager.LoadMainMenu: rva 0xc6dd40
+[20:00:46.493] [info] [t14916] hooked GameManager.LoadMainMenu at 00007FFD6F81DD40
+[20:00:46.493] [info] [t14916] hook GameManager.AsyncLoadMainMenu: rva 0xc81600
+[20:00:46.512] [info] [t14916] hooked GameManager.AsyncLoadMainMenu at 00007FFD6F831600
+[20:00:46.512] [info] [t14916] world items: ready (loose items are shared)
+[20:00:46.512] [info] [t14916] hook Container.AddGear: rva 0x9073a0
+[20:00:46.530] [info] [t14916] hooked Container.AddGear at 00007FFD6F4B73A0
+[20:00:46.530] [info] [t14916] hook Container.RemoveGear: rva 0x907900
+[20:00:46.547] [info] [t14916] hooked Container.RemoveGear at 00007FFD6F4B7900
+[20:00:46.547] [info] [t14916] hook Container.AddToExistingStackable: rva 0x90a590
+[20:00:46.564] [info] [t14916] hooked Container.AddToExistingStackable at 00007FFD6F4BA590
+[20:00:46.564] [info] [t14916] hook Panel_Container.Enable: rva 0x9e3620
+[20:00:46.582] [info] [t14916] hooked Panel_Container.Enable at 00007FFD6F593620
+[20:00:46.583] [info] [t14916] hook Container.PopulateWithRandomGear: rva 0x90c800
+[20:00:46.600] [info] [t14916] hooked Container.PopulateWithRandomGear at 00007FFD6F4BC800
+[20:00:46.600] [info] [t14916] containers: 50% more loot in containers for each player beyond the first ([loot] per_player, the host's)
+[20:00:46.600] [info] [t14916] hook GearItem.RollSpawnChance: rva 0x86f270
+[20:00:46.618] [info] [t14916] hooked GearItem.RollSpawnChance at 00007FFD6F41F270
+[20:00:46.618] [info] [t14916] items: 50% more loose items in buildings for each player beyond the first (the host's [loot] per_player)
+[20:00:46.618] [info] [t14916] hook Container.BeginContainerOpen: rva 0x9093b0
+[20:00:46.636] [info] [t14916] hooked Container.BeginContainerOpen at 00007FFD6F4B93B0
+[20:00:46.636] [info] [t14916] hook Container.ShowContainerContents: rva 0x908e40
+[20:00:46.654] [info] [t14916] hooked Container.ShowContainerContents at 00007FFD6F4B8E40
+[20:00:46.654] [info] [t14916] world containers: ready (container contents are shared)
+[20:00:46.661] [info] [t14916] objects: climbing ropes on anchors shared (put down, taken)
+[20:00:46.661] [info] [t14916] objects: interiors' doors and closets (OpenClose) shared open and shut
+[20:00:46.662] [info] [t14916] objects: repairs (RepairableInteractiveItem) shared
+[20:00:46.662] [info] [t14916] hook BreakDown.DoBreakDown: rva 0x8f7060
+[20:00:46.681] [info] [t14916] hooked BreakDown.DoBreakDown at 00007FFD6F4A7060
+[20:00:46.681] [info] [t14916] hook Harvestable.Harvest: rva 0x92a5b0
+[20:00:46.699] [info] [t14916] hooked Harvestable.Harvest at 00007FFD6F4DA5B0
+[20:00:46.699] [info] [t14916] hook DecorationItem.FinalizePlacementRecursive: rva 0x6d7af0
+[20:00:46.718] [info] [t14916] hooked DecorationItem.FinalizePlacementRecursive at 00007FFD6F287AF0
+[20:00:46.718] [info] [t14916] hook PlaceableManager.MoveToPlayer: rva 0x11e9110
+[20:00:46.738] [info] [t14916] hooked PlaceableManager.MoveToPlayer at 00007FFD6FD99110
+[20:00:46.738] [info] [t14916] hook Container.AddDecorationItem: rva 0x907d20
+[20:00:46.757] [info] [t14916] hooked Container.AddDecorationItem at 00007FFD6F4B7D20
+[20:00:46.757] [info] [t14916] hook DecorationItem.PerformInteraction: rva 0x6d9ca0
+[20:00:46.776] [info] [t14916] hooked DecorationItem.PerformInteraction at 00007FFD6F289CA0
+[20:00:46.776] [info] [t14916] world objects: ready (what's broken down or harvested is shared)
+[20:00:46.777] [info] [t14916] hook Fire.AddFuel: rva 0x7f2250
+[20:00:46.796] [info] [t14916] hooked Fire.AddFuel at 00007FFD6F3A2250
+[20:00:46.796] [info] [t14916] hook Fire.ReduceDurationByTODSeconds: rva 0x7f4800
+[20:00:46.814] [info] [t14916] hooked Fire.ReduceDurationByTODSeconds at 00007FFD6F3A4800
+[20:00:46.814] [info] [t14916] world fires: ready (fires are shared)
+[20:00:46.814] [info] [t14916] water: ready (toilets and other water sources are shared)
+[20:00:46.814] [info] [t14916] hook BloodTrail.LeaveBloodDrop: rva 0x77da40
+[20:00:46.832] [info] [t14916] hooked BloodTrail.LeaveBloodDrop at 00007FFD6F32DA40
+[20:00:46.832] [info] [t14916] hook BloodTrail.LeaveBloodStain: rva 0x77e0e0
+[20:00:46.850] [info] [t14916] hooked BloodTrail.LeaveBloodStain at 00007FFD6F32E0E0
+[20:00:46.850] [info] [t14916] hook BloodTrail.LeaveBloodCluster: rva 0x77f3c0
+[20:00:46.868] [info] [t14916] hooked BloodTrail.LeaveBloodCluster at 00007FFD6F32F3C0
+[20:00:46.868] [info] [t14916] blood: ready (a bleeding player's blood is seen by everyone)
+[20:00:46.868] [info] [t14916] backup: ready (the saves are copied before each co-op game)
+[20:00:46.868] [info] [t14916] hook DynamicDecalsManager.PlaceDownSprayPaintDecal: rva 0xc3bce0
+[20:00:46.886] [info] [t14916] hooked DynamicDecalsManager.PlaceDownSprayPaintDecal at 00007FFD6F7EBCE0
+[20:00:46.886] [info] [t14916] hook DynamicDecalsManager.RemoveDynamicDecal: rva 0xc3bdd0
+[20:00:46.904] [info] [t14916] hooked DynamicDecalsManager.RemoveDynamicDecal at 00007FFD6F7EBDD0
+[20:00:46.904] [info] [t14916] spray: ready (spray paint markings, and so the map's, are everyone's)
+[20:00:46.907] [info] [t14916] hook TodAmbientLight.SetAmbientLightValue: rva 0x74b030
+[20:00:46.926] [info] [t14916] hooked TodAmbientLight.SetAmbientLightValue at 00007FFD6F2FB030
+[20:00:46.926] [info] [t14916] hook InteriorLightingManager.Update: rva 0x7b5460
+[20:00:46.944] [info] [t14916] hooked InteriorLightingManager.Update at 00007FFD6F365460
+[20:00:46.944] [info] [t14916] hook InteriorLightingManager.UpdateLightShaft: rva 0x7b6be0
+[20:00:46.962] [info] [t14916] hooked InteriorLightingManager.UpdateLightShaft at 00007FFD6F366BE0
+[20:00:46.962] [info] [t14916] hook LightShaftGimble.UpdateLight: rva 0x7c2250
+[20:00:46.980] [info] [t14916] hooked LightShaftGimble.UpdateLight at 00007FFD6F372250
+[20:00:46.980] [info] [t14916] hook LightShaftTod.Update: rva 0x7c2c80
+[20:00:46.998] [info] [t14916] hooked LightShaftTod.Update at 00007FFD6F372C80
+[20:00:46.998] [info] [t14916] hook DarkLightingManager.UpdateConstantLights: rva 0x704590
+[20:00:47.016] [info] [t14916] hooked DarkLightingManager.UpdateConstantLights at 00007FFD6F2B4590
+[20:00:47.016] [info] [t14916] hook DarkLightingManager.UpdateNonTodLights: rva 0x7061a0
+[20:00:47.034] [info] [t14916] hooked DarkLightingManager.UpdateNonTodLights at 00007FFD6F2B61A0
+[20:00:47.034] [info] [t14916] hook DarkLightingManager.UpdateColouredLights: rva 0x704f90
+[20:00:47.052] [info] [t14916] hooked DarkLightingManager.UpdateColouredLights at 00007FFD6F2B4F90
+[20:00:47.052] [info] [t14916] ambient: Ambient Lights ready (92 interiors with light data)
+[20:00:47.054] [info] [t14916] hook GameManager.InstantiatePlayerObject: rva 0xc78fb0
+[20:00:47.072] [info] [t14916] hooked GameManager.InstantiatePlayerObject at 00007FFD6F828FB0
+[20:00:47.072] [info] [t14916] hook AuroraModularElectrolizer.Initialize: rva 0x1238920
+[20:00:47.090] [info] [t14916] hooked AuroraModularElectrolizer.Initialize at 00007FFD6FDE8920
+[20:00:47.090] [info] [t14916] hook AuroraManager.RegisterAuroraLightSimple: rva 0xc2b0b0
+[20:00:47.108] [info] [t14916] hooked AuroraManager.RegisterAuroraLightSimple at 00007FFD6F7DB0B0
+[20:00:47.108] [info] [t14916] hook AuroraManager.Update: rva 0xc2a200
+[20:00:47.125] [info] [t14916] hooked AuroraManager.Update at 00007FFD6F7DA200
+[20:00:47.125] [info] [t14916] hook PlayerManager.UpdateHUDText: rva 0xcf1280
+[20:00:47.143] [info] [t14916] hooked PlayerManager.UpdateHUDText at 00007FFD6F8A1280
+[20:00:47.143] [info] [t14916] hook PlayerManager.InteractiveObjectsProcessInteraction: rva 0xd06c60
+[20:00:47.161] [info] [t14916] hooked PlayerManager.InteractiveObjectsProcessInteraction at 00007FFD6F8B6C60
+[20:00:47.161] [info] [t14916] hook Weather.IsTooDarkForAction: rva 0x755840
+[20:00:47.180] [info] [t14916] hooked Weather.IsTooDarkForAction at 00007FFD6F305840
+[20:00:47.180] [info] [t14916] houselights: House Lights ready
+[20:00:47.180] [info] [t14916] hook GearItem.Awake (food tweaker): rva 0x858ac0
+[20:00:47.198] [info] [t14916] hooked GearItem.Awake (food tweaker) at 00007FFD6F408AC0
+[20:00:47.198] [info] [t14916] hook CookingPotItem.ModifiedCookTimeMinutes (food tweaker): rva 0x83d880
+[20:00:47.217] [info] [t14916] hooked CookingPotItem.ModifiedCookTimeMinutes (food tweaker) at 00007FFD6F3ED880
+[20:00:47.217] [info] [t14916] food tweaker: ready (off unless the host turns it on: MODS)
+[20:00:47.217] [info] [t14916] hook UniStormWeatherSystem.Init (night sky): rva 0xefae90
+[20:00:47.235] [info] [t14916] hooked UniStormWeatherSystem.Init (night sky) at 00007FFD6FAAAE90
+[20:00:47.235] [info] [t14916] night sky: ready (coop.ini [sky] enabled)
+[20:00:47.237] [info] [t14916] hook Panel_Inventory_Examine.RefreshMainWindow (fuel): rva 0xab9f40
+[20:00:47.255] [info] [t14916] hooked Panel_Inventory_Examine.RefreshMainWindow (fuel) at 00007FFD6F669F40
+[20:00:47.255] [info] [t14916] hook Panel_Inventory_Examine.OnSelectUnload (fuel): rva 0xabf7d0
+[20:00:47.274] [info] [t14916] hooked Panel_Inventory_Examine.OnSelectUnload (fuel) at 00007FFD6F66F7D0
+[20:00:47.274] [info] [t14916] hook Panel_Inventory_Examine.OnUnload (fuel): rva 0xabf830
+[20:00:47.292] [info] [t14916] hooked Panel_Inventory_Examine.OnUnload (fuel) at 00007FFD6F66F830
+[20:00:47.292] [info] [t14916] hook Panel_Inventory_Examine.SelectUnloadButton (fuel): rva 0xabb210
+[20:00:47.310] [info] [t14916] hooked Panel_Inventory_Examine.SelectUnloadButton (fuel) at 00007FFD6F66B210
+[20:00:47.310] [info] [t14916] fuel: ready (a lamp's examine screen: DRAIN FUEL)
+[20:00:47.314] [info] [t14916] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=molly hud names=1 radar=1 chart=1
+[20:00:47.337] [info] [t14916] hook ItemDescriptionPage.UpdateButtons (clothing): rva 0x6a8340
+[20:00:47.356] [info] [t14916] hooked ItemDescriptionPage.UpdateButtons (clothing) at 00007FFD6F258340
+[20:00:47.356] [info] [t14916] hook ItemDescriptionPage.OnEquip (clothing): rva 0x6a4780
+[20:00:47.375] [info] [t14916] hooked ItemDescriptionPage.OnEquip (clothing) at 00007FFD6F254780
+[20:00:47.375] [info] [t14916] clothing: ready (the pack in X:\Apps\Steam\steamapps\common\TheLongDark\TLDCoop\clothing; its catalog loads with the game)
+[20:00:47.375] [info] [t14916] hook GearItem.InstantiateGearItem(string) (automat): rva 0x873e80
+[20:00:47.393] [info] [t14916] hooked GearItem.InstantiateGearItem(string) (automat) at 00007FFD6F423E80
+[20:00:47.393] [info] [t14916] hook Localization.Get (automat): rva 0xe1a230
+[20:00:47.412] [info] [t14916] hooked Localization.Get (automat) at 00007FFD6F9CA230
+[20:00:47.412] [info] [t14916] hook GearItem.InstantiateGearItem(AssetReference) (automat): rva 0x873f20
+[20:00:47.430] [info] [t14916] hooked GearItem.InstantiateGearItem(AssetReference) (automat) at 00007FFD6F423F20
+[20:00:47.430] [info] [t14916] hook GearItem.InstantiateAndDeserializeGearItem(AssetReference, string) (automat): rva 0x874240
+[20:00:47.448] [info] [t14916] hooked GearItem.InstantiateAndDeserializeGearItem(AssetReference, string) (automat) at 00007FFD6F424240
+[20:00:47.448] [info] [t14916] hook GearItem.InstantiateAndDeserializeGearItem(AssetReference, proxy) (automat): rva 0x874340
+[20:00:47.466] [info] [t14916] hooked GearItem.InstantiateAndDeserializeGearItem(AssetReference, proxy) (automat) at 00007FFD6F424340
+[20:00:47.466] [info] [t14916] hook GearItem.InstantiateAndDeserializeGearItem(string, string) (automat): rva 0x873fc0
+[20:00:47.484] [info] [t14916] hooked GearItem.InstantiateAndDeserializeGearItem(string, string) (automat) at 00007FFD6F423FC0
+[20:00:47.485] [info] [t14916] hook GearItem.InstantiateAndDeserializeGearItem(string, proxy) (automat): rva 0x8740c0
+[20:00:47.503] [info] [t14916] hooked GearItem.InstantiateAndDeserializeGearItem(string, proxy) (automat) at 00007FFD6F4240C0
+[20:00:47.503] [info] [t14916] hook Panel_BreakDown.BreakDownFinished (automat): rva 0x9c2eb0
+[20:00:47.524] [info] [t14916] hooked Panel_BreakDown.BreakDownFinished (automat) at 00007FFD6F572EB0
+[20:00:47.524] [info] [t14916] hook Utils.GetInventoryIconTexture(data) (automat): rva 0xf2eb50
+[20:00:47.543] [info] [t14916] hooked Utils.GetInventoryIconTexture(data) (automat) at 00007FFD6FADEB50
+[20:00:47.543] [info] [t14916] hook Utils.GetInventoryIconTextureFromPrefabName (automat): rva 0xf2fcc0
+[20:00:47.561] [info] [t14916] hooked Utils.GetInventoryIconTextureFromPrefabName (automat) at 00007FFD6FADFCC0
+[20:00:47.561] [info] [t14916] hook Utils.GetGearCoverflowTexture (automat): rva 0xf2e6f0
+[20:00:47.578] [info] [t14916] hooked Utils.GetGearCoverflowTexture (automat) at 00007FFD6FADE6F0
+[20:00:47.579] [info] [t14916] hook Utils.GetGearCoverflowDamageTexture (automat): rva 0xf2e9f0
+[20:00:47.596] [info] [t14916] hooked Utils.GetGearCoverflowDamageTexture (automat) at 00007FFD6FADE9F0
+[20:00:47.596] [info] [t14916] hook BlueprintData.GetCraftingIcon (automat): rva 0x1251460
+[20:00:47.614] [info] [t14916] hooked BlueprintData.GetCraftingIcon (automat) at 00007FFD6FE01460
+[20:00:47.614] [info] [t14916] automat items: icons on (5 of 5 calls)
+[20:00:47.614] [info] [t14916] automat items: ready (3 items); boards from electronics: off (test=0)
+[20:00:47.614] [info] [t14916] automat: off (coop.ini [automat] test=0)
+[20:00:47.616] [info] [t14916] trees: Dynamic Trees ready
+[20:00:47.617] [WARN] [t14916] class UnityEngine.DynamicGI not found in UnityEngine.CoreModule.dll
+[20:00:47.617] [info] [t14916] interiors: DynamicGI.UpdateEnvironment isn't in this build (skipped)
+[20:00:47.617] [info] [t14916] interiors: scene roots read with Scene.GetRootGameObjectsInternal
+[20:00:47.619] [info] [t14916] hook LoadScene.Activate: rva 0xbbaec0
+[20:00:47.638] [info] [t14916] hooked LoadScene.Activate at 00007FFD6F76AEC0
+[20:00:47.638] [info] [t14916] hook GameManager.LoadSceneWithLoadingScreen: rva 0xc6c420
+[20:00:47.656] [info] [t14916] hooked GameManager.LoadSceneWithLoadingScreen at 00007FFD6F81C420
+[20:00:47.656] [info] [t14916] hook RandomSpawnObject.Start: rva 0x9473e0
+[20:00:47.674] [info] [t14916] hooked RandomSpawnObject.Start at 00007FFD6F4F73E0
+[20:00:47.674] [info] [t14916] hook PlaceableManager.Add: rva 0x11e6ce0
+[20:00:47.693] [info] [t14916] hooked PlaceableManager.Add at 00007FFD6FD96CE0
+[20:00:47.693] [info] [t14916] hook PlaceableManager.SerializeInventory: rva 0x11e8370
+[20:00:47.710] [info] [t14916] hooked PlaceableManager.SerializeInventory at 00007FFD6FD98370
+[20:00:47.710] [info] [t14916] hook PlaceableManager.SerializeScenePlacements: rva 0x11e7f70
+[20:00:47.728] [info] [t14916] hooked PlaceableManager.SerializeScenePlacements at 00007FFD6FD97F70
+[20:00:47.728] [info] [t14916] hook GearManager.Serialize: rva 0xc846d0
+[20:00:47.745] [info] [t14916] hooked GearManager.Serialize at 00007FFD6F8346D0
+[20:00:47.745] [info] [t14916] hook GearManager.Deserialize(string): rva 0xc84db0
+[20:00:47.763] [info] [t14916] hooked GearManager.Deserialize(string) at 00007FFD6F834DB0
+[20:00:47.763] [info] [t14916] hook GearManager.Deserialize(string, list): rva 0xc84e10
+[20:00:47.781] [info] [t14916] hooked GearManager.Deserialize(string, list) at 00007FFD6F834E10
+[20:00:47.781] [info] [t14916] hook GearManager.Deserialize(GearSaveList, list): rva 0xc84ed0
+[20:00:47.799] [info] [t14916] hooked GearManager.Deserialize(GearSaveList, list) at 00007FFD6F834ED0
+[20:00:47.799] [info] [t14916] hook ContainerManager.Serialize: rva 0xc38ac0
+[20:00:47.817] [info] [t14916] hooked ContainerManager.Serialize at 00007FFD6F7E8AC0
+[20:00:47.817] [info] [t14916] hook FireManager.Serialize: rva 0xc50e10
+[20:00:47.835] [info] [t14916] hooked FireManager.Serialize at 00007FFD6F800E10
+[20:00:47.835] [info] [t14916] hook PlayerManager.Serialize: rva 0xceaa80
+[20:00:47.853] [info] [t14916] hooked PlayerManager.Serialize at 00007FFD6F89AA80
+[20:00:47.853] [info] [t14916] hook PlayerManager.ObjectToPlaceOverlapsWithObjectsThatBlockPlacement: rva 0xd30bf0
+[20:00:47.871] [info] [t14916] hooked PlayerManager.ObjectToPlaceOverlapsWithObjectsThatBlockPlacement at 00007FFD6F8E0BF0
+[20:00:47.871] [info] [t14916] hook PlayerManager.HasCollisionPenetration: rva 0xd33050
+[20:00:47.890] [info] [t14916] hooked PlayerManager.HasCollisionPenetration at 00007FFD6F8E3050
+[20:00:47.890] [info] [t14916] hook PlayerManager.IsHitPointOutOfBounds: rva 0xd25550
+[20:00:47.908] [info] [t14916] hooked PlayerManager.IsHitPointOutOfBounds at 00007FFD6F8D5550
+[20:00:47.908] [info] [t14916] hook Wind.UpdateWindOcclusion: rva 0x768f00
+[20:00:47.927] [info] [t14916] hooked Wind.UpdateWindOcclusion at 00007FFD6F318F00
+[20:00:47.927] [info] [t14916] hook Wind.IsPositionOccludedFromWind: rva 0x7685e0
+[20:00:47.946] [info] [t14916] hooked Wind.IsPositionOccludedFromWind at 00007FFD6F3185E0
+[20:00:47.946] [info] [t14916] hook Wind.Start: rva 0x763e10
+[20:00:47.965] [info] [t14916] hooked Wind.Start at 00007FFD6F313E10
+[20:00:47.965] [info] [t14916] hook Weather.CalculateCurrentTemperature: rva 0x758210
+[20:00:47.984] [info] [t14916] hooked Weather.CalculateCurrentTemperature at 00007FFD6F308210
+[20:00:47.984] [info] [t14916] hook Weather.IsIndoorEnvironment: rva 0x755350
+[20:00:48.002] [info] [t14916] hooked Weather.IsIndoorEnvironment at 00007FFD6F305350
+[20:00:48.002] [info] [t14916] hook ClothingItem.MaybeGetWetOnGround: rva 0x831630
+[20:00:48.021] [info] [t14916] hooked ClothingItem.MaybeGetWetOnGround at 00007FFD6F3E1630
+[20:00:48.021] [info] [t14916] hook GenericIndoors.Start: rva 0xea8d80
+[20:00:48.042] [info] [t14916] hooked GenericIndoors.Start at 00007FFD6FA58D80
+[20:00:48.042] [info] [t14916] hook EvolveItem.ObjectInIndoorTrigger: rva 0x846720
+[20:00:48.060] [info] [t14916] hooked EvolveItem.ObjectInIndoorTrigger at 00007FFD6F3F6720
+[20:00:48.061] [info] [t14916] hook SafehouseManager.InCustomizableSafehouse: rva 0xd58c40
+[20:00:48.079] [info] [t14916] hooked SafehouseManager.InCustomizableSafehouse at 00007FFD6F908C40
+[20:00:48.079] [info] [t14916] hook SafehouseManager.IsDecorationItemInsideSafehouse: rva 0xd5a260
+[20:00:48.099] [info] [t14916] hooked SafehouseManager.IsDecorationItemInsideSafehouse at 00007FFD6F90A260
+[20:00:48.099] [info] [t14916] hook FallDamage.ApplyFallDamage: rva 0x8c6810
+[20:00:48.118] [info] [t14916] hooked FallDamage.ApplyFallDamage at 00007FFD6F476810
+[20:00:48.120] [info] [t14916] hook SaveGameSystem.SaveSceneData: rva 0xea1120
+[20:00:48.138] [info] [t14916] hooked SaveGameSystem.SaveSceneData at 00007FFD6FA51120
+[20:00:48.138] [info] [t14916] hook SaveGameSystem.OnSaveCompleted: rva 0xe92750
+[20:00:48.157] [info] [t14916] hooked SaveGameSystem.OnSaveCompleted at 00007FFD6FA42750
+[20:00:48.157] [info] [t14916] hook SaveGameSystem.RestoreGame: rva 0xe91020
+[20:00:48.176] [info] [t14916] hooked SaveGameSystem.RestoreGame at 00007FFD6FA41020
+[20:00:48.176] [info] [t14916] hook SaveGameSystem.DeleteSaveFiles: rva 0xe91b50
+[20:00:48.194] [info] [t14916] hooked SaveGameSystem.DeleteSaveFiles at 00007FFD6FA41B50
+[20:00:48.194] [info] [t14916] hook SafehouseManager.StartCustomizing: rva 0xd59d00
+[20:00:48.211] [info] [t14916] hooked SafehouseManager.StartCustomizing at 00007FFD6F909D00
+[20:00:48.211] [info] [t14916] hook JunkManager.ClearJunk: rva 0xcd08d0
+[20:00:48.230] [info] [t14916] hooked JunkManager.ClearJunk at 00007FFD6F8808D0
+[20:00:48.230] [info] [t14916] hook FireManager.Deserialize: rva 0xc51440
+[20:00:48.248] [info] [t14916] hooked FireManager.Deserialize at 00007FFD6F801440
+[20:00:48.248] [info] [t14916] interiors: milestone 1b (rooms saved with the game) ready; spawned-name suffix '(PLACED)', placement root 'DesignPlaceable'
+[20:00:48.248] [info] [t14916] interiors: importing old saves' interiors ready
+[20:00:48.275] [info] [t14916] hook vp_FPSCamera.LateUpdate: rva 0x565a30
+[20:00:48.294] [info] [t14916] hooked vp_FPSCamera.LateUpdate at 00007FFD6F115A30
+[20:00:48.294] [info] [t14916] hook GameManager.DoExitToMainMenu: rva 0xc7afa0
+[20:00:48.311] [info] [t14916] hooked GameManager.DoExitToMainMenu at 00007FFD6F82AFA0
+[20:00:48.311] [info] [t14916] hook GameManager.LoadMainMenu: rva 0xc6dd40
+[20:00:48.311] [info] [t14916] hook GameManager.LoadMainMenu: the game's method is hooked already; ours goes on top of it
+[20:00:48.329] [info] [t14916] hooked GameManager.LoadMainMenu at 00007FFD6F81DD40
+[20:00:48.329] [info] [t14916] hook MainCameraFrustrum.RecalculateFrustumPlanes(Camera): rva 0xf1adf0
+[20:00:48.347] [info] [t14916] hooked MainCameraFrustrum.RecalculateFrustumPlanes(Camera) at 00007FFD6FACADF0
+[20:00:48.347] [info] [t14916] hook MainCameraFrustrum.RecalculateFrustumPlanes(Camera, Plane[]&, float): rva 0xf1b760
+[20:00:48.364] [info] [t14916] hooked MainCameraFrustrum.RecalculateFrustumPlanes(Camera, Plane[]&, float) at 00007FFD6FACB760
+[20:00:48.364] [info] [t14916] hook MainCameraFrustrum.RecalculateFrustumCorners: rva 0xf1c260
+[20:00:48.382] [info] [t14916] hooked MainCameraFrustrum.RecalculateFrustumCorners at 00007FFD6FACC260
+[20:00:48.382] [info] [t14916] hook Utils.PositionIsOnscreen: rva 0xf2dbf0
+[20:00:48.399] [info] [t14916] hooked Utils.PositionIsOnscreen at 00007FFD6FADDBF0
+[20:00:48.400] [info] [t14916] hook WeatherParticleManager.ScheduleFallingSnowParticleJobs: rva 0x11d7160
+[20:00:48.420] [info] [t14916] hooked WeatherParticleManager.ScheduleFallingSnowParticleJobs at 00007FFD6FD87160
+[20:00:48.420] [info] [t14916] hook WeatherParticleManager.ScheduleBlowingSnowParticleJobs: rva 0x11d71c0
+[20:00:48.439] [info] [t14916] hooked WeatherParticleManager.ScheduleBlowingSnowParticleJobs at 00007FFD6FD871C0
+[20:00:48.439] [info] [t14916] hook Camera.FireOnPreCull: rva 0x3c87f60
+[20:00:48.458] [info] [t14916] hooked Camera.FireOnPreCull at 00007FFD72837F60
+[20:00:48.458] [info] [t14916] hook Camera.FireOnPostRender: rva 0x3c88020
+[20:00:48.476] [info] [t14916] hooked Camera.FireOnPostRender at 00007FFD72838020
+[20:00:48.476] [info] [t14916] hook Utils.SetAmbientLightScaled: rva 0xf3e100
+[20:00:48.495] [info] [t14916] hooked Utils.SetAmbientLightScaled at 00007FFD6FAEE100
+[20:00:48.495] [info] [t14916] hook InteriorLightingManager.Update: rva 0x7b5460
+[20:00:48.495] [info] [t14916] hook InteriorLightingManager.Update: the game's method is hooked already; ours goes on top of it
+[20:00:48.513] [info] [t14916] hooked InteriorLightingManager.Update at 00007FFD6F365460
+[20:00:48.514] [info] [t14916] interiors: doors: ready (door boxes from colliders and meshes; walking through possible; velocity kept yes)
+[20:00:48.514] [info] [t14916] interiors: windows: ready (stand-in eye yes, snow box yes, sheet fog yes; 4 building(s) with offline window data, 33 hand row(s))
+[20:00:48.514] [info] [t14916] interiors: Seamless Interiors ready (126 buildings in 12 regions)
+[20:00:48.514] [info] [t14916] pictures: ready
+[20:00:48.515] [info] [t14916] hook Panel_Boot.Update (start screen): rva 0x9c0b80
+[20:00:48.534] [info] [t14916] hooked Panel_Boot.Update (start screen) at 00007FFD6F570B80
+[20:00:48.534] [info] [t14916] start screen: Karol's picture instead of TLD's warnings when the game starts
+[20:00:48.534] [info] [t14916] activity: ready (7 control modes, 9 panels, footing from the height)
+[20:00:48.535] [info] [t14916] zoom: ready (hold the zoom key, the mouse wheel zooms more or less)
+[20:00:48.539] [info] [t14916] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=molly hud names=1 radar=1 chart=1
+[20:00:48.539] [info] [t14916] report: the report key is F11; in co-op everyone's game makes a report with it
+[20:00:48.539] [info] [t14916] hook BasicMenu.OnItemClicked: rva 0x664ec0
+[20:00:48.558] [info] [t14916] hooked BasicMenu.OnItemClicked at 00007FFD6F214EC0
+[20:00:48.558] [info] [t14916] hook BasicMenu.OnItemDoubleClicked: rva 0x665040
+[20:00:48.578] [info] [t14916] hooked BasicMenu.OnItemDoubleClicked at 00007FFD6F215040
+[20:00:48.578] [info] [t14916] hook BasicMenu.OnConfirm: rva 0x664e80
+[20:00:48.597] [info] [t14916] hooked BasicMenu.OnConfirm at 00007FFD6F214E80
+[20:00:48.597] [info] [t14916] hook Panel_PauseMenu.ConfigureMenu: rva 0xb6ac10
+[20:00:48.624] [info] [t14916] hooked Panel_PauseMenu.ConfigureMenu at 00007FFD6F71AC10
+[20:00:48.624] [info] [t14916] save: ready ('ZAPISZ GRĘ' in ESC's menu)
+[20:00:48.629] [info] [t14916] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=molly hud names=1 radar=1 chart=1
+[20:00:48.629] [info] [t14916] world join: ready (a friend joining a world for the first time goes to the host)
+[20:00:48.630] [info] [t14916] hook GameManager.HandlePlayerDeath: rva 0xc7e9d0
+[20:00:48.654] [info] [t14916] hooked GameManager.HandlePlayerDeath at 00007FFD6F82E9D0
+[20:00:48.654] [info] [t14916] hook SaveGameSystem.DeleteSaveFilesForGameId: rva 0xe91c20
+[20:00:48.674] [info] [t14916] hooked SaveGameSystem.DeleteSaveFilesForGameId at 00007FFD6FA41C20
+[20:00:48.674] [info] [t14916] hook Panel_LifeAfterDeath.Enable: rva 0xaffa10
+[20:00:48.698] [info] [t14916] hooked Panel_LifeAfterDeath.Enable at 00007FFD6F6AFA10
+[20:00:48.698] [info] [t14916] hook Panel_LifeAfterDeath.HandleOnLeftButtonPressed: rva 0xb01710
+[20:00:48.716] [info] [t14916] hooked Panel_LifeAfterDeath.HandleOnLeftButtonPressed at 00007FFD6F6B1710
+[20:00:48.716] [info] [t14916] hook Panel_LifeAfterDeath.HandleOnRightButtonPressed: rva 0xb018e0
+[20:00:48.735] [info] [t14916] hooked Panel_LifeAfterDeath.HandleOnRightButtonPressed at 00007FFD6F6B18E0
+[20:00:48.735] [info] [t14916] hook Panel_LifeAfterDeath.HandleOnBackButtonPressed: rva 0xb01990
+[20:00:48.753] [info] [t14916] hooked Panel_LifeAfterDeath.HandleOnBackButtonPressed at 00007FFD6F6B1990
+[20:00:48.753] [info] [t14916] hook Panel_LifeAfterDeath.ContinueToLogPanel: rva 0xb01cf0
+[20:00:48.772] [info] [t14916] hooked Panel_LifeAfterDeath.ContinueToLogPanel at 00007FFD6F6B1CF0
+[20:00:48.772] [info] [t14916] death: ready (a death in co-op leaves a body; the player comes back as a new survivor)
+[20:00:48.772] [info] [t14916] hook Rest.AccelerateTimeOfDay: rva 0x805910
+[20:00:48.791] [info] [t14916] hooked Rest.AccelerateTimeOfDay at 00007FFD6F3B5910
+[20:00:48.791] [info] [t14916] hook PassTime.Begin: rva 0x800aa0
+[20:00:48.811] [info] [t14916] hooked PassTime.Begin at 00007FFD6F3B0AA0
+[20:00:48.811] [info] [t14916] hook PassTime.AccelerateTimeOfDay: rva 0x801230
+[20:00:48.830] [info] [t14916] hooked PassTime.AccelerateTimeOfDay at 00007FFD6F3B1230
+[20:00:48.830] [info] [t14916] hook TimeOfDay.DebugOnly_UpdateTimeOfDayScale: rva 0x7184a0
+[20:00:48.850] [info] [t14916] hooked TimeOfDay.DebugOnly_UpdateTimeOfDayScale at 00007FFD6F2C84A0
+[20:00:48.850] [info] [t14916] hook Hunger.Update: rva 0x65b650
+[20:00:48.870] [info] [t14916] hooked Hunger.Update at 00007FFD6F20B650
+[20:00:48.870] [info] [t14916] hook Thirst.Update: rva 0x65f080
+[20:00:48.889] [info] [t14916] hooked Thirst.Update at 00007FFD6F20F080
+[20:00:48.889] [info] [t14916] hook Fatigue.Update: rva 0x653240
+[20:00:48.908] [info] [t14916] hooked Fatigue.Update at 00007FFD6F203240
+[20:00:48.908] [info] [t14916] hook Freezing.Update: rva 0x6560c0
+[20:00:48.926] [info] [t14916] hooked Freezing.Update at 00007FFD6F2060C0
+[20:00:48.926] [info] [t14916] hook Condition.Update: rva 0x6467c0
+[20:00:48.945] [info] [t14916] hooked Condition.Update at 00007FFD6F1F67C0
+[20:00:48.945] [info] [t14916] hook PlayerManager.UpdateBuffDurations: rva 0xce2b80
+[20:00:48.964] [info] [t14916] hooked PlayerManager.UpdateBuffDurations at 00007FFD6F892B80
+[20:00:48.964] [info] [t14916] hook IceFishingHole.Update: rva 0x92eb60
+[20:00:48.982] [info] [t14916] hooked IceFishingHole.Update at 00007FFD6F4DEB60
+[20:00:48.982] [info] [t14916] hook Panel_GenericProgressBar.Launch: rva 0xa78f40
+[20:00:49.001] [info] [t14916] hooked Panel_GenericProgressBar.Launch at 00007FFD6F628F40
+[20:00:49.001] [info] [t14916] hook TimeOfDay.SetDayLengthScale: rva 0x715f40
+[20:00:49.019] [info] [t14916] hooked TimeOfDay.SetDayLengthScale at 00007FFD6F2C5F40
+[20:00:49.019] [info] [t14916] lapse: ready (in co-op an action's hours are our body's; the clock stays)
+[20:00:49.019] [info] [t14916] hook Panel_HUD.EnableTimeOfDayScaleDisplay: rva 0xa82ed0
+[20:00:49.038] [info] [t14916] hooked Panel_HUD.EnableTimeOfDayScaleDisplay at 00007FFD6F632ED0
+[20:00:49.038] [info] [t14916] hook Panel_GenericProgressBar.ProgressBarEnded: rva 0xa79d60
+[20:00:49.057] [info] [t14916] hooked Panel_GenericProgressBar.ProgressBarEnded at 00007FFD6F629D60
+[20:00:49.058] [info] [t14916] hook TimeOfDay.Accelerate: rva 0x716d80
+[20:00:49.076] [info] [t14916] hooked TimeOfDay.Accelerate at 00007FFD6F2C6D80
+[20:00:49.076] [info] [t14916] hook Rest.BeginSleeping: rva 0x8061f0
+[20:00:49.095] [info] [t14916] hooked Rest.BeginSleeping at 00007FFD6F3B61F0
+[20:00:49.095] [info] [t14916] hook Rest.EndSleeping: rva 0x801cd0
+[20:00:49.113] [info] [t14916] hooked Rest.EndSleeping at 00007FFD6F3B1CD0
+[20:00:49.113] [info] [t14916] hook Rest.AllowUnlimitedSleep: rva 0x802780
+[20:00:49.132] [info] [t14916] hooked Rest.AllowUnlimitedSleep at 00007FFD6F3B2780
+[20:00:49.132] [info] [t14916] hook Rest.UpdateRestForCures: rva 0x802ca0
+[20:00:49.150] [info] [t14916] hooked Rest.UpdateRestForCures at 00007FFD6F3B2CA0
+[20:00:49.150] [info] [t14916] hook PassTime.End: rva 0x800dd0
+[20:00:49.169] [info] [t14916] hooked PassTime.End at 00007FFD6F3B0DD0
+[20:00:49.169] [info] [t14916] hook Panel_Rest.Enable: rva 0xb78d50
+[20:00:49.188] [info] [t14916] hooked Panel_Rest.Enable at 00007FFD6F728D50
+[20:00:49.188] [info] [t14916] hook Panel_Rest.UpdateVisuals: rva 0xb783d0
+[20:00:49.207] [info] [t14916] hooked Panel_Rest.UpdateVisuals at 00007FFD6F7283D0
+[20:00:49.207] [info] [t14916] hook Panel_Rest.OnIncreaseHours: rva 0xb79c80
+[20:00:49.225] [info] [t14916] hooked Panel_Rest.OnIncreaseHours at 00007FFD6F729C80
+[20:00:49.225] [info] [t14916] hook Panel_Rest.DoRest: rva 0xb7ac90
+[20:00:49.244] [info] [t14916] hooked Panel_Rest.DoRest at 00007FFD6F72AC90
+[20:00:49.244] [info] [t14916] hook Panel_Rest.DoPassTime: rva 0xb798a0
+[20:00:49.262] [info] [t14916] hooked Panel_Rest.DoPassTime at 00007FFD6F7298A0
+[20:00:49.262] [info] [t14916] hook Panel_Rest.OnPickUp: rva 0xb79960
+[20:00:49.280] [info] [t14916] hooked Panel_Rest.OnPickUp at 00007FFD6F729960
+[20:00:49.280] [info] [t14916] sleep: ready (in co-op, time passes for sleep or waiting only when everyone is in)
+[20:00:49.280] [info] [t14916] hook PlayerManager.FindInteractiveObject: rva 0xd06260
+[20:00:49.299] [info] [t14916] hooked PlayerManager.FindInteractiveObject at 00007FFD6F8B6260
+[20:00:49.299] [info] [t14916] hook SimpleInteraction.PerformInteraction: rva 0x11f9580
+[20:00:49.320] [info] [t14916] hooked SimpleInteraction.PerformInteraction at 00007FFD6FDA9580
+[20:00:49.320] [info] [t14916] hook Panel_Inventory.OnDrop: rva 0xaa59f0
+[20:00:49.339] [info] [t14916] hooked Panel_Inventory.OnDrop at 00007FFD6F6559F0
+[20:00:49.339] [info] [t14916] hook Panel_PickUnits.DropGear: rva 0xb6e120
+[20:00:49.358] [info] [t14916] hooked Panel_PickUnits.DropGear at 00007FFD6F71E120
+[20:00:49.358] [info] [t14916] hook ItemDescriptionPage.GetDropButtonLocalizationId: rva 0x6a4590
+[20:00:49.376] [info] [t14916] hooked ItemDescriptionPage.GetDropButtonLocalizationId at 00007FFD6F254590
+[20:00:49.376] [info] [t14916] hook Panel_PickUnits.Refresh: rva 0xb6d800
+[20:00:49.394] [info] [t14916] hooked Panel_PickUnits.Refresh at 00007FFD6F71D800
+[20:00:49.394] [info] [t14916] give: ready (look at a friend close by and interact to give them something)
+[20:00:49.394] [info] [t14916] hook SaveGameSystem.SaveGlobalData: rva 0xe93a60
+[20:00:49.412] [info] [t14916] hooked SaveGameSystem.SaveGlobalData at 00007FFD6FA43A60
+[20:00:49.412] [info] [t14916] world keep: ready (the friend's changes kept for later go with the host's save)
+[20:00:49.412] [info] [t14916] hook ExperienceModeManager.Deserialize: rva 0xc49790
+[20:00:49.431] [info] [t14916] hooked ExperienceModeManager.Deserialize at 00007FFD6F7F9790
+[20:00:49.431] [info] [t14916] hook ExperienceModeManager.Serialize: rva 0xc494f0
+[20:00:49.449] [info] [t14916] hooked ExperienceModeManager.Serialize at 00007FFD6F7F94F0
+[20:00:49.449] [info] [t14916] hook SaveGameSystem.SaveInfoData: rva 0xe9d0e0
+[20:00:49.468] [info] [t14916] hooked SaveGameSystem.SaveInfoData at 00007FFD6FA4D0E0
+[20:00:49.468] [info] [t14916] hook GameManager.GetRandomSeed: rva 0xc7b210
+[20:00:49.486] [info] [t14916] hooked GameManager.GetRandomSeed at 00007FFD6F82B210
+[20:00:49.486] [info] [t14916] world mode: ready (a friend plays at the host's experience mode; their save keeps its own); TLD's rolls use the host's game seed, indoors as if everyone came in from one spot
+[20:00:49.486] [info] [t14916] dev commands: wildlife helpers ready
+[20:00:49.486] [info] [t14916] dev commands: ready (write one to TLDCoop\command.txt)
+[20:00:49.490] [info] [t14916] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=molly hud names=1 radar=1 chart=1
+[20:00:49.493] [info] [t14916] settings: mode=host transport=steam code=(set) join_code=(none) bind=127.0.0.1 host=127.0.0.1 port=27015 name=Shatsca body=molly hud names=1 radar=1 chart=1
+[20:00:49.493] [info] [t14916] ambient: on (intensity 1.10 range 1.00 night 1 ambience 0.80 fill 0.70/0.50)
+[20:00:49.493] [info] [t14916] trees: on
+[20:00:49.493] [info] [t14916] interiors: rooms lit as the game lights its interiors ([interiors] indoor_light=0)
+[20:00:49.494] [info] [t14916] interiors: Seamless Interiors off in coop.ini (old saves' interiors imported; buildings beyond SI's configs found; chimney smoke and window glow on; window views on, quality 1; door portals on, walked through too)
+[20:00:49.494] [info] [t14916] hud: names on, radar on, charting on
+[20:00:49.494] [info] [t14916] emotes: keys wave=F5, point=F6, come=F7, stop=F8, yes=F3, no=F4
+[20:00:49.494] [info] [t14916] net: offline until CO-OP is picked (NEW, RESUME or LOAD in the Survival menu)
+[20:00:49.494] [info] [t14916] hook GameManager.Update: rva 0xc65f30
+[20:00:49.512] [info] [t14916] hooked GameManager.Update at 00007FFD6F815F30
+[20:00:49.512] [info] [t14916] hook GameManager.LateUpdate: rva 0xc672e0
+[20:00:49.530] [info] [t14916] hooked GameManager.LateUpdate at 00007FFD6F8172E0
+[20:00:49.530] [info] [t14916] hook GameManager.Awake: rva 0xc61aa0
+[20:00:49.548] [info] [t14916] hooked GameManager.Awake at 00007FFD6F811AA0
+[20:00:49.548] [info] [t14916] hook GameManager.OnApplicationFocus: rva 0xc7b7c0
+[20:00:49.565] [info] [t14916] hooked GameManager.OnApplicationFocus at 00007FFD6F82B7C0
+[20:00:49.565] [info] [t14916] hook InputManager.ProcessScreenshotInput: rva 0xc8fcb0
+[20:00:49.583] [info] [t14916] hooked InputManager.ProcessScreenshotInput at 00007FFD6F83FCB0
+[20:00:49.583] [info] [t14916] screenshots: TLD's F8/F9/F10 screenshot keys off
+[20:00:49.583] [info] [t14916] hook Panel_PauseMenu.Enable: rva 0xb6ae50
+[20:00:49.601] [info] [t14916] hooked Panel_PauseMenu.Enable at 00007FFD6F71AE50
+[20:00:49.601] [info] [t14916] hook GameManager.PauseWhenFocusLost: rva 0xc7f720
+[20:00:49.620] [info] [t14916] hooked GameManager.PauseWhenFocusLost at 00007FFD6F82F720
+[20:00:49.621] [info] [t14916] ui: screen dumps off ([debug] ui_dump=1 in coop.ini turns them on)
+[20:00:49.621] [info] [t14916] hook Panel_MainMenu.IsSubMenuEnabled: rva 0xb09f80
+[20:00:49.641] [info] [t14916] hooked Panel_MainMenu.IsSubMenuEnabled at 00007FFD6F6B9F80
+[20:00:49.641] [info] [t14916] hook Panel_SelectRegion_Map.Enable: rva 0xb8ac20
+[20:00:49.660] [info] [t14916] hooked Panel_SelectRegion_Map.Enable at 00007FFD6F73AC20
+[20:00:49.660] [info] [t14916] hook Panel_CustomXPSetup.Enable: rva 0xa0c780
+[20:00:49.679] [info] [t14916] hooked Panel_CustomXPSetup.Enable at 00007FFD6F5BC780
+[20:00:49.679] [info] [t14916] hook Panel_Sandbox.OnClickNew: rva 0xb7e190
+[20:00:49.697] [info] [t14916] hooked Panel_Sandbox.OnClickNew at 00007FFD6F72E190
+[20:00:49.697] [info] [t14916] hook Panel_Sandbox.OnClickResume: rva 0xb7e3e0
+[20:00:49.715] [info] [t14916] hooked Panel_Sandbox.OnClickResume at 00007FFD6F72E3E0
+[20:00:49.715] [info] [t14916] hook Panel_Sandbox.OnClickLoad: rva 0xb7e300
+[20:00:49.733] [info] [t14916] hooked Panel_Sandbox.OnClickLoad at 00007FFD6F72E300
+[20:00:49.733] [info] [t14916] hook Panel_ChooseSandbox.OnClickBack: rva 0x9d1b30
+[20:00:49.751] [info] [t14916] hooked Panel_ChooseSandbox.OnClickBack at 00007FFD6F581B30
+[20:00:49.751] [info] [t14916] hook Panel_Sandbox.Enable: rva 0xb7dee0
+[20:00:49.769] [info] [t14916] hooked Panel_Sandbox.Enable at 00007FFD6F72DEE0
+[20:00:49.769] [info] [t14916] hook Panel_SelectExperience.Enable: rva 0xb87a50
+[20:00:49.787] [info] [t14916] hooked Panel_SelectExperience.Enable at 00007FFD6F737A50
+[20:00:49.787] [info] [t14916] hook Panel_SelectExperience.OnClickBack: rva 0xb87c40
+[20:00:49.805] [info] [t14916] hooked Panel_SelectExperience.OnClickBack at 00007FFD6F737C40
+[20:00:49.805] [info] [t14916] hook Panel_SelectSurvivor.Enable: rva 0xb90600
+[20:00:49.824] [info] [t14916] hooked Panel_SelectSurvivor.Enable at 00007FFD6F740600
+[20:00:49.824] [info] [t14916] hook UIButton.OnClick: rva 0xa49b90
+[20:00:49.843] [info] [t14916] hooked UIButton.OnClick at 00007FFD6F5F9B90
+[20:00:54.190] [info] [t14916] start screen: TLD's boot screen #1 is 'StudioStatement'
+[20:00:54.210] [info] [t14916] start screen: picture 1 of 3
+[20:00:54.210] [info] [t14916] start screen: Karol's picture on the boot screen, 1920x1080 (1282 x 722 NGUI, uv 0.000 0.000 1.000 0.999)
+[20:00:54.210] [info] [t14916] start screen: TLD's warnings and boot loading hidden; 4 "continue" label(s) kept
+[20:01:32.421] [info] [t14916] start screen: TLD's boot screen #2 is 'PhotosensitivityWarning'
+[20:01:32.439] [info] [t14916] start screen: picture 2 of 3
+[20:01:32.439] [info] [t14916] start screen: Karol's picture on the boot screen, 1920x1080 (1282 x 722 NGUI, uv 0.000 0.000 1.000 0.999)
+[20:01:35.437] [info] [t14916] start screen: TLD's boot screen #3 is 'MainDisclaimerRoot'
+[20:01:35.456] [info] [t14916] start screen: picture 3 of 3
+[20:01:35.456] [info] [t14916] start screen: Karol's picture on the boot screen, 1920x1080 (1282 x 722 NGUI, uv 0.000 0.000 1.000 0.999)
+[20:01:35.693] [info] [t14916] night sky: Better Night Sky's stars and moon up
+[20:01:37.540] [info] [t14916] first GameManager.Update on main thread
+[20:01:37.540] [info] [t14916] steam_api64.dll loaded; SteamNetworkingMessages v002: yes, SteamMatchmaking v009: yes
+[20:01:37.540] [info] [t14916] steam_api64.dll stays loaded until the game ends
+[20:01:37.540] [info] [t14916] steamclient64.dll stays loaded until the game ends
+[20:01:37.540] [info] [t14916] scene: '' -> 'MainMenu'
+[20:01:37.574] [info] [t14916] hooked SteamAPI_ManualDispatch_GetNextCallback at 00007FFE15847B10
+[20:01:37.609] [info] [t14916] hooked AK::SoundEngine::PostEvent(id) at 00007FFD955AB9A0
+[20:01:37.647] [info] [t14916] hooked AK::SoundEngine::PostEvent(name) at 00007FFD955ABC80
+[20:01:37.685] [info] [t14916] hooked AK::SoundEngine::PostEvent(wide name) at 00007FFD955ABDB0
+[20:01:37.723] [info] [t14916] hooked AK::SoundEngine::ExecuteActionOnEvent(id) at 00007FFD955A8580
+[20:01:37.756] [info] [t14916] hooked AK::SoundEngine::ExecuteActionOnEvent(name) at 00007FFD955A8720
+[20:01:37.790] [info] [t14916] hooked AK::SoundEngine::StopPlayingID at 00007FFD955B30E0
+[20:01:37.790] [info] [t14916] wildlife: 6 of 6 Wwise hooks in (animal sounds shared)
+[20:01:37.791] [info] [t14916] interiors: off (every door is the game's own)
+[20:01:37.793] [info] [t14916] chat: listening to the game window's keys (ENTER opens the chat)
+[20:01:37.793] [info] [t14916] frame: 0 ms since the last frame (the game itself -250 ms, co-op 250 ms: wildlife_sync::on_frame 216 ms, steam_dispatch::on_frame 35 ms) [slow frames so far: 1]
+[20:01:37.856] [info] [t14916] interiors: sky's light 0.56 0.57 0.57 (probe 1.00) from the outdoors; player outside
+[20:01:39.793] [info] [t14916] clothing: loading the pack's catalog (X:\Apps\Steam\steamapps\common\TheLongDark\TLDCoop\clothing\catalog_clothingexpanded.json)
+[20:01:40.145] [FAULT] [t14916] 0xC0000005 at GameAssembly.dll+0x3cd25a (address 0x0)
