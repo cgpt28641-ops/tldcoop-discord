@@ -1,0 +1,13 @@
+{
+ "id": "1568991538758033580",
+ "channel": "updates",
+ "time": "2026-11-08T14:12:13.293000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll\n🚂 **Pociąg:**\n• **„Nie widzę pociągu”:** każdy zapis trzymał pociąg tam, gdzie ten gracz go ostatnio widział. Teraz liczy się miejsce u kierowcy albo u hosta. Jeśli u ciebie pociągu nie ma, gra go tworzy, a stara kopia w innym miejscu znika.\n• **Odwrócony pociąg (bieg do przodu jedzie do tyłu):** obrócił go stary dll. Stań w kabinie, wciśnij F1 i wpisz `train_flip`. Kierunek odwróci się raz.\n💾 **Zapis:** gdy host wychodzi z gry, gra pozostałych graczy od razu się zapisuje.\nWasze logi były z dll z 13:47, a poprawki pociągu (koła, chodzenie pasażera, klakson, zamek) są dopiero w tym. Pobierzcie go przed kolejnym testem.\nNastępne sprawdzenie Discorda: 15:22.",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
