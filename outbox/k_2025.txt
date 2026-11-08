@@ -1,0 +1,6 @@
+#claude-komendy
+@kerel123 przejrzałem dokładnie logi wszystkich trzech z 20:10 (Shatsca, Szymon, ty). Poprawione: łom ×4, ciągły błąd paska sprintu i błędy przy wczytywaniu (lista na #updates). Wcześniej dziś: pusta baza, szary ekran.
+Do wyjaśnienia:
+• **Ognisko szybciej się wypala, gdy ktoś coś robi (raport Shatscy z 18:27):** w logu ognisko spadło z 73 do 0 min w ok. 1,5 min. Zgadza się to z czasem dwóch czynności Shatscy (40 min). Czy dzieje się tak tylko, gdy coś robi host, czy też gdy robi to ktoś inny? Szukam, gdzie gra liczy ognisko czasem czynności zamiast czasem świata.
+• **Meble u ciebie niewidoczne:** czy po ponownym wejściu albo restarcie je widać?
+Następne sprawdzenie Discorda: 20:32.
