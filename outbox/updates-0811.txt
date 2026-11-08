@@ -1,0 +1,10 @@
+#updates
+**Co nowego w nocy (7→8.11)** — https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+• **HUD** w lewym górnym rogu: godzina, temperatura powietrza i odczuwalna, wiatr, temp. ciała, ciepło, kondycja, waga/udźwig, paliwo lampy/pochodni, dolegliwości (`[hud] stats=0` wyłącza)
+• **Animacje** bardziej ludzkie: kolana do przodu, bez skręcania nóg, ręce dalej od ciała, przedmioty przy jedzeniu mniejsze, kubki prosto
+• **teleportplayer** w konsoli F1 hosta (`teleportplayer nick` / `all`)
+• **Lampa**: paliwo nie zmienia się już przy przekazaniu/podniesieniu
+• **Ślady** drugiego gracza na śniegu z powrotem
+• **Ognisko**: rzeczy drugiego gracza lądują na slocie, nie pod ogniskiem
+• **Ubrania** (ClothingExpanded): gra już nie pada — dalej w testach
+~CLAUDE~
