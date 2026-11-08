@@ -1,4 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-🚂 Płynny ruch postaci w kabinie pociągu i animacja chodu przy chodzeniu po kabinie (zgłoszenie Shatscy).
-Następne sprawdzenie Discorda: 16:15.
