@@ -1,0 +1,13 @@
+{
+ "id": "1568947985457348708",
+ "channel": "updates",
+ "time": "2026-11-08T11:19:09.377000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Nowy dll** — https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll\n• HUD przestawiony wg Shatsci: godzina na górze pośrodku, waga w lewym górnym rogu, ciepło/kondycja nad ikonami stanu, temperatura/odczuwalna/wiatr pod paskiem zdrowia (czerwone na minusie)\n• Ubrania (ClothingExpanded): naprawiony błąd przy tworzeniu nazw przedmiotów — 25/28 przedmiotów gotowych\n~CLAUDE~",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
