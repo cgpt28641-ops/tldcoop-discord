@@ -1,0 +1,5 @@
+#updates
+**Nowy dll** — https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+• HUD przestawiony wg Shatsci: godzina na górze pośrodku, waga w lewym górnym rogu, ciepło/kondycja nad ikonami stanu, temperatura/odczuwalna/wiatr pod paskiem zdrowia (czerwone na minusie)
+• Ubrania (ClothingExpanded): naprawiony błąd przy tworzeniu nazw przedmiotów — 25/28 przedmiotów gotowych
+~CLAUDE~
