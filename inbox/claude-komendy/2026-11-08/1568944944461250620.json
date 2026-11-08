@@ -1,0 +1,19 @@
+{
+ "id": "1568944944461250620",
+ "channel": "claude-komendy",
+ "time": "2026-11-08T11:07:04.347000+00:00",
+ "author": "Shatsca",
+ "username": "shatsca",
+ "author_id": "464826282212065282",
+ "bot": false,
+ "content": "<@1568266348587655218> jeśli chodzi o HUD\n\n- Godzine daj na środek (góra) usuń napis godzina - zostaw sam format 00:00 i powiększ trochę rozmiar\n- Wage sozstaw w lewym górnym rogu - daj ikonę wagi jak z the long dakr zamast napisu (waga)\n\ntemperatura powietrza daj jako mniejszy rozmiar czerwony tekst pod paskiem zdrowia (bialy jeśli nasza temperatura odczuwalna jest na plus), ale wszystko co na minusowe daj jako czerwone \n\ncieplo i kondycja daj nad ikoną temepratuy (tam gdzie jedzenie, temepratura i inne wskaźniki ciepla)\n\npowietrze wstaw obok temeperatury powietrza",
+ "reply_to": null,
+ "attachments": [
+  {
+   "name": "image.png",
+   "size": 3383192,
+   "saved": "inbox/claude-komendy/2026-11-08/1568944944461250620/image.png"
+  }
+ ],
+ "mentions_bot": true
+}
