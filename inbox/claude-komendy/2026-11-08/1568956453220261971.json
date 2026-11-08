@@ -1,0 +1,24 @@
+{
+ "id": "1568956453220261971",
+ "channel": "claude-komendy",
+ "time": "2026-11-08T11:52:48.249000+00:00",
+ "author": "Shatsca",
+ "username": "shatsca",
+ "author_id": "464826282212065282",
+ "bot": false,
+ "content": "Ognisko",
+ "reply_to": null,
+ "attachments": [
+  {
+   "name": "IMG_6950.jpg",
+   "size": 1058175,
+   "saved": "inbox/claude-komendy/2026-11-08/1568956453220261971/IMG_6950.jpg"
+  },
+  {
+   "name": "IMG_6949.jpg",
+   "size": 1008222,
+   "saved": "inbox/claude-komendy/2026-11-08/1568956453220261971/IMG_6949.jpg"
+  }
+ ],
+ "mentions_bot": false
+}

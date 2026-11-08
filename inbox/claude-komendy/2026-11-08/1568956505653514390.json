@@ -1,0 +1,29 @@
+{
+ "id": "1568956505653514390",
+ "channel": "claude-komendy",
+ "time": "2026-11-08T11:53:00.750000+00:00",
+ "author": "Shatsca",
+ "username": "shatsca",
+ "author_id": "464826282212065282",
+ "bot": false,
+ "content": "Stanie i chodzenie",
+ "reply_to": null,
+ "attachments": [
+  {
+   "name": "IMG_6948.jpg",
+   "size": 817956,
+   "saved": "inbox/claude-komendy/2026-11-08/1568956505653514390/IMG_6948.jpg"
+  },
+  {
+   "name": "IMG_6947.jpg",
+   "size": 1205321,
+   "saved": "inbox/claude-komendy/2026-11-08/1568956505653514390/IMG_6947.jpg"
+  },
+  {
+   "name": "IMG_6946.jpg",
+   "size": 887375,
+   "saved": "inbox/claude-komendy/2026-11-08/1568956505653514390/IMG_6946.jpg"
+  }
+ ],
+ "mentions_bot": false
+}

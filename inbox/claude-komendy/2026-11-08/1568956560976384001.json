@@ -1,0 +1,29 @@
+{
+ "id": "1568956560976384001",
+ "channel": "claude-komendy",
+ "time": "2026-11-08T11:53:13.940000+00:00",
+ "author": "Shatsca",
+ "username": "shatsca",
+ "author_id": "464826282212065282",
+ "bot": false,
+ "content": "Niszczenie przedmiotow",
+ "reply_to": null,
+ "attachments": [
+  {
+   "name": "IMG_6944.jpg",
+   "size": 921436,
+   "saved": "inbox/claude-komendy/2026-11-08/1568956560976384001/IMG_6944.jpg"
+  },
+  {
+   "name": "IMG_6943.jpg",
+   "size": 876456,
+   "saved": "inbox/claude-komendy/2026-11-08/1568956560976384001/IMG_6943.jpg"
+  },
+  {
+   "name": "IMG_6942.jpg",
+   "size": 769642,
+   "saved": "inbox/claude-komendy/2026-11-08/1568956560976384001/IMG_6942.jpg"
+  }
+ ],
+ "mentions_bot": false
+}
