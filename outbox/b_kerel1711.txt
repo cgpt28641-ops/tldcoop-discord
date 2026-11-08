@@ -1,6 +1,0 @@
-#błędy
-@kerel123 sprawdziłem logi z 17:11 wszystkich trzech. Znalazłem dwie rzeczy (szczegóły na #updates):
-• martwy niedźwiedź w Ash Canyon był dawany Shatscy co 0,25 s przez 6 minut (1317 razy). Poprawione.
-• ikony ClothingExpanded dalej nie działają. Dodałem linię w logu, która pokaże dlaczego. Proszę o logi z nowym dll.
-Reszta tych logów (pasek sprintu) była już poprawiona w dll z 20:20.
-Następne sprawdzenie Discorda: 20:51.

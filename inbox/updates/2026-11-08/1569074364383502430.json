@@ -1,0 +1,13 @@
+{
+ "id": "1569074364383502430",
+ "channel": "updates",
+ "time": "2026-11-08T19:41:20.461000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll\n**Co zmienione (z logów 17:11, prośba Kerela):**\n• 🐻 **Martwy niedźwiedź w Ash Canyon:** host (Shatsca) nie umiał „przejąć” ciała jednego niedźwiedzia, a mod dawał mu je od nowa co 0,25 s, przez 6 minut (1317 razy w logu). To niepotrzebnie obciążało grę. Teraz po odmowie host nie dostaje tego ciała przez minutę, tak jak każdy inny gracz.\n• 🧤 **Ikony ClothingExpanded:** dalej brak ikon. Sprawdziłem paczkę: ikony są w niej pod nazwami, których mod szuka. Mod zapisze teraz w logu jedną linię „clothing: icons: …”, która pokaże, czy gra widzi paczkę z ikonami. Proszę o logi po wejściu do gry.\n**Status:**\n• ✅ Sprawdzone w grze: jazda pociągiem i pasażer, przejście regionu, pociąg tam, gdzie go nie było, train_flip, Cheat Death, przejście na wyspę, pass_time.\n• ⏳ Czeka na test: ognisko i czynności, łom ×4, pasek sprintu, szary ekran, pusta baza, ciepło w kabinie, paliwo/woda, zwrotnice, stan części, klakson, blokada kabiny, szafka, ostateczna śmierć, ClothingExpanded, zapis po wyjściu hosta, spanie, kropki na mapie świata, pałki 150 kcal.\n• ❌ Jeszcze nie zrobione: naturalne stanie i chodzenie, buffy pasa na narzędzia, strzelba (odłożona), dokładne pozycje na mapie świata.\n• ❓ Czekam na was: meble Kerela (czy widać po restarcie?), zielona mapa, radar w kopalni, znacznik plecaka, wiadomości wojskowe (opis od Kerela), szałasy śnieżne (Szymon), co było w zgłoszeniu Shatscy o 17:11.\nNastępne sprawdzenie Discorda: 20:51.",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
