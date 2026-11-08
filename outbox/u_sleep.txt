@@ -1,5 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-**Co zmienione:**
-• 😴 **Spanie i czekanie (Kerel):** kiedy ktoś wychodził z serwera, reszta dalej czekała na niego przy spaniu. Teraz gracz, który wyszedł, nie jest liczony: u hosta znika, gdy zerwie się połączenie, a u pozostałych graczy, gdy zniknie z listy graczy albo przestaną przychodzić jego dane. Jeśli wyszedł sam host, gracze też na niego nie czekają.
-Następne sprawdzenie Discorda: 18:11.

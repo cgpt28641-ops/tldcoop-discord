@@ -1,0 +1,13 @@
+{
+ "id": "1569033986288918528",
+ "channel": "updates",
+ "time": "2026-11-08T17:00:53.573000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll\n**Co zmienione:**\n• 😴 **Spanie i czekanie (Kerel):** kiedy ktoś wychodził z serwera, reszta dalej czekała na niego przy spaniu. Teraz gracz, który wyszedł, nie jest liczony: u hosta znika, gdy zerwie się połączenie, a u pozostałych graczy, gdy zniknie z listy graczy albo przestaną przychodzić jego dane. Jeśli wyszedł sam host, gracze też na niego nie czekają.\nNastępne sprawdzenie Discorda: 18:11.",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
