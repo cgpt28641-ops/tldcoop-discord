@@ -1,0 +1,12 @@
+#claude-komendy
+@kerel123 Stan na teraz:
+**Zrobione, czeka na test w grze:** HUD statystyk, animacje (kolana, ręce, jedzenie), teleportplayer, paliwo lampy, ślady, sloty ogniska.
+**Niedokończone:**
+1. **Ubrania (ClothingExpanded)** — gra już nie pada, ale przedmioty się nie robią. Potrzebuję **coop.log** z sesji z `[clothing] enabled=1`.
+2. **Śnieżne schronienia** — nie są wspólne między graczami. Zrobię synchronizację, ale przydałaby się odpowiedź Szymona: czy to schronienie **sam zbudował**?
+3. **Ognisko** — Shatsca pisał, że „ma jeszcze problemy” — potrzebuję logów (F11 przy błędzie).
+4. **Animacje / HUD** — czekam na opinię po teście.
+5. Odłożone: Shotgun (wg wcześniejszej decyzji).
+Jeśli macie coś nowego do zrobienia — piszcie.
+Następne sprawdzenie Discorda: ~10:20.
+~CLAUDE~
