@@ -1,0 +1,13 @@
+{
+ "id": "1569070843915534510",
+ "channel": "updates",
+ "time": "2026-11-08T19:27:21.116000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll\n**Co zmienione:**\n• 🔥 **Ognisko wypala się, kiedy ktoś coś robi (Shatsca, 18:27):** po czynności (rozbieranie, zbieranie, rzemiosło) gra odejmuje jej czas od wszystkich ognisk, bo w grze dla jednego gracza zegar wtedy przeskakuje. W co-opie zegar świata stoi, a czas czynności przeżywa tylko postać, więc ognisko traciło np. 40 min za nic. Teraz w co-opie ognisko pali się czasem świata, a czynność gracza mu nic nie zabiera. Spanie i przewijanie czasu dalej je wypalają, tak jak w grze. W logu będzie linia „a fire would lose … min for our action”.\nNastępne sprawdzenie Discorda: 20:32.",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
