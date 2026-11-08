@@ -1,0 +1,13 @@
+{
+ "id": "1569069460265107588",
+ "channel": "updates",
+ "time": "2026-11-08T19:21:51.228000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll\n**Co zmienione (z logów 20:10):**\n• 🔧 **Łom ×4 (Shatsca):** Szymon upuścił łom, a jego gra miała pod tym samym numerem jeszcze jego kopię w plecaku. Kiedy Shatsca podniósł łom, gra Szymona znajdowała tę kopię z plecaka („nie leży”), a ten upuszczony zostawał i wysyłał się od nowa. Tak co ~1,5 s, stąd 4 łomy. Teraz mod szuka właściwego, leżącego egzemplarza i usuwa go.\n• ⚡ **Pasek sprintu:** mod co klatkę wywoływał funkcję, która rzucała błąd (w logu ponad 100 000 razy), co mogło spowalniać grę. Teraz wywołuje właściwą funkcję paska.\n• 🛡️ **Błędy przy wczytywaniu:** mod sięgał po kamerę i obiekty zwierząt, których już nie było, co dawało błędy w logu. Teraz je pomija.\nNastępne sprawdzenie Discorda: 20:32.",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
