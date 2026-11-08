@@ -1,4 +1,0 @@
-#updates
-**Nowy dll** — https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-• Animacja pracy przy ziemi (ognisko, zbieranie, gotowanie): kucanie z rękami przy ziemi zamiast połamanych nóg
-~CLAUDE~
