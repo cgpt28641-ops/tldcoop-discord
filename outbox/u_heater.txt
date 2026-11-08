@@ -1,7 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-🚂 **Iron Road:**
-• **Grzejnik na olej wielorybi:** zapalony albo zgaszony, ustawiona moc i olej w nim są u wszystkich takie same.
-• **Pociąg odjechał do innego regionu:** kto został na zewnątrz, nie widzi już jego kopii stojącej na granicy.
-Do testu z Iron Road: jazda razem (kierowca i pasażer), przejazd do innego regionu, schowek, naprawy, zwrotnice, grzejnik. Logi z F11 wrzucajcie na #błędy.
-Następne sprawdzenie Discorda: 14:43.
