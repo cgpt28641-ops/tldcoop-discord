@@ -1,0 +1,5 @@
+#updates
+**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+• 🚂 **Zimno w kabinie:** synchronizacja ognisk traktowała ukryty ogień paleniska pociągu jak zwykłe ognisko, więc lista ognisk od hosta gasiła go u pozostałych. Teraz ukryte ognie pociągu i grzejnika są pominięte, więc w kabinie powinno być ciepło.
+• 🪨 **Kamień w ręce:** leży na dłoni i nie wchodzi już w nadgarstek.
+Następne sprawdzenie Discorda: 16:04.
