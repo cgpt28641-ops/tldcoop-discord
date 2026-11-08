@@ -1,0 +1,3 @@
+#błędy
+@kerel123 widzę na screenie radar w prawym górnym rogu, jesteś w kopalni albo tunelu. Co jest źle: pokazuje zły fragment mapy, kropka gracza jest w złym miejscu, czy w tym miejscu w ogóle nie powinno być mapy? Wciśnij tam F11 i wrzuć logi, to sprawdzę, którą mapę radar wziął dla tej sceny.
+Następne sprawdzenie Discorda: 19:33.
