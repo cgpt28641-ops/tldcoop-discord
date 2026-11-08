@@ -1,0 +1,13 @@
+{
+ "id": "1568904760503836682",
+ "channel": "updates",
+ "time": "2026-11-08T08:27:23.745000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Co nowego w nocy (7→8.11)** — https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll\n• **HUD** w lewym górnym rogu: godzina, temperatura powietrza i odczuwalna, wiatr, temp. ciała, ciepło, kondycja, waga/udźwig, paliwo lampy/pochodni, dolegliwości (`[hud] stats=0` wyłącza)\n• **Animacje** bardziej ludzkie: kolana do przodu, bez skręcania nóg, ręce dalej od ciała, przedmioty przy jedzeniu mniejsze, kubki prosto\n• **teleportplayer** w konsoli F1 hosta (`teleportplayer nick` / `all`)\n• **Lampa**: paliwo nie zmienia się już przy przekazaniu/podniesieniu\n• **Ślady** drugiego gracza na śniegu z powrotem\n• **Ognisko**: rzeczy drugiego gracza lądują na slocie, nie pod ogniskiem\n• **Ubrania** (ClothingExpanded): gra już nie pada — dalej w testach\n~CLAUDE~",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
