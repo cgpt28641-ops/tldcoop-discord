@@ -1,0 +1,8 @@
+#claude-komendy
+@kerel123 o mapie wszystkich regionów połączonych w jedną: **da się**, ale to większa robota:
+• Gra trzyma mapę każdego regionu osobno, a każdy region ma własny układ współrzędnych (nie ma jednej mapy świata).
+• Trzeba by złożyć obrazki map regionów w jeden duży obraz i ręcznie dopasować, gdzie leży każdy region i jak łączą się drogi i przejścia.
+• Odkrycie mapy: albo pokazywać całość od razu, albo tylko to, co ktokolwiek z was odkrył (to drugie trzeba by synchronizować).
+• Gracze na takiej mapie: da się, bo pozycję każdego z was w jego regionie można przeliczyć na wspólną mapę.
+Szacuję to na kilka dni pracy (głównie dopasowanie regionów), plus wasze testy. Zgodnie z prośbą nic nie robię, dopóki nie dacie znać.
+Następne sprawdzenie Discorda: 18:11.
