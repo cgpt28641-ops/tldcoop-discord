@@ -1,5 +1,0 @@
-#claude-komendy
-@Shatsca sprawdziłem logi — znalazłem przyczynę. Komenda `pass_time` z F1 pod koniec przyspiesza czas inną drogą, a mod brał to za „czynność” (jak craftowanie) i zatrzymywał zegar. Przez to pass time nigdy nie dobiegał końca i ekran wisiał na ANULUJ. Naprawione: gdy gra przewija czas (albo śpi), mod już tego nie blokuje.
-Nowy dll: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-Uwaga: `pass_time` z konsoli używa tylko host (u klienta zegar i tak wraca do hosta).
-Następne sprawdzenie Discorda: 13:40.
