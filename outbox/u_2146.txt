@@ -1,5 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-**Co zmienione:**
-• 🧤 **Ikony ClothingExpanded (pasy, raki, pochwa):** log z 20:44 pokazał, że mod szukał ikon w paczce, której gra w tej chwili nie ma wczytanej. W katalogu paczki ikony nazywają się „ico_GearItem__<Nazwa>”, więc teraz mod prosi o nie własny loader ikon gry, tak jak gra robi to dla swoich przedmiotów. Jeśli zadziała, w ekwipunku pojawią się ikony, a w logu linia „clothing: icons from TLD's loader as …”. Jeśli nie, w logu będzie „TLD's icon loader has none of ours either”: wtedy proszę o log.
-Następne sprawdzenie Discorda: 21:52.
