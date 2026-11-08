@@ -1,0 +1,24 @@
+{
+ "id": "1568956610263646340",
+ "channel": "claude-komendy",
+ "time": "2026-11-08T11:53:25.691000+00:00",
+ "author": "Shatsca",
+ "username": "shatsca",
+ "author_id": "464826282212065282",
+ "bot": false,
+ "content": "Rzucanie kamieniem",
+ "reply_to": null,
+ "attachments": [
+  {
+   "name": "IMG_6941.jpg",
+   "size": 1165295,
+   "saved": "inbox/claude-komendy/2026-11-08/1568956610263646340/IMG_6941.jpg"
+  },
+  {
+   "name": "IMG_6940.jpg",
+   "size": 1057775,
+   "saved": "inbox/claude-komendy/2026-11-08/1568956610263646340/IMG_6940.jpg"
+  }
+ ],
+ "mentions_bot": false
+}
