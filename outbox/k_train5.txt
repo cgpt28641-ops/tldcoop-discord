@@ -1,0 +1,3 @@
+#claude-komendy
+@kerel123 @Shatsca przeczytałem logi z 14:59, poprawki są na #updates. Shatsca: jeśli bieg do przodu dalej jedzie do tyłu, w kabinie wpisz w F1 `train_flip`. Kerel: zapis po wyjściu hosta jest już automatyczny.
+Następne sprawdzenie Discorda: 15:22.
