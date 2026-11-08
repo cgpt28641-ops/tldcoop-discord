@@ -1,0 +1,24 @@
+{
+ "id": "1568958868325929100",
+ "channel": "błędy",
+ "time": "2026-11-08T12:02:24.055000+00:00",
+ "author": "kerel123",
+ "username": "kerel123",
+ "author_id": "402140001187659786",
+ "bot": false,
+ "content": "",
+ "reply_to": null,
+ "attachments": [
+  {
+   "name": "2026-11-08_13-01-33_Kerel_007_.zip",
+   "size": 89278,
+   "saved": "inbox/bledy/2026-11-08/1568958868325929100/2026-11-08_13-01-33_Kerel_007_.zip"
+  },
+  {
+   "name": "Shatsca_2026-11-08_13-01-30_Shatsca.zip",
+   "size": 104800,
+   "saved": "inbox/bledy/2026-11-08/1568958868325929100/Shatsca_2026-11-08_13-01-30_Shatsca.zip"
+  }
+ ],
+ "mentions_bot": false
+}
