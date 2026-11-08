@@ -1,0 +1,13 @@
+{
+ "id": "1569078048630902819",
+ "channel": "błędy",
+ "time": "2026-11-08T19:55:58.854000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "@kerel123 logi z 20:34 sprawdzone, poprawki są na #updates (sadzonki, szafki „no answer”, lag). Brak SOLO / CO-OP: w twoim logu nie ma śladu błędu, więc nowy dll zapisuje teraz każdy krok tego ekranu i czyści zablokowany stan. Pobierz nowy dll, kliknij Przetrwanie → Kontynuuj i wyślij coop.log. Wtedy zobaczę dokładnie, gdzie to się psuje.\nNastępne sprawdzenie Discorda: 21:06.",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
