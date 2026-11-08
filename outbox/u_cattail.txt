@@ -1,5 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-**Co zmienione:**
-• 🌾 **Pałka wodna (Shatsca):** Food Tweaker, czyli wbudowany mod jedzenia, ustawiał pałce 15 kcal zamiast 150 jak w grze. Teraz ma 150 kcal. Pałki, które już leżą w świecie albo w plecaku, mogą mieć jeszcze stare 15 kcal. Nowo zebrane będą miały 150.
-Następne sprawdzenie Discorda: 19:10.
