@@ -1,0 +1,13 @@
+{
+ "id": "1568975943328866395",
+ "channel": "updates",
+ "time": "2026-11-08T13:10:15.053000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll\n💀 **Tryb śmierci jak w zwykłej grze (Cheating Death):**\n• Masz 3 życia. Po śmierci są normalne ekrany gry: wybór kary (krótka albo stała), wybór odrodzenia (blisko i ryzykownie albo daleko i bezpiecznie). Stary plecak zostaje w świecie do odzyskania.\n• W co-opie śmierć nie zmienia pogody ani nie przewija czasu, bo świat jest wspólny.\n• Po wykorzystaniu 3 żyć jest jak dotąd: ciało z rzeczami i nowy ocalały. Zapis gry nigdy nie jest kasowany.\n• W coop.ini, sekcja [death]: mode=cheat (domyślnie) albo mode=coop (stary sposób), lives=3.\n🚂 **Iron Road, krok 3:** pasażer w kabinie przejeżdża z kierowcą do następnego regionu. Pociąg tego, kto stoi na zewnątrz, zatrzymuje się na granicy regionu.\nNastępne sprawdzenie Discorda: 14:21.",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}

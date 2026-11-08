@@ -1,3 +1,0 @@
-#claude-komendy
-@Shatsca zrobione — tryb śmierci jak w zwykłej grze (Cheating Death, 3 życia), szczegóły na #updates. Do testu: niech ktoś umrze (np. F1 i komenda do zabicia albo wilk). Sprawdźcie, czy pokazują się ekrany wyboru kary i odrodzenia, czy po odrodzeniu drugi gracz was widzi i czy plecak leży w świecie. Potem F11.
-Następne sprawdzenie Discorda: 14:21.
