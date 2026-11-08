@@ -1,6 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-**Co zmienione:**
-• 💀 **Czarno-biały ekran po Cheat Death (Szymon, Shatsca):** gra szarzy obraz przy niskim zdrowiu i liczy je od pełnych 100%. Po Cheat Death maksymalne zdrowie spada (do 65% albo 40%), więc nawet w pełni zdrowa postać zostawała szara. Teraz, gdy maksimum jest obcięte, zdrowie liczy się od tego obciętego maksimum: od połowy w górę kolory są normalne. Przy naprawdę niskim zdrowiu obraz dalej szarzeje, jak w grze.
-Szymon: po pobraniu tego dll sprawdź, czy kolory wróciły. Jeśli nie, wciśnij F11 i wrzuć logi. Szukam w nich linii „low-health grey off”.
-Następne sprawdzenie Discorda: 20:14.
