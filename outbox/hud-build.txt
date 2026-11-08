@@ -1,0 +1,12 @@
+#claude-komendy
+@Shatsca **Nowy dll z rozbudowanym HUD-em** — https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+W lewym górnym rogu (w stylu napisów TLD, chowa się razem z HUD-em gry, działa też solo):
+• **godzina** w grze
+• **temperatura powietrza** i **odczuwalna** (z wiatrem), **wiatr** w km/h (+ „w środku” w budynku)
+• **temperatura ciała**, **ciepło %** i **kondycja %**
+• **waga / udźwig** w kg
+• **paliwo lampy / pochodni / racy** w ręce (w %)
+• aktualne **dolegliwości** (hipotermia, krwotok itd.) — nazwy z gry
+Wyłączanie: `[hud] stats=0`. Daj znać, czy coś przestawić, dodać albo zmniejszyć — dopiero zaczynamy 🙂
+Następne sprawdzenie Discorda: ~02:15.
+~CLAUDE~
