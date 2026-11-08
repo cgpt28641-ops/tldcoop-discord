@@ -1,0 +1,19 @@
+{
+ "id": "1568983079413096632",
+ "channel": "chat",
+ "time": "2026-11-08T13:38:36.428000+00:00",
+ "author": "kerel123",
+ "username": "kerel123",
+ "author_id": "402140001187659786",
+ "bot": false,
+ "content": "",
+ "reply_to": null,
+ "attachments": [
+  {
+   "name": "image.png",
+   "size": 948164,
+   "saved": "inbox/chat/2026-11-08/1568983079413096632/image.png"
+  }
+ ],
+ "mentions_bot": false
+}
