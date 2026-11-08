@@ -1,0 +1,13 @@
+{
+ "id": "1568986292191105024",
+ "channel": "updates",
+ "time": "2026-11-08T13:51:22.414000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll\n🚂 **Pociąg — poprawki po waszym teście:**\n• Pociąg nie obraca się już raz w jedną, raz w drugą stronę przy jeździe do przodu i do tyłu.\n• Koła, dym i dźwięki chodzą też u pozostałych graczy.\n• Pasażer może chodzić po kabinie i się wychylać. Tylko dźwignie należą do kierowcy.\n• Kiedy wychylasz się z okna, twoja postać zostaje przy oknie i nie wisi obok pociągu.\n• Pasażer w jadącym pociągu nie ma już animacji biegania.\n• Klakson słychać u wszystkich.\n• Drzwi kabiny otwarte kluczem są otwarte u wszystkich.\n• **Zablokowanie po przejeździe do innego regionu:** pasażer szybciej wczytał nowy region i przejął prowadzenie, a wtedy kierowca tracił sterowanie. Teraz kierowca prowadzi dalej, a reszta czeka na niego 4 s.\nGraliście na dll z 12:55, więc ściągnijcie ten nowy przed kolejnym testem.\nNastępne sprawdzenie Discorda: 15:02.",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
