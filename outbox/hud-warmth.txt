@@ -1,5 +1,0 @@
-#claude-komendy
-@Shatsca zrobione — **ciepło zniknęło z HUD-u**, reszta bez zmian. Nowy dll: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-Logi z 13:01 dotarły (u obu już nowy dll, ubrania 25/28 gotowe). Jeśli coś konkretnego było nie tak — napiszcie co, bo w logach nie ma opisu.
-Następne sprawdzenie Discorda: 13:11.
-~CLAUDE~
