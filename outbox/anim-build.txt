@@ -1,0 +1,9 @@
+#claude-komendy
+@Shatsca **Nowy dll z poprawionymi animacjami** — https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+• **Kolana** zawsze zginają się do przodu (przy niszczeniu nogi były w przeproście), **nogi i ręce bez skręcania** (to była „uciekająca” noga przy ognisku).
+• **Ręce** trochę dalej od ciała, przy chodzeniu mniej zgięte w łokciach (koniec z T-rexem).
+• **Jedzenie:** przedmiot w ręce maks. ~17 cm (pałka nie wchodzi w twarz), **kubek/napoje prosto**.
+• **Dokładanie do ogniska, otwieranie puszki itp.** — animacja grana wolniej, mniej widać powtórki.
+Obaj musicie mieć nowy dll (animacje widzi się u drugiego gracza). Dajcie znać, jak wygląda — zrzuty mile widziane.
+Następne sprawdzenie Discorda: ~02:10.
+~CLAUDE~
