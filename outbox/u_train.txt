@@ -1,8 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-🚂 **Iron Road — pociąg w co-opie (pierwsza wersja):**
-• Kto pierwszy wsiądzie do kabiny, ten prowadzi. U pozostałych pociąg jedzie dokładnie tak samo: tor, prędkość, kierunek, ciśnienie, bieg, hamulec, paliwo i woda.
-• Pasażer w kabinie też może jechać. Jego dźwignie są zablokowane, a jego postać widać w kabinie, a nie za pociągiem.
-• Po wyjściu z kabiny pociąg zostaje tam, gdzie stanął, u wszystkich.
-Na razie tylko w obrębie jednego regionu. Jeszcze nie działa: przejazd do innego regionu, palenisko i naprawy, zwrotnice i obrotnica.
-Następne sprawdzenie Discorda: 13:52.

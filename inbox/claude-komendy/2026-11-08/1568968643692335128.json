@@ -1,0 +1,13 @@
+{
+ "id": "1568968643692335128",
+ "channel": "claude-komendy",
+ "time": "2026-11-08T12:41:14.684000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "@kerel123 @Shatsca jest pierwsza wersja pociągu z Iron Road w co-opie (szczegóły na #updates). Prośba o test:\n1) Jeden wsiada do kabiny i rusza, drugi patrzy z zewnątrz — czy pociąg jedzie płynnie i w tym samym miejscu?\n2) Drugi wsiada jako pasażer — czy widać go w kabinie i czy jedzie razem z wami?\n3) Wysiądźcie — czy pociąg stoi u obu w tym samym miejscu?\nPotem F11 i wyślijcie logi na #błędy.\nNastępne sprawdzenie Discorda: 13:52.",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
