@@ -1,5 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-**Co zmienione:**
-• 💀 **Koniec po 3 życiach (Shatsca):** po wykorzystaniu 3 szans pojawiała się opcja RESPAWN, czyli stary tryb co-op z nowym ocalałym. Teraz po ostatnim życiu jest normalny koniec gry dla tej postaci: ekrany gry i podsumowanie. Ciało z rzeczami zostaje dla reszty, a zapis gry nie jest kasowany.
-• 👕 **ClothingExpanded (Shatsca):** usunąłem 3 przedmioty, które nie działały, bo gra nie ma ich części bazowych: buty chemiczne z prowizorycznymi rakami, buty chemiczne z rakami i spodnie górnicze z pasem na narzędzia. Zostaje 25 przedmiotów, wszystkie działające.

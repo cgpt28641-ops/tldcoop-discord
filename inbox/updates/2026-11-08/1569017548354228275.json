@@ -1,0 +1,13 @@
+{
+ "id": "1569017548354228275",
+ "channel": "updates",
+ "time": "2026-11-08T15:55:34.464000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "📋 **Stan prac:**\n✅ **Zrobione i sprawdzone w grze:**\n• Pociąg: jazda kierowca i pasażer, przejazd do innego regionu, pociąg pojawia się u gracza, który go nie miał, train_flip\n• Cheat Death: 3 życia, wybór kary i odrodzenia\n• Przeprawa łodzią (po przepłynięciu jednego reszta może płynąć)\n• Konsola F1: pass_time i teleportplayer\n🟡 **Zrobione, czeka na wasz test (potrzebny dll z 16:46 lub nowszy):**\n• Ciepło w kabinie pociągu\n• Paliwo i woda w pociągu (dolewanie u jednego, widać u wszystkich)\n• Płynny ruch i animacja chodu w kabinie, wychylanie z okna\n• Kierunek pociągu po zwrotnicy\n• Zwrotnica przestawiona u jednego przestawia się u wszystkich\n• Wspólny stan części pociągu (host co 20 s)\n• Klakson, zamek drzwi kabiny, schowek w pociągu, grzejnik na olej wielorybi\n• Kamień na dłoni (nie w nadgarstku)\n• Koniec po 3 życiach, 25 przedmiotów ClothingExpanded, ikony ClothingExpanded\n• Zapis gry po wyjściu hosta\n❌ **Jeszcze nie zrobione:**\n• Plecak po Cheat Death nie pokazuje się na mapie\n• Szary obraz po Cheat Death: sprawdzam, czy to efekt osłabienia z samej gry, czy błąd moda\n• Pociąg w zapisie gracza, który został na zewnątrz, kiedy kierowca odjechał do innego regionu\n• Krótkie szarpnięcia przy zwrotnicach u pasażera\n• Nienaturalne stanie i chodzenie postaci\n• Bonusy pasów na narzędzia (ClothingExpanded)\n⏳ **Czeka na was:**\n• Wojskowe wiadomości: Kerel, opisz proszę, o co chodzi\n• Schrony ze śniegu: czekam na Szymona\n• Strzelba: odłożona",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
