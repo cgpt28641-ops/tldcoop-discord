@@ -1,0 +1,13 @@
+{
+ "id": "1569085460125319418",
+ "channel": "updates",
+ "time": "2026-11-08T20:25:25.892000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll\n**Co zmienione:**\n• 🥶 **Tusza wilka od razu „zamarznięta, 0%” po zastrzeleniu (Karol):** kiedy wilk ginie w grze gościa (np. Szymona), hosta przejmuje martwego wilka i wstawia za niego jednego ze swoich. Ten zastępca miał własną, starą tuszę: zamarzniętą, ze stanem 0%, i to widzieli wszyscy. Teraz świeżo zabity wilk (do 10 min od śmierci) dostaje u hosta świeżą tuszę: niezamarzniętą, ze stanem 100%. W logu hosta pojawi się linia „is a fresh kill”.\nNastępne sprawdzenie Discorda: 21:29.",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
