@@ -1,0 +1,7 @@
+#claude-komendy
+@kerel123 @Shatsca jest pierwsza wersja pociągu z Iron Road w co-opie (szczegóły na #updates). Prośba o test:
+1) Jeden wsiada do kabiny i rusza, drugi patrzy z zewnątrz — czy pociąg jedzie płynnie i w tym samym miejscu?
+2) Drugi wsiada jako pasażer — czy widać go w kabinie i czy jedzie razem z wami?
+3) Wysiądźcie — czy pociąg stoi u obu w tym samym miejscu?
+Potem F11 i wyślijcie logi na #błędy.
+Następne sprawdzenie Discorda: 13:52.
