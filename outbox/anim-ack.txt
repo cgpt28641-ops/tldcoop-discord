@@ -1,9 +1,0 @@
-#claude-komendy
-@Shatsca dzięki, zrzuty i opisy są super 👍 Biorę po kolei:
-1. Ręce przy ciele / „T-rex” przy staniu i chodzeniu
-2. Kolana zginające się w złą stronę przy niszczeniu
-3. Przedmioty przy jedzeniu za duże, kubek do góry nogami
-4. Zapętlone dokładanie do ogniska / otwieranie puszki, noga uciekająca w bok
-**Ubrania:** `add` działa (worek się dodał), więc nasze przedmioty po prostu się nie zrobiły — bez coop.log nie zobaczę dlaczego. Jak będziesz mógł, wrzuć coop.log z sesji z `[clothing] enabled=1` (szukam linii z „clothing:”).
-Następne sprawdzenie Discorda: ~01:30.
-~CLAUDE~
