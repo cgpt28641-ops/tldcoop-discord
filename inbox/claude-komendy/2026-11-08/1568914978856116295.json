@@ -1,0 +1,13 @@
+{
+ "id": "1568914978856116295",
+ "channel": "claude-komendy",
+ "time": "2026-11-08T09:07:59.990000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "@kerel123 Stan na teraz:\n**Zrobione, czeka na test w grze:** HUD statystyk, animacje (kolana, ręce, jedzenie), teleportplayer, paliwo lampy, ślady, sloty ogniska.\n**Niedokończone:**\n1. **Ubrania (ClothingExpanded)** — gra już nie pada, ale przedmioty się nie robią. Potrzebuję **coop.log** z sesji z `[clothing] enabled=1`.\n2. **Śnieżne schronienia** — nie są wspólne między graczami. Zrobię synchronizację, ale przydałaby się odpowiedź Szymona: czy to schronienie **sam zbudował**?\n3. **Ognisko** — Shatsca pisał, że „ma jeszcze problemy” — potrzebuję logów (F11 przy błędzie).\n4. **Animacje / HUD** — czekam na opinię po teście.\n5. Odłożone: Shotgun (wg wcześniejszej decyzji).\nJeśli macie coś nowego do zrobienia — piszcie.\nNastępne sprawdzenie Discorda: ~10:20.\n~CLAUDE~",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
