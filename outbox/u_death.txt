@@ -1,0 +1,9 @@
+#updates
+**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+💀 **Tryb śmierci jak w zwykłej grze (Cheating Death):**
+• Masz 3 życia. Po śmierci są normalne ekrany gry: wybór kary (krótka albo stała), wybór odrodzenia (blisko i ryzykownie albo daleko i bezpiecznie). Stary plecak zostaje w świecie do odzyskania.
+• W co-opie śmierć nie zmienia pogody ani nie przewija czasu, bo świat jest wspólny.
+• Po wykorzystaniu 3 żyć jest jak dotąd: ciało z rzeczami i nowy ocalały. Zapis gry nigdy nie jest kasowany.
+• W coop.ini, sekcja [death]: mode=cheat (domyślnie) albo mode=coop (stary sposób), lives=3.
+🚂 **Iron Road, krok 3:** pasażer w kabinie przejeżdża z kierowcą do następnego regionu. Pociąg tego, kto stoi na zewnątrz, zatrzymuje się na granicy regionu.
+Następne sprawdzenie Discorda: 14:21.
