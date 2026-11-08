@@ -1,0 +1,3 @@
+#błędy
+@Shatsca dzięki za filmik. Twoja pozycja w kabinie przychodziła ok. 15 razy na sekundę i postać przeskakiwała od jednej do drugiej, dlatego się zacinała. Teraz przesuwa się płynnie, a przy chodzeniu po kabinie ma animację chodu (wcześniej zawsze stała). Nowy dll: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+Następne sprawdzenie Discorda: 16:15.
