@@ -1,6 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-**Co zmienione:**
-• 🚂 **Kierunek pociągu (Shatsca: „R jedzie do przodu, N do tyłu”):** przy zwrotnicy kolejny tor może biec w przeciwną stronę. Gra kierowcy wtedy sama odwraca kierunek, a u pozostałych graczy pociąg wjeżdżał na nowy tor ze starym kierunkiem i zostawał odwrócony. Teraz przy wjeździe na inny tor pociąg dostaje kierunek kierowcy. Jest to robione tylko przy zmianie toru, nie co klatkę. Jeśli twój pociąg już jest odwrócony, raz wpisz w kabinie w F1 `train_flip`.
-• 🚂 **Wychylanie z okna (Kerel):** postać wychyla się do 45 cm w stronę okna, zamiast stać w środku.
-• 👕 **ClothingExpanded, ikony:** gra szuka ich pod kilkoma wersjami nazw. Jeśli dalej ich nie będzie, log pokaże, jak paczka je nazywa, i poprawię.

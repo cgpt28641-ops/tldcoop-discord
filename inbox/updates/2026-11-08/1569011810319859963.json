@@ -1,0 +1,13 @@
+{
+ "id": "1569011810319859963",
+ "channel": "updates",
+ "time": "2026-11-08T15:32:46.410000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "📋 **Czego jeszcze nie ma albo nie jest sprawdzone:**\n**Iron Road / pociąg**\n• Kopia pociągu u gracza na zewnątrz, kiedy kierowca odjedzie do innego regionu: zostaje ukryta, ale w zapisie tego gracza pociąg dalej stoi w starym miejscu. Po powrocie gra go przenosi, gdy host albo kierowca są w tym regionie.\n• Krótkie szarpnięcia pociągu przy zwrotnicach u pasażera (gra na ułamek sekundy łapie zły tor).\n• Skrzynia przy przeprawie łodzią: przedmioty liczą się tylko u tego, kto je włożył. Za pierwszym przepłynięcia reszta może płynąć bez wypełniania.\n• Wojskowe wiadomości: czekam na opis od Kerela (co to jest i co się dzieje).\n**Postacie i animacje**\n• Stanie i chodzenie wyglądają jeszcze nienaturalnie.\n• Rzut kamieniem: kamień leży już na dłoni, sam rzut jeszcze nie sprawdzony.\n**ClothingExpanded**\n• Brak ikon (czekam na log z nazwami).\n• 3 z 28 przedmiotów nie działają, bo potrzebują GEAR_MinersBoots i GEAR_MinersPants, których gra nie ma.\n• Brak bonusów dla pasów na narzędzia.\n**Inne**\n• Synchronizacja schronów ze śniegu (czekam na Szymona).\n• Strzelba (odłożona).\n**Do sprawdzenia w grze:** Cheating Death (3 życia), ciepło w kabinie, paliwo i woda, automatyczny zapis po wyjściu hosta.\nNastępne sprawdzenie Discorda: 16:43.",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
