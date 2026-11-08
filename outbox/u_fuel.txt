@@ -1,5 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-🚂 **Pociąg — paliwo i woda (zgłoszenie Kerela z 15:38 i 15:41):** host co kilka sekund nadpisywał cały stan kotła u pozostałych graczy. Przez to wlany olej i woda „nie działały”, a rozpalone palenisko się cofało. Teraz do innych idzie tylko to, co ktoś zrobił: naprawa, rozpalenie albo zgaszenie paleniska, dolanie oleju czy wody oraz zużycie części u kierowcy.
-Z waszych logów: przejazdy, kierowca i pasażer, odnalezienie pociągu po zmianie regionu i train_flip działają.
-Następne sprawdzenie Discorda: 15:58.
