@@ -1,6 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-**Co zmienione:**
-• 🌡️ **ODCZUWALNA w HUD-zie (Shatsca):** pokazywała tylko temperaturę powietrza z wiatrem, bez ubrań. Teraz pokazuje odczuwalną temperaturę z samej gry, tę samą co ekran ubrań: powietrze, wiatr, ciepło ubrań i ogień. Czerwona robi się dopiero, gdy ta odczuwalna spadnie poniżej 0.
-⚠️ Wasze logi z 17:11 (Shatsca, Kerel, Szymon) są z **dll z 15:52**, więc brakuje w nich poprawek z 16:46 i późniejszych (zwrotnice, stan części, koniec po 3 życiach, 25 przedmiotów ClothingExpanded). Pobierzcie nowy przez Ctrl+J → Zachowaj. W pierwszej linii coop.log powinno być „Nov 8 2026 17:2x”.
-Następne sprawdzenie Discorda: 17:36.
