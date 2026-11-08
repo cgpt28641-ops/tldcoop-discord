@@ -1,7 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-🚂 **Iron Road, krok 2:**
-• **Części pociągu:** stan hamulca, kotła, pługu i kół, rozpalony kocioł i jego temperatura, olej i woda w zbiornikach są wspólne. Naprawa, rozpalenie paleniska albo dolanie wody czy oleju u jednego od razu przechodzi do reszty.
-• **Tory:** zwrotnice, obrotnice oraz wieże z wodą i olejem są u wszystkich takie same. Zmiana dochodzi w sekundę, a host co 15 s wysyła pełny stan.
-Do zrobienia: przejazd pociągiem do innego regionu, schowek w pociągu.
-Następne sprawdzenie Discorda: 14:10.
