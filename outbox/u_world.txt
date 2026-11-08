@@ -1,5 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-**Co zmienione:**
-• 🗺️ **Gracze na mapie świata (Kerel):** na mapie wszystkich regionów (tej ze screena: M → przycisk mapy świata) każdy gracz ma kropkę w swoim kolorze przy ikonie regionu, w którym jest, a w lewym górnym rogu jest legenda (kolor → imię, TY to ty). To pierwsza wersja: pokazuje, w którym regionie ktoś jest, ale nie dokładne miejsce, bo każdy region ma własną mapę i współrzędne. Gracz w budynku albo w jaskini na razie nie ma kropki na mapie świata.
-Następne sprawdzenie Discorda: 18:52.

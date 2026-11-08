@@ -1,3 +1,0 @@
-#claude-komendy
-@kerel123 zacząłem od tego, co jest na twoim screenie, czyli mapy świata z gry. Teraz widać na niej, w którym regionie jest każdy z was (kropka w kolorze gracza i legenda). Błędy z listy czekają na wasze testy na nowym dll. Następny krok mapy: dokładne miejsce gracza na mapie świata, ale to wymaga dopasowania każdego regionu.
-Następne sprawdzenie Discorda: 18:52.
