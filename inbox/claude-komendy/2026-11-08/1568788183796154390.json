@@ -1,0 +1,13 @@
+{
+ "id": "1568788183796154390",
+ "channel": "claude-komendy",
+ "time": "2026-11-08T00:44:09.692000+00:00",
+ "author": "Shatsca",
+ "username": "shatsca",
+ "author_id": "464826282212065282",
+ "bot": false,
+ "content": "Przetestuje animacje i clothing - dam Ci znać co i jak\n\nTeraz mam prośbę abyś dodał bardziej rozbudowany HUB\n\nhttps://github.com/onematchinterloper/interloperhudpro/releases\n\ntutaj masz widoczną realną temperature - postaci - wiatru - powietrza, obecna wage oraz limit wagi\n\nProcent paliwa / pochodni \n\nObecny czas w grze (godzina/minuta) \n\nOraz obecny stan (krowotoki/hipotermia itd)\n\nChciałbym abyś to fajnie zrobił - tak jak HUD z the long dark, możesz usprawnić to o dodatkowe rzeczy które uważasz za słuszne\n\n<@1568266348587655218>",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": true
+}
