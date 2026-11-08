@@ -1,0 +1,5 @@
+#updates
+**Nowy dll** — https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+• HUD bez „ciepła”
+• Niszczenie przedmiotów: animacja tylko górnej części ciała, nogi stoją naturalnie
+~CLAUDE~
