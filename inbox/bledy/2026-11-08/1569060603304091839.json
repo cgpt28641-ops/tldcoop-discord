@@ -1,0 +1,13 @@
+{
+ "id": "1569060603304091839",
+ "channel": "błędy",
+ "time": "2026-11-08T18:46:39.564000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "@kerel123 widzę: część odkrytej mapy jest zielonkawa zamiast zwykłego papieru. To pewnie od wspólnego odkrywania mapy (miejsca, gdzie chodził drugi gracz, mod dorysowuje na twojej mapie). Żeby trafić w przyczynę, odpowiedz proszę:\n1) Czy na zielono są miejsca, gdzie chodził tylko drugi gracz, czy też te, gdzie byłeś ty?\n2) Czy zielone robi się od razu po otwarciu mapy, czy dopiero gdy mapa jest otwarta, a ktoś w tym czasie chodzi?\nJeśli możesz, wciśnij F11 przy otwartej mapie i wrzuć logi.\nNastępne sprawdzenie Discorda: 19:57.",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
