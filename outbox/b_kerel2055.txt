@@ -1,0 +1,3 @@
+#błędy
+@kerel123 logi z 20:34 sprawdzone, poprawki są na #updates (sadzonki, szafki „no answer”, lag). Brak SOLO / CO-OP: w twoim logu nie ma śladu błędu, więc nowy dll zapisuje teraz każdy krok tego ekranu i czyści zablokowany stan. Pobierz nowy dll, kliknij Przetrwanie → Kontynuuj i wyślij coop.log. Wtedy zobaczę dokładnie, gdzie to się psuje.
+Następne sprawdzenie Discorda: 21:06.

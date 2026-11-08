@@ -1,0 +1,9 @@
+#updates
+**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+**Co zmienione (z logów 20:34 i zgłoszenia Kerela):**
+• ❗ **Brak ekranu SOLO / CO-OP po wejściu w Przetrwanie (Kerel 20:46):** w logu nie ma żadnego śladu, gdzie to się psuje: kończy się w menu głównym. Teraz mod zapisze w logu każde kliknięcie NOWA / KONTYNUUJ / WCZYTAJ i każdy powód, dla którego ekran SOLO / CO-OP się nie otworzył. Jeśli mod błędnie uważa, że jakiś ekran co-op jest dalej otwarty, teraz to czyści i następne kliknięcie znowu pyta o SOLO / CO-OP. **Proszę: pobierz nowy dll, kliknij Przetrwanie → Kontynuuj, odczekaj minutę i wyślij coop.log.**
+• 🌱 **Sadzonki brzozy po spaniu:** kiedy skończyły się suszyć, każdy dostał 5–6 razy „Coin toss: someone else gets the Birch Sapling”, bo mod brał zamianę sadzonki na suchą za podniesienie. Teraz koniec suszenia nie jest podniesieniem.
+• 🗄️ **„No answer from the host” przy szafkach i lodówce:** kiedy ktoś zbierał logi wszystkich, logi szły tak szybko, że zapychały połączenie (ping do 3,7 s) i szafki się nie otwierały. Teraz idą wolniej (kawałek co 1,5 s).
+• 🐢 **Lag u Kerela (20:34):** gra u Kerela miała ok. 41 kl./s przy ok. 180 u innych, ale mod zajmuje tylko ok. 1,5 ms na klatkę, reszta to sama gra. Przy zmianie lokacji ClothingExpanded dokłada ok. 0,4 s do wczytywania.
+• 🧤 **Ikony ClothingExpanded:** log pokazał przyczynę: gra nie widzi paczki z ikonami pod jej nazwą. Następnym krokiem jest wczytanie ikon inaczej.
+Następne sprawdzenie Discorda: 21:06.
