@@ -1,0 +1,6 @@
+#updates
+**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+**Co zmienione (zgłoszenia Shatscy 20:11–20:30):**
+• 🐺 **Martwy wilk cały czas warczy w miejscu śmierci:** po całkowitym oprawieniu tuszy (0 mięsa, 0 skóry, 0 jelit) gra Szymona od razu ją usuwała, a mod robił ją od nowa co pół sekundy. Jeden wilk powstał tak 30 razy, a za każdym razem odtwarzały się jego dźwięki. Teraz pustej tuszy mod w ogóle nie tworzy.
+• 🍖 **Mięso nagle przyspiesza i jest gotowe, kiedy host wchodzi do budynku:** Szymon gotował 6 garnków w FarmHouseA. Kiedy Shatsca wszedł, jego gra przez chwilę widziała garnki jako puste, zanim doszło do niej mięso, i wysłała Szymonowi „pusty garnek”. Mięso wkładało się wtedy od nowa i gotowanie się psuło. Teraz przez kilka sekund po wczytaniu garnka od drugiego gracza mod nie wysyła „pusty”, dopóki mięso nie dojdzie.
+• ❓ **Grot strzały znikł na stole warsztatowym:** w logach w ogóle nie widać, żeby gra Szymona go położyła. Potem host nie miał go na swojej liście i grot zniknął też u Szymona. Jeszcze nie poprawione. Jeśli się powtórzy: połóż grot na stole, odczekaj 10 s, wyjdź z budynku i wróć, potem F11 z opisem.
