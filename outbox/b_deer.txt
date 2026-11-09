@@ -1,0 +1,2 @@
+#błędy
+@shatsca dzięki za zgłoszenia o jeleniach, wszystkie cztery widać w logach. Poprawione: łania lub jeleń są teraz tym samym zwierzęciem u wszystkich, tusza nie znika, a zraniony jeleń nie przepada razem ze śladem krwi. Szczegóły na #updates, nowy dll w linku tam.
