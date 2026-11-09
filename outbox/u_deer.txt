@@ -1,7 +1,0 @@
-#updates
-**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-**Co zmienione (zgłoszenia Shatscy o jeleniach, 19:41–19:44):**
-• 🦌 **Jeleń u jednego, sarna u drugiego / „po strzale jeleń zmienił się w sarnę”:** mod wysyłał tylko „jeleń”, bez informacji, czy to jeleń, łania czy biały jeleń. Gra drugiego gracza brała pierwszego lepszego jelenia ze swoich, czasem łanię. Teraz wysyła też rodzaj, więc wszyscy widzą to samo zwierzę.
-• 🥩 **Tusza jelenia znikła, gdy Szymon podszedł:** Szymon zabił jelenia, a host przejął tuszę. Do jej przejęcia host brał jednego ze swoich jeleni ze stada, a gra usuwała go po 1,6 s razem z tuszą. Teraz dla martwego zwierzęcia mod robi osobną tuszę, której gra nie usuwa.
-• 🩸 **Zraniony jeleń i ślad krwi nagle znikały:** kiedy zraniony jeleń przechodził do gry Szymona, gra od razu go wyłączała. Mod uznawał go wtedy za zniknięty dla wszystkich. Teraz w takiej sytuacji jeleń wraca do hosta z ranami i krwawieniem, więc można iść dalej jego śladem.
-• ✅ **Działa (potwierdzone w waszych logach):** ikony ClothingExpanded są widoczne, a świeżo zabity wilk nie jest już zamarznięty i ma stan 100%.
