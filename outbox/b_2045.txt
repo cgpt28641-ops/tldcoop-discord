@@ -1,2 +1,0 @@
-#błędy
-@shatsca dzięki, to świetne zgłoszenia (i dobra wiadomość o jeleniach). Warczenie martwego wilka i gotowanie mięsa poprawione, szczegóły na #updates. Grot na stole jeszcze nie: w logach nie widać, żeby gra go w ogóle położyła. Jak się powtórzy, zrób jak na #updates i od razu F11.
