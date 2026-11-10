@@ -1,0 +1,5 @@
+#błędy
+@shatsca
+• Rzadkość 25%: jest już od wersji z 00:05. Wasze logi były z 22:31, czyli sprzed poprawki, więc pobierzcie najnowszy dll.
+• Mięso wracające do wilków: znalazłem przyczynę. Host przy zapisie gry brał stary stan tuszy, sprzed zbierania mięsa. Poprawione w nowym dll (szczegóły na #updates). Sprawdźcie tak: zbierzcie mięso z tuszy, zapiszcie (np. śpiąc albo zmieniając lokację), wyjdźcie i wejdźcie z powrotem.
+https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
