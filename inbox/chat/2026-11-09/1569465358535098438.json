@@ -1,0 +1,29 @@
+{
+ "id": "1569465358535098438",
+ "channel": "chat",
+ "time": "2026-11-09T21:35:00.731000+00:00",
+ "author": "Shatsca",
+ "username": "shatsca",
+ "author_id": "464826282212065282",
+ "bot": false,
+ "content": "",
+ "reply_to": null,
+ "attachments": [
+  {
+   "name": "IMG_6993.png",
+   "size": 2823013,
+   "saved": "inbox/chat/2026-11-09/1569465358535098438/IMG_6993.png"
+  },
+  {
+   "name": "IMG_6992.png",
+   "size": 2973639,
+   "saved": "inbox/chat/2026-11-09/1569465358535098438/IMG_6992.png"
+  },
+  {
+   "name": "IMG_6991.png",
+   "size": 2950382,
+   "saved": "inbox/chat/2026-11-09/1569465358535098438/IMG_6991.png"
+  }
+ ],
+ "mentions_bot": false
+}
