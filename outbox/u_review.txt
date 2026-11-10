@@ -1,0 +1,8 @@
+#updates
+**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+**Co zmienione (dokładny przegląd logów z 09.11 23:21, prośba Kerela):**
+• 🥩 **Znikające tusze daleko od graczy:** w logu Shatscy 72 razy gra wyłączyła zwierzę zaraz po tym, jak mod je przejął. Były wśród nich martwe ciała, które host miał trzymać dla kolegi daleko od siebie: mod robił ciało, gra je po 0,1 s wyłączała i tusza przepadała. Teraz takie ciało wraca do „poczekalni” i czeka, aż ktoś będzie mógł je przejąć, zamiast zniknąć.
+**Co jeszcze widać w tych logach (bez zmian):**
+• Łania, dla której w danym miejscu nie ma modelu łani, pokazuje się jako zwykły jeleń (6 razy). Rzadkie, zostawiam.
+• Przy każdej zmianie lokacji ClothingExpanded dokłada ok. 0,45 s do wczytywania.
+• Poza tym w logach są tylko pojedyncze błędy gry, które nie psują rozgrywki.

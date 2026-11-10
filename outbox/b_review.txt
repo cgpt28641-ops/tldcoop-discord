@@ -1,0 +1,2 @@
+#claude-komendy
+@kerel123 przejrzałem dokładnie logi z 23:21 (Shatsca i Szymon, cała sesja). Jedna poprawka: tusze daleko od graczy już nie przepadają. Reszta, w tym co zostawiam bez zmian, jest na #updates. Poza tym logi są czyste.
