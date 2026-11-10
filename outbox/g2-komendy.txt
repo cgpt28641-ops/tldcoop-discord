@@ -1,0 +1,4 @@
+#claude-komendy
+@shatsca receptury są w nowym dll, z twoimi ustawieniami: pasy z podwójnymi składnikami i 3 h, torba z pochwą 10 h, bez odszywania. Na warsztacie potrzebny jest przybornik do szycia. Sprawdź, czy po zakończeniu szycia przedmiot ląduje w plecaku.
+Co do item-rarities: zacząłem, ale ten mod ma licencję GPL-3. Gdybym wkleił jego kod albo listę rzadkości, cały nasz mod musiałby być na tej licencji i z publicznym kodem. Pytam Karola, czy zrobić własną wersję (własna lista rzadkości, kolorowe tło przedmiotów w ekwipunku jak skiny w CS) czy zgodzić się na GPL. Jak zdecyduje, robię.
+https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
