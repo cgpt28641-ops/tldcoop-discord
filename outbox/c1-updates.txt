@@ -1,0 +1,8 @@
+#updates
+**ClothingExpanded (zgłoszenie Shatscy)**
+• `add GEAR_...` w konsoli F1. Było: gra mówiła „0 added” i nic nie dawała, bo konsola TLD nie widzi przedmiotów z paczki. Jest: mod sam robi kopię przedmiotu i wkłada ją do plecaka. Tak samo działa przycisk ATTACH.
+• Spawn w świecie. Było: przedmioty nigdzie się nie pojawiały. Jest: gdy gra pierwszy raz wypełnia szafkę, szufladę albo skrzynkę, 3% z nich dostaje jeden przedmiot ze stanem 35–95%.
+• Rzadkość przedmiotów (od najczęstszych): pasy Cargo, Jeans i Work → raki N → pozostałe pasy → raki I → wersje Combat → torba z pochwą na karabin (najrzadsza).
+• Szansę zmienisz w `coop.ini`: `[clothing] spawn_chance=3` (0 wyłącza). W co-opie losuje host.
+Uwaga: losowanie działa tylko w miejscach, których gra jeszcze nie wypełniła, czyli w nowej grze albo w nieodwiedzonym regionie. Nie testowane w grze.
+Link: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
