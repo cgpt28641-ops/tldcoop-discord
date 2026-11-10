@@ -1,8 +1,0 @@
-#claude-komendy
-@shatsca dzięki za test, poprawione w nowym dll:
-• przycisk jest teraz z lewej strony;
-• bez DLC nie ma już ODEPNIJ dla pasa i pochwy. `add GEAR_ToolBelt` i `GEAR_RifleScabbardA` to przedmioty z DLC Tales, więc bez niego gra ich nie ma. Tego nie da się obejść;
-• torba z pochwą: założona zmniejsza wagę karabinu o połowę. Sprawdź na tych samych liczbach: 11,8 kg plus karabin (4 kg) plus torba powinno dać około 14 kg, a nie 16,2;
-• ubrania spawnują się w szafkach i skrzynkach na stałe (3% pojemników, torba łosia bardzo rzadko). Tylko w nowych miejscach albo nowej grze.
-Jak chcesz, przetestuj jeszcze raki w wersji Insulated albo Combat i pas Deerskin.
-https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll

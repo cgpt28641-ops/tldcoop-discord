@@ -1,8 +1,0 @@
-#updates
-**ClothingExpanded: poprawki po teście Shatscy**
-• Przycisk ODPNIJ/PRZYPNIJ. Było: wychodził poza prawą krawędź ekranu. Jest: stoi z lewej, przed pierwszym przyciskiem.
-• ODEPNIJ dla pasa i pochwy. Było: szary przycisk albo „najpierw to zdejmij”. Jest: bez DLC Tales przycisku nie ma, bo nie ma zwykłego pasa ani pochwy, które mogłyby wrócić do ekwipunku. Raki odpinają się jak dotąd.
-• Waga torby z pochwą. Było: karabin ważył pełne 4 kg, bo bez DLC nie było skąd skopiować bonusu pochwy. Jest: gdy masz założoną torbę z pochwą, jeden karabin waży połowę.
-• Ubrania w świecie zostają na stałe: 3% szafek i skrzynek przy pierwszym wypełnieniu, torba łosia najrzadsza (mniej więcej 1 na 3500 pojemników).
-Nie testowane: przycisk z lewej i waga karabinu.
-Link: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
