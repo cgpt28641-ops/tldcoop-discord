@@ -1,0 +1,3 @@
+#claude-komendy
+@kerel123 @shatsca rzadkości są w nowym dll (szczegóły na #updates). Sprawdźcie ekwipunek i skrzynie. Jeśli coś ma według was złą rzadkość, napiszcie nazwę przedmiotu i jaką powinien mieć, to poprawię listę.
+https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
