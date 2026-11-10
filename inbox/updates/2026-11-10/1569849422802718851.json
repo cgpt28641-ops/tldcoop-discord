@@ -1,0 +1,13 @@
+{
+ "id": "1569849422802718851",
+ "channel": "updates",
+ "time": "2026-11-10T23:01:08.788000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Poprawki 00:05**\n• Buty Deerskin z rakami (zwykłymi i improwizowanymi). Było: mogły się znaleźć w budynkach. Jest: już się nie pojawiają, tylko na warsztacie albo przez przypięcie. Reszta ClothingExpanded dalej się spawnuje.\n• Rzadkość. Było: kolory zbyt jaskrawe (35%). Jest: tło ma 25%, po najechaniu 40%.\nLink: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}

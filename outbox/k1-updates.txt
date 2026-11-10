@@ -1,5 +1,0 @@
-#updates
-**Poprawki 00:05**
-• Buty Deerskin z rakami (zwykłymi i improwizowanymi). Było: mogły się znaleźć w budynkach. Jest: już się nie pojawiają, tylko na warsztacie albo przez przypięcie. Reszta ClothingExpanded dalej się spawnuje.
-• Rzadkość. Było: kolory zbyt jaskrawe (35%). Jest: tło ma 25%, po najechaniu 40%.
-Link: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
