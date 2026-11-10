@@ -144,7 +144,7 @@ def pull(channels, state):
                                                    bool(roles & set(m.get('mention_roles', []))))
                 json.dump(rec, open(os.path.join(folder, m['id'] + '.json'), 'w'), ensure_ascii=False, indent=1)
                 new += 1
-                if rec['mentions_bot'] and rec['username'] in CALLERS:
+                if rec['mentions_bot'] and not rec['bot']:  # (Karol 10.11: others get an answer too, a short one)
                     mentions.append('#%s %s %s %s' % (c['name'], m['id'], rec['username'], os.path.relpath(
                         os.path.join(folder, m['id'] + '.json'), ROOT)))
                     try:
@@ -161,12 +161,36 @@ def pull(channels, state):
     return new
 
 
+def known_users():
+    """username -> id, from what the inbox has seen: "@shatsca" in an outbox file becomes a real ping (<@id>)."""
+    users = {}
+    for dirpath, _, names in os.walk(os.path.join(ROOT, 'inbox')):
+        for n in names:
+            if not n.endswith('.json'):
+                continue
+            try:
+                d = json.load(open(os.path.join(dirpath, n), encoding='utf8'))
+            except Exception:
+                continue
+            if isinstance(d, dict) and d.get('author_id') and d.get('username'):
+                users[d['username'].lower()] = d['author_id']
+    return users
+
+
+def pings(text, users):
+    def one(m):
+        uid = users.get(m.group(1).lower()) or users.get(m.group(1).lower() + '.')
+        return '<@%s>' % uid if uid else m.group(0)
+    return re.sub(r'(?<![<\w])@([\w.]+[\w])', one, text)
+
+
 def push(channels):
     out_dir = os.path.join(ROOT, 'outbox')
     if not os.path.isdir(out_dir):
         return 0
     default = os.environ.get('DISCORD_DEFAULT_CHANNEL', '').strip().lstrip('#') or 'updates'  # (Karol: news of changes go to #updates)
     by_name = {c['name']: c for c in channels}
+    users = known_users()
     sent = 0
     for name in sorted(os.listdir(out_dir)):
         if not name.endswith('.txt'):
@@ -188,7 +212,7 @@ def push(channels):
                         files.append((os.path.basename(f), open(p, 'rb').read()))
             else:
                 body_lines.append(l)
-        text = '\n'.join(body_lines).strip()
+        text = pings('\n'.join(body_lines).strip(), users)
         if not target or (not text and not files):
             os.remove(path)
             continue
