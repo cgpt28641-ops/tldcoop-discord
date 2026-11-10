@@ -1,0 +1,7 @@
+#updates
+**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+**Co zmienione (zgłoszenia Shatscy z wieczora 09.11):**
+• 🐺 **Warczenie po śmierci wilków (9 wilków, warczenie zostało):** gracz, którego gra „steruje” wilkiem, wysyła drugiemu jego dźwięki. Warczenie gra w pętli, a polecenie „stop” po śmierci wilka nigdy nie przychodziło, więc pętla grała dalej w miejscu śmierci. Teraz 2 s po śmierci zwierzęcia (albo kiedy znika) mod sam wycisza wszystkie jego dźwięki.
+**Jeszcze nie zrobione:**
+• 🚤 **Zapasy łodzi na wyspę (Iron Road, Whaling Station):** to, co jeden gracz wrzuci do skrzyni łodzi (np. patyk jako paliwo), jest tylko w jego grze. To nowa funkcja do dorobienia, a nie drobna poprawka. Zajmę się nią jako następną.
+• 🍖 **Mięso Szymona nad slotem u hosta bez etapu gotowania:** zapisane, do sprawdzenia.
