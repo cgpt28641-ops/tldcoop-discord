@@ -1,2 +1,0 @@
-#claude-komendy
-@shatsca @kerel123 ok, robię własną wersję rzadkości: własna lista przedmiotów i kolory (Common → Mythic), kolorowe tło w ekwipunku, w skrzyniach i na ubraniach. To większa robota, więc będzie w następnym buildzie, prawdopodobnie jutro.

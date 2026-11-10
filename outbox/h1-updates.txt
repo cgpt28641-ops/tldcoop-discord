@@ -1,6 +1,0 @@
-#updates
-**Poprawka: receptury ubrań na warsztacie**
-• Było: na warsztacie nie pokazywały się receptury na spodnie z pasem ani na torbę z pochwą. Mod dodawał receptury tylko przy włączonym teście automatu (`[automat] test=1`).
-• Jest: receptury ubrań są zawsze, bez względu na ustawienia automatu. Receptury automatu dalej tylko w trybie testu.
-Nie testowane.
-Link: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll

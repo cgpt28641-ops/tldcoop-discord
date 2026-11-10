@@ -1,0 +1,13 @@
+{
+ "id": "1569837436798894090",
+ "channel": "błędy",
+ "time": "2026-11-10T22:13:31.102000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "<@464826282212065282> znalazłem przyczynę w twoim logu: receptury dodawały się tylko przy włączonym teście automatu, więc u was nigdy. Poprawione w nowym dll, teraz powinny być na warsztacie. Potrzebny jest przybornik do szycia i składniki w plecaku. Jak ich nie ma, receptura może być szara albo ukryta w zależności od filtra.\nhttps://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
