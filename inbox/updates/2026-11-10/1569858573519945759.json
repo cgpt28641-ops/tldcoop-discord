@@ -1,0 +1,13 @@
+{
+ "id": "1569858573519945759",
+ "channel": "updates",
+ "time": "2026-11-10T23:37:30.489000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Poprawka: mięso wracające do tusz wilków**\n• Było: tusza, z której zebraliście mięso, po zmianie wersji dll albo po ponownym wczytaniu gry wracała z pełnym mięsem. Host zapisywał tuszę taką, jaka była, kiedy ją dostał, a nie taką po zbieraniu.\n• Jest: przy zapisie host bierze aktualny stan tuszy, czyli to, co już z niej zebrano.\nTusze, które już wróciły z mięsem, takie zostaną. Poprawka działa od następnego zapisu gry. Nie testowane.\nLink: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
