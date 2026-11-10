@@ -1,0 +1,3 @@
+#błędy
+@shatsca przejrzałem obie paczki logów (wersja 22:31, czyli jeszcze bez poprawki 25% i Deerskin). W logach całej trójki nie widać nic poważnego, poza jednym drobiazgiem: przy przenoszeniu wilczego mięsa pojawia się „container isn't in our region”, sprawdzę to. Rzadkość i receptury ładują się u wszystkich.
+Napisz proszę konkretnie, co nie działa: co robiliście, co się stało i u kogo. Z samego „naprawy” nie wiem, czy chodzi o naprawianie przedmiotów, czy o listę rzeczy do naprawy. Najlepiej ze screenem 🙏
