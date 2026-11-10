@@ -1,0 +1,2 @@
+#claude-komendy
+@kerel123 zrobione: skrzynia łodzi na Iron Road (zapasy na wyspę) jest teraz wspólna dla wszystkich. Nowy dll i opis na #updates. Przetestujcie: jeden wrzuca patyk, drugi otwiera skrzynię.

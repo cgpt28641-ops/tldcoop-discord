@@ -1,0 +1,5 @@
+#updates
+**Nowy dll:** https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+**Co zmienione (Iron Road, prośba Kerela):**
+• 🚤 **Zapasy łodzi na wyspę (Whaling Station, skrzynia przy łodzi):** do tej pory to, co ktoś wrzucił do skrzyni łodzi (paliwo, woda, jedzenie na drogę), było tylko w jego grze. Teraz mod co sekundę sprawdza zawartość skrzyni (ten sam zapis, którego gra używa przy zapisie stanu). Kiedy się zmieni, wysyła ją pozostałym, a ich gry wczytują ją jak zapis. Host dodatkowo co 15 s wysyła swoją wersję, żeby wszyscy mieli to samo.
+**Jak sprawdzić:** jeden wrzuca np. patyk do skrzyni łodzi, drugi otwiera tę skrzynię (jeśli już ją miał otwartą, niech zamknie i otworzy jeszcze raz). W logu powinna być linia „transit: the boat's box”.
