@@ -1,2 +1,0 @@
-#błędy
-@shatsca warczenie po śmierci wilków poprawione (nowy dll, opis na #updates). Łódź na Iron Road: skrzynia z zapasami w ogóle nie jest jeszcze dzielona między graczy, robię to jako następną rzecz.
