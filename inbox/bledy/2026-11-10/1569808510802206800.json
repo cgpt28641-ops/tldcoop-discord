@@ -1,0 +1,19 @@
+{
+ "id": "1569808510802206800",
+ "channel": "błędy",
+ "time": "2026-11-10T20:18:34.607000+00:00",
+ "author": "Shatsca",
+ "username": "shatsca",
+ "author_id": "464826282212065282",
+ "bot": false,
+ "content": "(przetestowane clothing expanded - wiadomość referencyjna na <#1568239675838308503> )",
+ "reply_to": null,
+ "attachments": [
+  {
+   "name": "coop.log",
+   "size": 185526,
+   "saved": "inbox/bledy/2026-11-10/1569808510802206800/coop.log"
+  }
+ ],
+ "mentions_bot": false
+}

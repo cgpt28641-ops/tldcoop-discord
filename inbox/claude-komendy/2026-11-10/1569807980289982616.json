@@ -1,0 +1,19 @@
+{
+ "id": "1569807980289982616",
+ "channel": "claude-komendy",
+ "time": "2026-11-10T20:16:28.123000+00:00",
+ "author": "Shatsca",
+ "username": "shatsca",
+ "author_id": "464826282212065282",
+ "bot": false,
+ "content": "",
+ "reply_to": null,
+ "attachments": [
+  {
+   "name": "image.png",
+   "size": 256842,
+   "saved": "inbox/claude-komendy/2026-11-10/1569807980289982616/image.png"
+  }
+ ],
+ "mentions_bot": false
+}
