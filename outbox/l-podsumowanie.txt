@@ -1,0 +1,34 @@
+#podsumowanie
+**📅 Podsumowanie 10.11.2026**
+✅ = działa (sprawdzone w grze) · 🧪 = zrobione, czeka na test · ❌ = otwarte
+
+**HUD**
+✅ usunięta temperatura ciała, temperatury powietrza/odczuwalna/wiatr zostają
+✅ choroby i buffy jako ikony po lewej na środku ekranu
+🧪 pasek sprintu wyżej o 1,5 wysokości ikony
+
+**ClothingExpanded**
+✅ komenda `add` działa dla wszystkich 25 przedmiotów (wcześniej „0 added”)
+✅ przycisk PRZYPNIJ/ODEPNIJ po lewej stronie (wcześniej poza ekranem)
+✅ bez DLC nie ma ODEPNIJ dla pasa i pochwy
+✅ torba z łosia z pochwą zmniejsza wagę karabinu o połowę
+✅ przedmioty spawnują się w szafkach i skrzyniach (3% pojemników, torba łosia najrzadsza)
+✅ receptury na warsztacie widoczne: 6 rodzajów spodni z pasem (3 h) i torba z pochwą (10 h), przybornik do szycia
+🧪 czy po uszyciu przedmiot faktycznie trafia do plecaka
+🧪 buty Deerskin z rakami już się nie spawnują (00:05)
+
+**Rzadkość przedmiotów (nasza wersja)**
+🧪 kolorowe tło kwadratów w ekwipunku i skrzyniach: szary, zielony, niebieski, fioletowy, złoty, czerwony. Od 00:05 przezroczystość 25%.
+❌ kolory na slotach ubrań i nazwa rzadkości w opisie przedmiotu
+
+**Świat i co-op**
+🧪 przekazywanie wilków przy 3 graczach, warczenie po śmierci zwierzęcia, pusta tusza, garnki po wczytaniu
+🧪 skrzynia na łodzi (Iron Road)
+❌ meble i struktury przestawione w regionie, w którym nie ma hosta: inni gracze ich nie widzą, dopóki host tam nie wejdzie (poprawka jutro)
+❌ grot strzały znikający z warsztatu, mięso Szymona nad slotem bez etapu pieczenia, łania pokazywana jako jeleń
+❌ zgłoszenia Kerela: niewidzialne meble, zielona mapa, radar w kopalni, znacznik plecaka
+
+**Bot na Discordzie**
+✅ prawdziwe oznaczenia (@nick pinguje)
+✅ automatyczne sprawdzanie co 10 minut od 16 do 24
+✅ codzienne podsumowanie o 24:00 na tym kanale
