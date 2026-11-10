@@ -1,0 +1,2 @@
+#claude-komendy
+@shatsca tak, zostawiłem. Temperatura powietrza, odczuwalna i wiatr są tam, gdzie były: mała linijka na dole pod paskiem zdrowia (odczuwalna na czerwono, gdy spada poniżej 0). Usunąłem tylko temperaturę ciała. Jeśli chcesz to też wyrzucić albo przenieść, napisz.
