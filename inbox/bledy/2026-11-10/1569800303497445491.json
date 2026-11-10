@@ -1,0 +1,13 @@
+{
+ "id": "1569800303497445491",
+ "channel": "błędy",
+ "time": "2026-11-10T19:45:57.833000+00:00",
+ "author": "Shatsca",
+ "username": "shatsca",
+ "author_id": "464826282212065282",
+ "bot": false,
+ "content": "- warczenie wilkow jeszcze nie przetestowane\n- cieplo z hud zniknelo (dobrze)\n- clothing expanded nadal nie dziala, po zatosowaniu komendy `add GEAR_CargoToolbelt` - caly czas nic nie wczytuje, wysylam logi coop.log na <#1568240888612917290> - nie zapętlaj rozwiązania w kólko znajdź takie rozwiązanie aby to dzialalo narazie spośród 25 przedmiotów nie można skorzystać z żadnego oraz domyślam się że na mapie się nie respią w strukturach - spraw aby tak bylo dając im konkretny % szans (rzadkość)\n\n<@1568266348587655218>",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": true
+}
