@@ -1,0 +1,7 @@
+#updates
+**HUD (prośba Shatsci)**
+• Usunięta rubryka temperatury ciała (CIAŁO °C). Wcześniej była na dole, teraz jej nie ma.
+• Choroby i buffy jako ikony z gry: kolumna po lewej, na środku ekranu. Pokazują się tylko wtedy, gdy masz daną dolegliwość (np. hipotermia, oparzenia, krwotok, zwichnięcie, ryzyko infekcji, najedzenie). Kolory: czerwony = choroba, żółty = ryzyko, niebieski = buff. Wcześniej był tylko tekst w lewym górnym rogu.
+• Pasek sprintu przesunięty w górę o 1,5 wysokości jego ikony, żeby nie nachodził np. na łuk.
+Nie testowane w grze. Jeśli jakaś ikona się nie znajdzie, jej nazwa pokaże się tekstem w lewym górnym rogu.
+Link: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
