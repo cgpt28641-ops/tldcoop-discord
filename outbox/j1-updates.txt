@@ -1,7 +1,0 @@
-#updates
-**Nowość: rzadkość przedmiotów (nasza własna wersja)**
-• Kwadraty przedmiotów w ekwipunku i w skrzyniach mają kolorowe tło jak skiny w CS: szary Common, zielony Uncommon, niebieski Rare, fioletowy Epic, złoty Legendary, czerwony Mythic.
-• Lista jest nasza: broń i łuk → Legendary; skóry, ubrania ekspedycyjne i ClothingExpanded → Epic; narzędzia, leki i światło → Rare; ubrania i konserwy → Uncommon; reszta → Common. Torba z pochwą, przedmioty automatu i unikalne karabiny → Mythic. Klucze i notatki bez koloru.
-• Wyłączasz w `coop.ini`: `[rarity] enabled=0`.
-Jeszcze nie ma: kolorów na slotach ubrań i nazwy rzadkości w opisie przedmiotu. Nie testowane.
-Link: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
