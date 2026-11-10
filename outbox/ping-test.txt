@@ -1,2 +1,0 @@
-#claude-komendy
-@shatsca @kerel123 od teraz oznaczenia od bota działają naprawdę (wcześniej wysyłał samo „@nick” jako tekst i nikogo nie pingowało) 🔔
