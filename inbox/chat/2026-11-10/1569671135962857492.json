@@ -1,0 +1,39 @@
+{
+ "id": "1569671135962857492",
+ "channel": "chat",
+ "time": "2026-11-10T11:12:41.893000+00:00",
+ "author": "kerel123",
+ "username": "kerel123",
+ "author_id": "402140001187659786",
+ "bot": false,
+ "content": "",
+ "reply_to": null,
+ "attachments": [
+  {
+   "name": "carry_grid.mov",
+   "size": 208695,
+   "saved": "inbox/chat/2026-11-10/1569671135962857492/carry_grid.mov"
+  },
+  {
+   "name": "chop_grid.mov",
+   "size": 131396,
+   "saved": "inbox/chat/2026-11-10/1569671135962857492/chop_grid.mov"
+  },
+  {
+   "name": "g_idle_grid.mov",
+   "size": 79471,
+   "saved": "inbox/chat/2026-11-10/1569671135962857492/g_idle_grid.mov"
+  },
+  {
+   "name": "g_creep_grid.mp4",
+   "size": 266692,
+   "saved": "inbox/chat/2026-11-10/1569671135962857492/g_creep_grid.mp4"
+  },
+  {
+   "name": "g_run_grid.mp4",
+   "size": 276381,
+   "saved": "inbox/chat/2026-11-10/1569671135962857492/g_run_grid.mp4"
+  }
+ ],
+ "mentions_bot": false
+}
