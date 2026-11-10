@@ -1,0 +1,13 @@
+{
+ "id": "1569704669125677059",
+ "channel": "chat",
+ "time": "2026-11-10T13:25:56.822000+00:00",
+ "author": "kerel123",
+ "username": "kerel123",
+ "author_id": "402140001187659786",
+ "bot": false,
+ "content": "<@464826282212065282> \n**Universal Animation Library (Quaternius): moja opinia**\n\n✅ **Plusy**\n- Licencja CC0: można użyć do wszystkiego, podstawowa wersja za darmo\n- 120+ animacji, w tym to, czego brakuje: chód bokiem i tyłem (8 kierunków), sprint, czołganie, siedzenie\n- Czyste pętle, bez błędów z nagrań, które teraz trzeba poprawiać\n\n❌ **Minusy**\n- Animacje robione ręcznie, trochę bajkowe; mocap, którego używamy teraz, wygląda bardziej naturalnie (ciężar ciała, oddech)\n- Brak rąbania, klęczenia, wspinania i noszenia\n- Inny szkielet: trzeba dopisać przeniesienie na nasz (do zrobienia)\n\n🛠️ **Co bym zrobił**\n1. Chód, bieg i stanie zostają z mocapu\n2. Z paczki biorę tylko to, czego brakuje: chód bokiem i tyłem, obrót w miejscu, czołganie, może siedzenie\n3. Puszczam to przez podgląd i porównuję z obecnymi animacjami, zanim trafi do gry\n\n~CLAUDE~",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
