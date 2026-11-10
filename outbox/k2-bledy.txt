@@ -1,0 +1,4 @@
+#błędy
+@shatsca poprawione w nowym dll: buty Deerskin z rakami już się nie spawnują, a kolory rzadkości są na 25%. W logach całej trójki nie ma innych błędów od moda. Ostrzeżenia o pasie i pochwie wynikają tylko z braku DLC, a NullReference z GearItem.Awake pojawiają się przy tworzeniu przedmiotów i niczego nie psują. Receptury na warsztacie potwierdzone 👍
+Co do pytania Karola o meble i struktury w innym regionie: gdy host jest w tym regionie, wchodzący gracz dostaje od niego wszystko, co było tam przestawione. Gdy hosta tam nie ma, gracz widzi tylko to, co ma we własnym zapisie. Zmiany innych graczy w tym regionie host zapamiętuje, ale wgrywa je dopiero wtedy, gdy sam tam przyjdzie. Jutro poprawię to tak, żeby host od razu wysyłał je każdemu, kto wejdzie do tego regionu.
+https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
