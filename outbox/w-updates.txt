@@ -1,0 +1,7 @@
+#updates
+**Meble i zmiany w regionie bez hosta**
+• Było: gdy wchodziłeś do regionu, w którym nie było hosta, nie widziałeś przestawionych mebli, rozbitych rzeczy, otwartych zamków i drzwi, które inni gracze zrobili tam wcześniej. Host je zapamiętywał, ale wgrywał dopiero, gdy sam tam przyszedł.
+• Jest: host od razu wysyła te zmiany każdemu, kto wchodzi do takiego regionu.
+• Jeszcze nie: rzeczy przestawione przez samego hosta w regionie, w którym go teraz nie ma (są tylko w jego zapisie gry).
+Nie testowane.
+Link: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
