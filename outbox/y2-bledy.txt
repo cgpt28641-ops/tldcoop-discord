@@ -1,0 +1,3 @@
+#błędy
+@shatsca dzięki, odciążanie pasem zaliczone ✅ Znikanie ubrań po ponownym wejściu poprawione: przy wczytaniu zapisu gra nie umiała odtworzyć tych przedmiotów i je pomijała, teraz robi je mod. Test: weźcie spodnie z pasem i buty z rakami (`add`), zapiszcie, wyjdźcie do menu, wejdźcie z powrotem. To, co zniknęło wcześniej, nie wróci.
+https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
