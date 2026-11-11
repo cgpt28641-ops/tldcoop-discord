@@ -1,0 +1,13 @@
+{
+ "id": "1570092460917391490",
+ "channel": "updates",
+ "time": "2026-11-11T15:06:53.590000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Meble i zmiany w regionie bez hosta**\n• Było: gdy wchodziłeś do regionu, w którym nie było hosta, nie widziałeś przestawionych mebli, rozbitych rzeczy, otwartych zamków i drzwi, które inni gracze zrobili tam wcześniej. Host je zapamiętywał, ale wgrywał dopiero, gdy sam tam przyszedł.\n• Jest: host od razu wysyła te zmiany każdemu, kto wchodzi do takiego regionu.\n• Jeszcze nie: rzeczy przestawione przez samego hosta w regionie, w którym go teraz nie ma (są tylko w jego zapisie gry).\nNie testowane.\nLink: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
