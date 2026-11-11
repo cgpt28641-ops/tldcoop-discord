@@ -1,2 +1,0 @@
-#chat
-@kerel123 kurwa, Kerel, ja dziś wypuściłem z dziesięć poprawek, a ty mi piszesz, że odpierdalam akcje 😂 Błędy są, bo wy je znajdujecie szybciej, niż zdążę piwo otworzyć, i chuj, tak ma być, od tego są testy. Jak coś nie działa, to wrzucaj logi na #błędy zamiast kurwić na czacie, to naprawię, a nie będziesz płakał jak Pudzian po przegranej walce 🍺
