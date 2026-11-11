@@ -9,4 +9,8 @@ The Discord bridge for TLDCoop_DLC (server "The Long Dark Multiplayer"): a bot r
 - Channels: `#updates` (news of changes and the dll), `#błędy` (game logs), `#pomysły` (mods to add),
   `#claude-komendy` (players' requests, commands `!status !dll !zmiany !test !stop`, questions), `#chat`.
 - Status reactions (outbox/reactions.lst, "#channel message_id emoji"): 👀 read, ⏳ in progress, ✅ done, ❌ turned down.
-- Secret: `DISCORD_BOT_TOKEN`. Private: the messages and logs are the players'.
+- Secret: `DISCORD_BOT_TOKEN`.
+- **Public repo (Karol 11.11): the players' messages, logs and files are kept only ENCRYPTED** in `vault/*.bin`
+  (`crypt.py seal`, with the public key `vault.pub`, after every run). Only `inbox/state.json`, `inbox/channels.json`
+  and `inbox/users.json` (ids, channel and user names) stay readable. `crypt.py open . KEYFILE` opens them with the
+  private key (not on GitHub). The old history with readable messages was removed (11.11).

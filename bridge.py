@@ -165,9 +165,17 @@ def pull(channels, state):
     return new
 
 
+def users_path():
+    return os.path.join(ROOT, 'inbox', 'users.json')
+
+
 def known_users():
-    """username -> id, from what the inbox has seen: "@shatsca" in an outbox file becomes a real ping (<@id>)."""
-    users = {}
+    """username -> id, from what the inbox has seen: "@shatsca" in an outbox file becomes a real ping (<@id>).
+    inbox/users.json keeps them (the messages themselves are sealed in vault/ after each run, Karol 11.11)."""
+    try:
+        users = json.load(open(users_path(), encoding='utf8'))
+    except Exception:
+        users = {}
     for dirpath, _, names in os.walk(os.path.join(ROOT, 'inbox')):
         for n in names:
             if not n.endswith('.json'):
@@ -178,6 +186,7 @@ def known_users():
                 continue
             if isinstance(d, dict) and d.get('author_id') and d.get('username'):
                 users[d['username'].lower()] = d['author_id']
+    json.dump(users, open(users_path(), 'w', encoding='utf8'), ensure_ascii=False, indent=1, sort_keys=True)
     return users
 
 
@@ -298,6 +307,7 @@ def main():
     deleted = delete(channels)
     new = pull(channels, state)
     json.dump(state, open(state_path, 'w'), indent=1)
+    known_users()  # the new authors into inbox/users.json before the messages are sealed
     print('channels %d, new messages %d, posted %d, reactions %d, deleted %d' % (len(channels), new, sent, reacted, deleted))
 
 

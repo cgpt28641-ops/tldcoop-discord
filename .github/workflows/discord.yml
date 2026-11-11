@@ -25,12 +25,16 @@ jobs:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_DEFAULT_CHANNEL: ${{ vars.DISCORD_DEFAULT_CHANNEL }}
         run: python3 bridge.py .
+      - name: Seal (Karol 11.11, messages only encrypted in git)
+        run: |
+          python3 -c "import cryptography" 2>/dev/null || pip install -q --break-system-packages cryptography || pip install -q cryptography
+          python3 crypt.py seal . > /dev/null
       - name: Save
         run: |
           git config user.name "TLDCoop bridge"
           git config user.email "bridge@users.noreply.github.com"
           mkdir -p inbox outbox
-          git add -A inbox outbox
+          git add -A inbox outbox vault
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -q -m "discord: $(date -u +%Y-%m-%dT%H:%MZ)"
           for i in 1 2 3; do

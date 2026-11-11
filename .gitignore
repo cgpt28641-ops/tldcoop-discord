@@ -1,0 +1,6 @@
+# Karol 11.11: the repo is public. Messages, logs and files are kept only encrypted in vault/ (crypt.py).
+inbox/*
+!inbox/state.json
+!inbox/channels.json
+!inbox/users.json
+__pycache__/
