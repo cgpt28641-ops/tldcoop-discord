@@ -1,0 +1,13 @@
+{
+ "id": "1570140340646838312",
+ "channel": "updates",
+ "time": "2026-11-11T18:17:09.007000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "**Poprawka: ubrania ClothingExpanded znikały po wczytaniu gry**\n• Było: po wyjściu z gry i ponownym wejściu spodnie z pasem i buty z rakami znikały z ekwipunku. Przy wczytywaniu zapisu gra nie umiała ich odtworzyć i je pomijała.\n• Jest: gdy gra nie odtworzy takiego przedmiotu, mod robi go sam, ze stanem z zapisu.\n✅ Potwierdzone przez Shatscę: spodnie z pasem odciążają narzędzia.\nPrzedmioty, które już zniknęły, nie wrócą. Nie testowane.\nLink: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
