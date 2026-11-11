@@ -1,0 +1,13 @@
+{
+ "id": "1570133783829684304",
+ "channel": "błędy",
+ "time": "2026-11-11T17:51:05.740000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "<@464826282212065282> przeczytałem logi z 18:35 (wersja 15:07) i wszystkie zgłoszenia z nich:\n• Bojówki z pasem nie odciążały: bez DLC nie było skąd wziąć bonusu pasa. Teraz, gdy masz je założone, 3 najcięższe narzędzia ważą połowę (tyle mówi opis przedmiotu, nie 25%). Sprawdźcie wagę np. z siekierą, młotkiem i łomem: bez spodni i w spodniach.\n• Starsze zgłoszenie z 01:13 („czekanie na spanie po wyjściu gracza”): z logu wynika, że Szymon wyszedł o 01:13:14, a wrócił po 10 sekundach, zanim spanie zdążyło ruszyć (host potrzebuje 2 s potwierdzenia), więc gra znowu czekała na niego. Jak ktoś wyjdzie na dobre, spanie rusza bez niego. Jeśli zdarzy się to, gdy nikt nie wraca, dajcie znać.\nhttps://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}
