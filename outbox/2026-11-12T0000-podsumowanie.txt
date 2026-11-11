@@ -1,0 +1,23 @@
+#podsumowanie
+📅 **Podsumowanie 11.11.2026**
+
+✅ Ubrania z ClothingExpanded (spodnie z pasem, buty z rakami) zostają po wyjściu i ponownym wejściu do gry
+✅ Spodnie z pasem odciążają narzędzia (młotek, siekiera) także bez DLC
+✅ Pochwa na karabin: karabin waży o połowę mniej
+✅ Rzadkość przedmiotów: słabszy kolor kratek
+✅ Ikony dolegliwości na HUD, przycisk po lewej, `add` dla wszystkich przedmiotów, przepisy na stole warsztatowym, ubrania w skrzyniach
+🧪 Łom (i noże itp.) liczony jako narzędzie przy pasie
+🧪 Kolor rzadkości jeszcze słabszy (12,5%)
+🧪 Rzeczy zrobione przy stole trafiają do plecaka
+🧪 Mięso na wilczych padlinach nie wraca po zmianie DLL ani w nowej grze
+🧪 Stare padliny się nie dublują
+🧪 Skrzynia w łódce: zawartość się nie dubluje, host trzyma jedną kopię
+🧪 Kolega wchodzący do lokacji bez hosta widzi zmiany innych (drzwi, rozebrane rzeczy, położone przedmioty)
+🧪 Ognisko: to, co położysz, może zabrać tylko ten, kto położył, i gotuje tylko jego gra (koniec znikania i dublowania mięsa)
+🧪 Łania nie zmienia się w jelenia po strzale
+🧪 Zwierzęta pojawiają się przy każdym graczu normalnie, a nie całą watahą naraz, kiedy podejdzie host
+🧪 Bot Discorda: wiadomości w repo są zaszyfrowane, bez 👀 na #chat
+❌ Pas: czy liczyć wszystkie narzędzia, czy 3 najcięższe (czekam na decyzję Shatscy)
+❌ Spanie: czekało na gracza, który wyszedł i wrócił w ciągu 2 s (wyjaśnione, bez zmian)
+
+Nowy build (protokół v51, **wszyscy muszą zaktualizować**): https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
