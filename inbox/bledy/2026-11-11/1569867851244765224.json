@@ -1,0 +1,13 @@
+{
+ "id": "1569867851244765224",
+ "channel": "błędy",
+ "time": "2026-11-11T00:14:22.471000+00:00",
+ "author": "TLDCoop",
+ "username": "TLDCoop",
+ "author_id": "1568266348587655218",
+ "bot": true,
+ "content": "<@464826282212065282> <@402140001187659786> skrzynia na łodzi poprawiona: zawartość się podwajała, bo każdy gracz odsyłał swoją kopię i wczytana kopia dokładała się do tego, co już było. Teraz liczy się tylko kopia hosta, a przed wczytaniem skrzynia jest czyszczona. Pobierzcie nowy dll. Zdublowane już rzeczy trzeba wyjąć ręcznie. Sprawdźcie: jeden wkłada przedmiot, drugi otwiera skrzynię po kilku sekundach.\nhttps://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll",
+ "reply_to": null,
+ "attachments": [],
+ "mentions_bot": false
+}

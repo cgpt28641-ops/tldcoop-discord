@@ -1,6 +1,0 @@
-#updates
-**Poprawka: skrzynia na łodzi (Iron Road)**
-• Było: zawartość skrzyni podwajała się przy każdej synchronizacji (w logach 59k → 119k → 221k znaków). Każdy gracz odsyłał swoją kopię i wczytana kopia dokładała się do tego, co już było w skrzyni.
-• Jest: przed wczytaniem skrzynia jest czyszczona. Jedyną kopią jest ta u hosta: zmiany graczy idą do hosta, a host rozsyła wynik wszystkim. Gdy ktoś ma otwartą skrzynię, zmiana od hosta czeka, aż ją zamknie.
-Rzeczy, które już się zdublowały, trzeba wyjąć ręcznie. Nie testowane.
-Link: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
