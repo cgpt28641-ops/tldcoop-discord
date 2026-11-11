@@ -1,3 +1,0 @@
-#claude-komendy
-@shatsca zrobione: tło rzadkości jest jeszcze o połowę słabsze (12,5%, po najechaniu 20%). Nowy dll: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-Co do noża i łomu przy pasie: pas odciąża tylko 3 najcięższe narzędzia w plecaku (tak jest w opisie przedmiotu). Jeśli masz cięższe, np. siekierę, młotek albo piłę, to one zabierają te 3 miejsca, a nóż i łom zostają bez zmian. Jeśli chcesz, żeby pas odciążał wszystkie narzędzia albo więcej niż 3, napisz ile, to zmienię.
