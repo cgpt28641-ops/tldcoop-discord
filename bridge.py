@@ -148,7 +148,11 @@ def pull(channels, state):
                     mentions.append('#%s %s %s %s' % (c['name'], m['id'], rec['username'], os.path.relpath(
                         os.path.join(folder, m['id'] + '.json'), ROOT)))
                     try:
+                        if c['name'] == 'chat':  # (Karol 11.11: no 👀 on #chat)
+                            raise StopIteration
                         call('PUT', '/channels/%s/messages/%s/reactions/%s/@me' % (c['id'], m['id'], urllib.parse.quote('👀')))
+                    except StopIteration:
+                        pass
                     except Exception as e:
                         print('mention 👀: %s' % e)
             after = msgs[-1]['id']
