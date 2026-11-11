@@ -1,0 +1,7 @@
+#updates
+**Poprawki po zgłoszeniach Shatscy z 00:53–01:00**
+• Podwojone tusze wilków. Było: po wczytaniu gry host robił drugą tuszę dla każdego martwego zwierzęcia ze swojej listy, a gra już miała tę tuszę z zapisu. W tym samym miejscu leżały dwie. Jest: jeśli w tym miejscu (do 3 m) leży już tusza tego gatunku z zapisu gry, druga nie powstaje, a stary wpis jest usuwany.
+• Stare tusze jako świeże. Było: po wczytaniu stare tusze dostawały stan 100% i rozmrożenie jak świeżo upolowane. Jest: tylko naprawdę świeże zabicia (do 10 minut) są odświeżane.
+• Skrzynia na łodzi (130 kg mięsa i 60 000 kcal zamiast 5 600): to podwajanie i nadpisywanie starą kopią Szymona, poprawione w buildzie z 01:15.
+Zdublowane już tusze i rzeczy w skrzyni zostają, trzeba je usunąć ręcznie. Nie testowane.
+Link: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
