@@ -1,6 +1,0 @@
-#błędy
-@shatsca przejrzałem dokładnie logi z 01:05 i wszystkie trzy wasze zgłoszenia:
-1. „tusze wilków się zdublowały” (00:53): przy wczytaniu host robił drugą tuszę obok tej z zapisu gry. Poprawione.
-2. „130 kg mięsa w łodzi” (00:56) i 3. „5600 kcal → 60000 po wyjściu Szymona” (01:00): skrzynia na łodzi się podwajała, a stara kopia Szymona nadpisywała waszą. Poprawione w poprzednim dll, teraz liczy się tylko kopia hosta.
-Pobierzcie najnowszy dll. To, co już się zdublowało, trzeba usunąć ręcznie: zebrać albo zostawić tuszę i wyjąć nadmiar ze skrzyni.
-https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
