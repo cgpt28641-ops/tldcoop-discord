@@ -1,6 +1,0 @@
-#updates
-**Pas na narzędzia: łom też się liczy**
-• Było: pas odciążał młotek i siekierę, ale nie łom, bo gra nie traktuje łomu jako narzędzia.
-• Jest: łom, noże, piła, klucz i podobne też liczą się jako narzędzia. Dalej odciążane są 3 najcięższe.
-✅ Potwierdzone przez Shatscę: ubrania z pasem i rakami nie znikają po wyjściu z gry, kolory rzadkości są słabsze.
-Link: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
