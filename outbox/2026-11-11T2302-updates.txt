@@ -1,0 +1,19 @@
+#updates
+**Nowy build (11.11, 23:00)**: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+⚠️ Zmieniła się wersja protokołu (v51), więc **wszyscy muszą wgrać nowy winhttp.dll**, inaczej się nie połączycie.
+
+@shatsca @Kerel_007_ @szymongrzyb2017 na podstawie logów z 22:30:
+
+🔥 **Ognisko: znikające i duplikowane mięso** (report Shatscy 19:47)
+- Co było źle: mięso położone na ognisku bez garnka dostawało identyfikator zależny od miejsca na ognisku. Dwie osoby na tym samym miejscu = ten sam identyfikator u obu. Gry przerzucały się nim dwa razy na sekundę, a do tego gra z lepszą umiejętnością gotowania kończyła mięso szybciej. Efekt: mięso znikało albo się dublowało.
+- Jak jest teraz: **to, co położysz na ognisku (mięso, garnek, woda, śnieg), może zabrać tylko ten, kto to położył.** Gotuje tylko jego gra, z jego umiejętnością, a reszta widzi postęp od niego. Jak ktoś inny spróbuje wziąć, dostaje komunikat „To położył na ognisku X - tylko on może to zabrać”. Jak właściciel wyjdzie z lokacji albo z gry, blokada znika. Nowe przedmioty dostają losowe identyfikatory, więc już się nie pokrywają.
+
+🦌 **Łania zmienia się w jelenia po strzale** (report 20:01)
+- Co było źle: kiedy łania przechodziła do gracza, w którego okolicy nie ma miejsca, gdzie rodzą się łanie, jego gra robiła z niej jelenia.
+- Jak jest teraz: tworzy się z modelu łani.
+
+🐺 **Pusto daleko od hosta, a potem nagle wataha wilków** (Kerel 22:03)
+- Co było źle: zwierzęta tworzy gra hosta, a ta budzi tylko obszary blisko hosta. Kerel był ~250 m dalej i nic przy nim nie było. Jak host podszedł, obudził się obszar wilków i wyskoczyło 10 sztuk naraz, 17-64 m od Kerela (x2, bo 3 graczy).
+- Jak jest teraz: obszary przy każdym graczu budzą się normalnie i nic nie pojawia się bliżej niż 80 m od gracza.
+
+🧪 Wszystko powyżej jest **nietestowane w grze**, sprawdźcie i dajcie znać.
