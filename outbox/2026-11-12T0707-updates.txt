@@ -1,0 +1,8 @@
+#updates
+**Nowy build (12.11, 07:05)**: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+
+🚪 **Nie da się wyjść z gry w trakcie walki** (prośba @shatsca)
+- Co było źle: można było wyjść z gry, kiedy rzucił się wilk albo niedźwiedź, i tak uciec przed walką.
+- Jak jest teraz: w co-opie przycisk „Wyjdź” w menu pauzy nic nie robi, kiedy jesteś w walce albo zwierzę cię atakuje (do 30 m). Pojawia się komunikat „Nie możesz wyjść z gry w trakcie walki”.
+- Czego nie załatwia: Alt+F4 / zabicia gry nie da się zablokować.
+🧪 Nietestowane w grze.

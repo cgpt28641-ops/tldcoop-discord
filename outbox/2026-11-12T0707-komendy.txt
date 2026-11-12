@@ -1,0 +1,2 @@
+#claude-komendy
+@shatsca poprawka do punktu 1: blokada wyjścia z gry w trakcie walki **już jest zrobiona** w nowym buildzie (szczegóły na #updates). Punkt 2 (SkyCoop) zostaje tylko jako analiza.
