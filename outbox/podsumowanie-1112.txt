@@ -1,0 +1,19 @@
+#podsumowanie
+📅 **Podsumowanie 12.11.2026**
+
+🧪 Nie da się wyjść z gry w trakcie walki ze zwierzęciem (napis „Nie możesz wyjść z gry w trakcie walki”)
+🧪 Spanie nie czeka na gracza, który siedzi w menu albo ma ekran ładowania
+🧪 Ognisko: garnek/mięso należy do tego, kto położył, także gdy u ciebie ogień już zgasł; właściciel sam wysyła postęp gotowania
+🧪 Przedmiot, który u kogoś tylko się „wyłączył”, nie znika już u wszystkich
+🧪 Świeżo zabite zwierzę obok innej padliny nie jest kasowane
+🧪 Zwierzęta i padliny nie są zapominane przy każdej zmianie lokacji hosta (błąd zegara przy ładowaniu)
+🧪 Zapis świata hosta: stare rzeczy z pliku sprzed v51 znów się wczytują; kopie zapasowe obejmują też folder `worlds`
+🧪 Skrzynia w łódce: host nie nadpisuje zawartości, gdy sam ma ją otwartą
+🧪 Pas na narzędzia: szybsze odświeżanie listy narzędzi
+❌ Buildy 11.11 23:00 – 12.11 07:35 mogły zgubić część rzeczy z lokacji, w których nie było hosta. @shatsca hostowałeś wtedy? Jeśli tak, daj znać
+❌ Zwierzęta przy graczu daleko od hosta: poprawka jest, ale dalej niepotwierdzona, potrzebne logi z gry
+❌ Pas: wszystkie narzędzia czy 3 najcięższe (czekam na decyzję)
+
+Dziś nikt nie zgłosił nowych błędów. Wszystko 🧪 czeka na wasze testy.
+
+Build (protokół v51, **wszyscy ten sam**): https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
