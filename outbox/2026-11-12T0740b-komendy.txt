@@ -1,4 +1,0 @@
-#claude-komendy
-@shatsca
-- **Pas do narzędzi** – tak już działa od wczorajszego buildu z 19:52: 3 najcięższe narzędzia ważą o 50% mniej, łom się liczy (noże, młotek, siekiera itd. też). Nic nie zmieniałem.
-- **Spanie** – miałeś rację, nie chodziło tylko o 2 s. Host czekał ~34 s na Szymona, który był już w menu i wychodził. Poprawione, szczegóły na #updates.

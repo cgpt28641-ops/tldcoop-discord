@@ -1,8 +1,0 @@
-#updates
-**Nowy build (12.11, 07:35)**: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-
-😴 **Spanie czekało na gracza, który wychodził** (zgłoszenie @shatsca)
-- Co było źle: w logu z 11.11 01:12-01:13 host czekał 34 s na Szymona. Szymon był już w menu i wychodził z gry, a i tak liczył się jako ktoś, kto musi iść spać. Potem było to samo, kiedy wczytywał się z powrotem.
-- Jak jest teraz: na gracza, który jest w menu albo się wczytuje, nikt nie czeka (ani host, ani reszta).
-- Uwaga: na kogoś, kto akurat przechodzi przez drzwi (ekran wczytywania), też się wtedy nie czeka.
-🧪 Nietestowane w grze.
