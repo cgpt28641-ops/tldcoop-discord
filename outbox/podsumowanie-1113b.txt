@@ -1,0 +1,12 @@
+#podsumowanie
+➕ **Dopisek do 13.11 (zmiany z późnego wieczora – wersja serwerowa)**
+
+🧪 Serwer nie liczy się jako gracz przy dodatkowych zwierzętach (więcej zwierząt tylko za prawdziwych graczy)
+🧪 Zwierzęta, które gra wyłączyła, kiedy cię nie było, nie dublują się po powrocie do lokacji
+🧪 Na serwerze więcej łupów w skrzyniach dla większej liczby graczy (jak przy hoście)
+🧪 Świt i zmierzch z gry trafiają na serwer (spanie i zegar zgodne z porą dnia)
+🧪 Serwer pamięta pociąg, zwrotnice, skrzynię w łódce i światła w domach – kto wejdzie później, dostaje je od razu
+
+❌ Nie zrobione: rozbieranie zwierzyny przez dwóch graczy na serwerze (potrzebne logi z gry we dwóch), 4. gracz, wspólne szafki
+
+Te zmiany są w wersji serwerowej: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-server/winhttp.dll

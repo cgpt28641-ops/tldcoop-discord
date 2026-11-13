@@ -1,0 +1,7 @@
+#updates
+🖥️ **Wersja serwerowa – poprawki z wieczora 13.11**
+https://github.com/cgpt28641-ops/polar-link/releases/download/dll-server/winhttp.dll
+
+Co jest nowe: więcej łupów w skrzyniach dla więcej graczy także na serwerze, serwer nie liczy się jako gracz przy zwierzętach, zwierzęta nie dublują się po powrocie do lokacji, świt/zmierzch idą na serwer, a serwer pamięta pociąg, zwrotnice, skrzynię w łódce i światła w domach dla tych, co wchodzą później.
+
+🧪 Nic z tego nie było jeszcze testowane w grze. Jak gracie na serwerze – pobierzcie tę wersję i F11, jak coś nie gra.
