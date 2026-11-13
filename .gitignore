@@ -4,3 +4,7 @@ inbox/*
 !inbox/channels.json
 !inbox/users.json
 __pycache__/
+local/run_bridge.log
+local/run_bridge.log.old
+local/discord_bot_token.txt
+discord_bot_token.txt
