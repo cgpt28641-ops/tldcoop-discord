@@ -1,3 +1,0 @@
-#błędy
-@shatsca przejrzałem logi twoje i Szymona z 5 zgłoszeń o pociągu (szafki, garnek po zmianie regionu, jedzenie na slocie, postać Szymona, pociąg na odwrót). Wszystko poprawione w nowym buildzie, opis na #updates. Protokół v52, więc wszyscy muszą pobrać: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
-Nietestowane – jak coś z pociągiem dalej nie gra, F11 od razu w tym momencie.
