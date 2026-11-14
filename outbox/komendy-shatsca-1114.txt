@@ -1,0 +1,37 @@
+#claude-komendy
+@shatsca masz pełną listę. Wszystko to było poprawione, ale **nie sprawdzone w grze**. Przy każdym błędzie F11 od razu w tym momencie i wpisz, co się stało.
+Pobierzcie wszyscy tę samą DLL. Na serwer: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-server/winhttp.dll (ma wszystko z głównej + poprawki serwerowe).
+
+**🚂 POCIĄG (najważniejsze)**
+1. Obrotnica: jeden prowadzi, drugi jedzie w kabinie, przejedźcie przez obrotnicę i dalej. Pociąg ma u obu stać tak samo (przód tam, gdzie przód). Wcześniej u pasażera stał tyłem do przodu, a jego postać dziwnie się ruszała.
+2. Kuchenka w pociągu: jeden kładzie mięso/puszkę/garnek, drugi ma to widzieć na kuchence, nie w powietrzu i nie pod pociągiem. Potem na odwrót.
+3. Garnek na kuchence + przejazd do innego regionu: po zmianie regionu garnek ma być u obu. Wcześniej znikał, bo gra Szymona zaczynała zmianę regionu 2 s przed hostem.
+4. Szafka w pociągu: jeden coś wkłada, drugi otwiera i to widzi. Wcześniej nic się nie synchronizowało.
+
+**🔥 OGNISKA**
+5. Jeden kładzie mięso na ognisku, drugi próbuje je zabrać. Ma wyskoczyć „To położył na ognisku X – tylko on może to zabrać”, a mięso ma się dalej gotować, nie znikać i nie dublować. Wcześniej mięso znikało 2 razy, zwłaszcza przy wspólnym spaniu (godzina leciała w 8 s).
+6. Dwóch kładzie mięso na tym samym ognisku naraz (dwa sloty), potem obaj idą spać.
+7. Ten, kto położył, wychodzi z lokacji: po ok. 45 s garnek ma być „niczyj” i zabrać go może każdy.
+
+**🐺 ZWIERZĘTA**
+8. Gracz daleko od hosta (ponad 250 m): mają się przy nim normalnie pojawiać zwierzęta, a nie zero i potem nagle wataha, jak host podejdzie (to było u Kerela).
+9. Strzał w łanię: ma zostać łanią, nie zmieniać się w jelenia.
+10. Kilka wilków zabitych blisko siebie (walka z watahą): każde ciało ma zostać, żadne nie może zniknąć.
+11. Host zmienia lokacje kilka razy, potem wraca: zwierzęta i padliny mają dalej być. Wcześniej przy każdej zmianie lokacji hosta coś „zapominało”.
+12. Mięso na wilczych padlinach nie wraca po wyjściu z gry, zmianie DLL ani w nowej grze.
+
+**🎒 PRZEDMIOTY / ŚWIAT**
+13. Wejście do lokacji, w której nie ma hosta: macie widzieć, co inni tam zmienili (drzwi, rozebrane rzeczy, położone przedmioty).
+14. Rozłączenie i ponowne połączenie (np. Kerelowi rwało neta): żaden przedmiot nie może zniknąć u wszystkich. Wcześniej śpiwór znikał u hosta i u Szymona.
+15. Host hostował na buildach 11.11 23:00 – 12.11 07:35? Wtedy mogły zniknąć rzeczy z lokacji, w których hosta nie było. Sprawdźcie, czy wasze skrytki są całe.
+16. Skrzynia w łódce (Fulmar): wkładacie rzeczy na zmianę, także gdy host ma ją otwartą. Zawartość nie może się dublować ani cofać.
+
+**😴 SPANIE / INNE**
+17. Ktoś jest w menu albo ma ładowanie, a reszta idzie spać: sen ma ruszyć bez czekania na niego.
+18. Wilk się na kogoś rzuca, ten wciska Esc → Wyjdź: ma wyskoczyć „Nie możesz wyjść z gry w trakcie walki”.
+19. Pas na narzędzia (spodnie z pasem): 3 najcięższe narzędzia ważą o połowę mniej, łom też.
+20. Spodnie z pasem / buty z rakami zostają po wyjściu i wejściu do gry.
+
+**🖥️ SERWER**
+Pełna lista do serwera (łączenie, zwierzęta, szafki, sen, pociąg, czego jeszcze nie ma) jest tu: https://github.com/cgpt28641-ops/polar-link/blob/main/DO_SPRAWDZENIA_SERWER.md
+Najważniejsze z niej: zwierzęta nie dublują się po powrocie do regionu, więcej łupu przy 2 graczach, „do świtu/do zmierzchu” kończy się o właściwej godzinie, a pociąg zostawiony przez jednego drugi widzi w tym samym miejscu. Oprawianie tuszy we dwóch na serwerze jeszcze nie jest zrobione, ale zróbcie test i dajcie F11, bo bez logów tego nie ruszę.
