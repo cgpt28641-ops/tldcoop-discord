@@ -27,6 +27,10 @@ REPO = os.path.dirname(HERE)
 LOG = os.path.join(HERE, 'run_bridge.log')
 INTERVAL_S = int(os.environ.get('BRIDGE_INTERVAL_S', '60'))
 BRANCH = os.environ.get('BRIDGE_BRANCH', 'main')
+# (14.11) local/alive.txt: when this PC last ran a cycle, renewed every ALIVE_S. The GitHub workflow (its 10-minute
+# schedule and manual runs) does nothing while it is fresh, so the two never post the same outbox file twice.
+ALIVE = os.path.join(HERE, 'alive.txt')
+ALIVE_S = 600
 
 
 def log(text):
@@ -76,7 +80,7 @@ def git(*args, timeout=180):
 
 
 def pull():
-    code, out = git('pull', '-q', '--rebase', 'origin', BRANCH)
+    code, out = git('pull', '-q', '--rebase', '--autostash', 'origin', BRANCH)
     if code == 0:
         return True
     git('rebase', '--abort')
@@ -96,7 +100,15 @@ def cycle(token):
     code, out = run([sys.executable, os.path.join(REPO, 'crypt.py'), 'seal', REPO])
     if code != 0:
         log('crypt.py seal failed (is `cryptography` installed? py -3 -m pip install cryptography): %s' % out[-200:])
-    git('add', '-A', 'inbox', 'outbox', 'vault')
+    try:
+        with open(ALIVE, encoding='utf-8') as f:
+            last_alive = int(f.read().strip() or 0)
+    except (OSError, ValueError):
+        last_alive = 0
+    if time.time() - last_alive >= ALIVE_S:
+        with open(ALIVE, 'w', encoding='utf-8') as f:
+            f.write('%d\n' % int(time.time()))
+    git('add', '-A', 'inbox', 'outbox', 'vault', os.path.join('local', 'alive.txt'))
     code, _ = git('diff', '--cached', '--quiet')
     if code == 0:
         return summary, False
