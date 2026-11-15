@@ -1,0 +1,14 @@
+#podsumowanie
+📅 **15.11.2026 (niedziela)**
+
+Dziś bez nowych zmian w kodzie (main i server stoją jak wczoraj).
+
+Dalej do sprawdzenia:
+🧪 pociąg (v52: kierunek, szafka, rzeczy na pociągu, kuchenka)
+🧪 serwer dedykowany (lista: DO_SPRAWDZENIA_SERWER.md)
+🧪 ogniska / zwierzęta po poprawkach
+🧪 bridge Discorda na PC serwera (jeszcze nie odpalony)
+❌ Shatsca ma awarię kompa, więc testy czekają
+
+DLL: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
+DLL serwer: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-server/winhttp.dll
