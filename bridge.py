@@ -147,7 +147,8 @@ def pull(channels, state):
                 with open(os.path.join(folder, m['id'] + '.json'), 'w', encoding='utf-8') as fh:
                     json.dump(rec, fh, ensure_ascii=False, indent=1)
                 new += 1
-                if rec['mentions_bot'] and not rec['bot']:  # (Karol 10.11: others get an answer too, a short one)
+                # (Karol 16.11: on #chat only the server's local model answers a mention, not Claude: no mentions.lst)
+                if rec['mentions_bot'] and not rec['bot'] and c['name'] != 'chat':  # (Karol 10.11: others too, short)
                     mentions.append('#%s %s %s %s' % (c['name'], m['id'], rec['username'], os.path.relpath(
                         os.path.join(folder, m['id'] + '.json'), ROOT)))
                     try:
