@@ -1,6 +1,0 @@
-#błędy
-@shatsca ogarnięte z logów:
-🐺 Tusza wilka: nie mogłeś patroszyć, bo wilkiem sterowała gra Szymona, a na serwerze tusze dzieliła tylko gra hosta (której tam nie ma). Poprawione: tusza jest teraz wspólna dla wszystkich w regionie. Potrzebny nowy DLL i nowy serwer.
-😴 Wilki, które was olewają: jeszcze nie wiem czemu, w logach było za mało. Teraz logi pokazują, co wilk robi przy graczu. Jak znowu przejdzie obok i nic, to F11 od razu.
-📶 Wywalanie z serwera: dłuższy czas, zanim połączenie uzna się za zerwane (15 s zamiast 5).
-DLL: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
