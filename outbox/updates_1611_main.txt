@@ -1,0 +1,13 @@
+#updates
+🆕 **16.11, 21:20: najnowsza serwerowa część moda jest już w main** (protokół dalej 52, czyli ta sama wersja u wszystkich)
+
+Co doszło:
+• **Zwierzęta:** serwer dedykowany nie liczy się jako gracz przy dodatkowych zwierzętach. Zwierzęta, które gra ukryła przed naszym wejściem, liczą się jako obecne, więc po powrocie do regionu się nie dublują. ⚠️ To działa też w zwykłej grze z hostem (tam też mogło dublować).
+• **Loot:** dodatkowy loot na więcej graczy działa też na serwerze dedykowanym (losuje pierwszy, kto przeszuka).
+• **Spanie:** świt/zmierzch gracza idzie tylko do serwera (SleepOp::Clock).
+
+🧪 Wszystko nieprzetestowane w grze. Lista do sprawdzenia: DO_SPRAWDZENIA_SERWER.md w repo.
+
+🤖 **Bot Discorda działa teraz z PC serwera.** Pierwsza wiadomość z emotką na #serwer go zablokowała (Windows zapisywał w złym kodowaniu). Już poprawione, przez ostatnie kilka minut bot mógł nie widzieć nowych wiadomości.
+
+DLL: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
