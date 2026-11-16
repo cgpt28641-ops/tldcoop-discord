@@ -142,7 +142,10 @@ def pull(channels, state):
                     rec['attachments'].append(item)
                 rec['mentions_bot'] = bool(me) and (any(u.get('id') == me for u in m.get('mentions', [])) or
                                                    bool(roles & set(m.get('mention_roles', []))))
-                json.dump(rec, open(os.path.join(folder, m['id'] + '.json'), 'w'), ensure_ascii=False, indent=1)
+                # (16.11) utf-8 always: on the Windows server PC the default is cp1250, an emoji (TLDconsol's 🟢) broke the
+                # write halfway, the run died before saving its state and every next run met the same message again.
+                with open(os.path.join(folder, m['id'] + '.json'), 'w', encoding='utf-8') as fh:
+                    json.dump(rec, fh, ensure_ascii=False, indent=1)
                 new += 1
                 if rec['mentions_bot'] and not rec['bot']:  # (Karol 10.11: others get an answer too, a short one)
                     mentions.append('#%s %s %s %s' % (c['name'], m['id'], rec['username'], os.path.relpath(
@@ -299,14 +302,16 @@ def main():
         return
     state_path = os.path.join(ROOT, 'inbox', 'state.json')
     os.makedirs(os.path.dirname(state_path), exist_ok=True)
-    state = json.load(open(state_path)) if os.path.exists(state_path) else {}
+    state = json.load(open(state_path, encoding='utf-8')) if os.path.exists(state_path) else {}
     channels = text_channels()
-    json.dump(channels, open(os.path.join(ROOT, 'inbox', 'channels.json'), 'w'), ensure_ascii=False, indent=1)
+    with open(os.path.join(ROOT, 'inbox', 'channels.json'), 'w', encoding='utf-8') as fh:
+        json.dump(channels, fh, ensure_ascii=False, indent=1)
     sent = push(channels)
     reacted = react(channels)
     deleted = delete(channels)
     new = pull(channels, state)
-    json.dump(state, open(state_path, 'w'), indent=1)
+    with open(state_path, 'w', encoding='utf-8') as fh:
+        json.dump(state, fh, indent=1)
     known_users()  # the new authors into inbox/users.json before the messages are sealed
     print('channels %d, new messages %d, posted %d, reactions %d, deleted %d' % (len(channels), new, sent, reacted, deleted))
 
