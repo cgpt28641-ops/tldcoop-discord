@@ -1,0 +1,13 @@
+#podsumowanie
+📅 **16.11.2026 (poniedziałek)**
+
+✅ Pierwsza gra na serwerze dedykowanym we trójkę (Shatsca, Kerel, Szymon)
+✅ Bot Discorda działa z PC serwera (poprawione zacięcie na emotce, 21:58)
+🧪 Mod w main: zwierzęta na serwerze (bez dublowania po powrocie), dodatkowy loot na serwerze, świt/zmierzch do serwera
+🧪 Bot czatu (lokalny model) na #chat: szybsza pierwsza odpowiedź, sam odpowiada na oznaczenia na #chat
+🧪 Tusza zwierzęcia zabitego na serwerze: wspólna dla wszystkich w regionie (nowy DLL + nowy tldserver.exe)
+🧪 Wywalanie z serwera: połączenie zrywa się dopiero po 15 s ciszy (było 5 s)
+❌ Wilki na serwerze olewają graczy: dodane logi, czekam na F11 przy następnej grze
+❌ Kolejny raz wywalało Shatscę: sprawdzić po nowej wersji
+
+DLL: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
