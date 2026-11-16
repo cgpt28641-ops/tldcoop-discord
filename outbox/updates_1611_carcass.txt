@@ -1,0 +1,13 @@
+#updates
+🔧 **16.11 23:20: poprawki pod serwer dedykowany** (mod + nowy tldserver.exe, oba trzeba wgrać)
+
+❌ **Było:** zwierzę zabite na serwerze dało się patroszyć tylko u tego gracza, czyja gra nim sterowała (Shatsca zabił wilka Szymona i nie mógł go wypatroszyć).
+✅ **Jest:** tuszę widzi i może patroszyć każdy w tym regionie, a ubyte mięso, skóra i flaki są wspólne.
+
+❌ **Było:** co jakiś czas wywalało graczy z serwera (o 22:30 wszystkich naraz, potem Shatscę dwa razy). Wystarczało 5 s bez łączności.
+✅ **Jest:** gra czeka 15 s, zanim uzna, że połączenie padło, więc krótkie przycięcia Wi-Fi/Tailscale już nie wywalają.
+
+🐺 **Wilki, które ignorują graczy:** jeszcze nie naprawione. Dodałem do logów, co wilki robią przy graczach. Jak znowu będą was olewać, wciśnijcie F11 i opiszcie, co się dzieje.
+
+🧪 Wszystko nieprzetestowane w grze.
+DLL: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
