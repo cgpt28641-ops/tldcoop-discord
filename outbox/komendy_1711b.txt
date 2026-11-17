@@ -1,5 +1,0 @@
-#claude-komendy
-@shatsca kumam, to nie było zwykłe wyłączanie. Zrobione:
-🐺 Wilk, który na ciebie polował, kiedy wylatywałeś, po twoim powrocie już się nie rzuca od razu. Przez pierwsze 20 s po wejściu do regionu łazi, aż sam cię zwęszy jak normalny wilk. Nowy DLL niżej.
-🚂 Crash przy zmianie regionu pociągiem, kiedy jedziesz jako pasażer: na pewno go widać (Szymon wjechał do Section4 i w tej samej sekundzie wywaliło ciebie), ale log z tamtego razu się nadpisał. Jak znowu wywali, nie odpalaj od razu gry drugi raz, tylko wrzuć coop.log i Player-prev.log z C:\Users\<ty>\AppData\LocalLow\Hinterland\TheLongDark.
-DLL: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
