@@ -1,0 +1,6 @@
+#updates
+🔧 **17.11: wilk po powrocie na serwer** (tylko DLL)
+❌ **Było:** po wywaleniu i powrocie na serwer wilk, który na ciebie polował, rzucał się od razu i zabijał.
+✅ **Jest:** przez pierwsze 20 s w regionie taki wilk tylko łazi, aż sam cię wyczuje, jak przy zwykłym wejściu do regionu.
+🧪 Nieprzetestowane. Crash przy zmianie regionu pociągiem jako pasażer nadal otwarty (potrzebne logi).
+DLL: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
