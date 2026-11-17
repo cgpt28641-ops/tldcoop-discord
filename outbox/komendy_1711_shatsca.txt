@@ -1,8 +1,0 @@
-#claude-komendy
-@shatsca masz rację, tego testowania było za dużo. Przegadam z Kerelem, żeby była jedna stabilna wersja do grania, a zmiany tylko do tego, co zgłosicie.
-Wasze wczorajsze zgłoszenia:
-🐺 tusza wilka: poprawione (nowy DLL + nowy serwer)
-📶 wywalanie: gra czeka teraz 15 s, zanim zerwie połączenie (było 5)
-💀 4 trupy wilków: to głównie wilki, które wcześniej postrzeliliście i się wykrwawiły. Jeden wilk padł od razu po wejściu, a to już błąd i go szukam.
-🚂 pociąg na odwrót: po wywaleniu twoja gra wczytała starszy zapis, w którym pociąg stał inaczej niż u Szymona. train_flip zmienia tylko kierunek jazdy, a nie to, w którą stronę pociąg stoi.
-💥 twoja gra wyłączyła się 3 razy w 6 minut i w logu moda nie ma po tym śladu. Jak znowu tak padnie, wyślij plik Player-prev.log z C:\Users\<ty>\AppData\LocalLow\Hinterland\TheLongDark (tam jest błąd samej gry).
