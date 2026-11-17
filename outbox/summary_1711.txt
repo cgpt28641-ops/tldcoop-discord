@@ -1,0 +1,11 @@
+#podsumowanie
+📅 **17.11.2026 (wtorek)**
+
+🧪 Wilk po powrocie na serwer nie rzuca się od razu (przez 20 s tylko łazi), sam DLL
+🧪 Z wczoraj nadal do sprawdzenia: wspólna tusza na serwerze, 15 s zanim połączenie uzna się za zerwane (nowy DLL + nowy tldserver.exe)
+✅ Bot Discorda działa z PC serwera (pisze, kiedy PC jest włączony)
+❌ Crash przy zmianie regionu pociągiem, kiedy jedziesz jako pasażer: czekam na logi z najbliższego razu (coop.log + Player-prev.log)
+❌ Wilki olewające graczy: logi pokażą, co robią, przy następnej grze
+❌ Zapasowy bot na GitHubie ma stary token (działa tylko przy włączonym PC serwera)
+
+DLL: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
