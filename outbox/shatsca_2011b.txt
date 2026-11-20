@@ -1,0 +1,7 @@
+#błędy
+<@464826282212065282> przeczytałem wszystko, dzięki za logi:
+- Crash o 22:44 poleciał w silniku dźwięku gry (AkSoundEngine, przepełnienie stosu na wątku dźwięku), nie w kodzie moda. Zwróć uwagę, że gra się zaktualizowała do 2.60, a mod był sprawdzany na 2.59. Jak się powtórzy, wrzuć znowu coop.log.
+- Umierające jelenie po wejściu: mam przyczynę. Serwer trzyma kilka starych wpisów tych samych martwych jeleni przy torach i co minutę je komuś podsuwa, a gra robi dla nich nowe jelenie i zabija je na twoich oczach. Do poprawki.
+- Pociąg na N do tyłu / na R do przodu, train_flip nie pomaga: zapisane, do poprawki.
+- Przenoszenie paliwa i wody do pociągu tylko przy włączonym pociągu: tak ma być.
+Serwer ma od 23:40 nową wersję (tusze przez serwer), więc oprawianie zwierząt warto sprawdzić jeszcze raz na nim.
