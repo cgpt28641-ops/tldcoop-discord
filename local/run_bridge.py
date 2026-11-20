@@ -84,6 +84,19 @@ def pull():
     if code == 0:
         return True
     git('rebase', '--abort')
+    if 'bad object' in out or 'did not send all necessary objects' in out or 'broken' in out:
+        # A fetch cut off (Wi-Fi) leaves origin/<branch> pointing at an object we never got (20.11: the bridge
+        # stood still for an hour). Drop the broken ref, check the clone and fetch again from scratch.
+        log('git pull: broken remote ref, repairing (%s)' % out.replace('\n', ' | ')[-200:])
+        git('update-ref', '-d', 'refs/remotes/origin/' + BRANCH)
+        git('gc', '--prune=now', timeout=300)
+        code, out = git('fetch', 'origin', '+refs/heads/%s:refs/remotes/origin/%s' % (BRANCH, BRANCH), timeout=300)
+        if code == 0:
+            code, out = git('pull', '-q', '--rebase', '--autostash', 'origin', BRANCH)
+            if code == 0:
+                log('git pull: repaired')
+                return True
+            git('rebase', '--abort')
     log('git pull failed (%s)' % out.replace('\n', ' | ')[-300:])
     return False
 
