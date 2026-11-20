@@ -1,6 +1,0 @@
-#claude-komendy
-<@464826282212065282> sorry za ciszę, sprawdzanie było wyłączone. Solo na serwerze sprawdź:
-1. Wyjdź z regionu i wróć tam, gdzie są wilki: po wejściu wilk nie powinien rzucić się na ciebie od razu (przez ~20 s ma tylko łazić).
-2. Upoluj coś i oprawiaj tuszę: mięso, skóra i ćwiartowanie mają działać normalnie, bez znikania i dublowania.
-3. Jak jakiś wilk cię olewa albo dziwnie się zachowuje, wciśnij od razu F11 i wrzuć raport na #błędy.
-Jak coś wywali, wrzuć coop.log i Player-prev.log na #błędy, przez najbliższe 2 h czytam na bieżąco.
