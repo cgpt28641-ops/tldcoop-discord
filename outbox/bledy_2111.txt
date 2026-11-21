@@ -1,0 +1,2 @@
+#błędy
+<@464826282212065282> dzięki za logi. Crash po alt-tabie znaleziony: przy wyjściu z gry silnik dźwięku się wstrzymywał, a co-op grał dalej, więc po powrocie dostawał wszystkie dźwięki naraz. Poprawione w nowym DLL (link na #updates). Tusze jeleni też: serwer trzymał tę samą tuszę po kilka razy; nowy serwer to sprząta sam, zaktualizuje się, jak wyjdziesz z serwera. Daj znać, czy po alt-tabie dalej wywala.
