@@ -1,2 +1,0 @@
-The server PC no longer reads Discord (21.11): only the GitHub workflow discord.yml (polar-link), run by Claude by hand.
-Delete this file to turn the PC bridge back on.

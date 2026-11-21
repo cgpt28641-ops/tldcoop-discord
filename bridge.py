@@ -298,11 +298,6 @@ def delete(channels):
 
 
 def main():
-    # 21.11 (back to Karol's way): Discord is read only when a Claude chat runs the GitHub workflow, not every minute
-    # from the server PC. With local/pc_bridge_off in the repo the PC's loop (run_bridge.py) does nothing here.
-    if not os.environ.get('GITHUB_ACTIONS') and os.path.exists(os.path.join(ROOT, 'local', 'pc_bridge_off')):
-        print('the PC bridge is off (local/pc_bridge_off): Discord is read by the GitHub workflow when Claude runs it')
-        return
     if not TOKEN:
         print('DISCORD_BOT_TOKEN is not set: nothing to do')
         return
