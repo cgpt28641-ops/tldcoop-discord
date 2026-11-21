@@ -1,0 +1,9 @@
+#updates
+**Nowy winhttp.dll + nowy tldserver.exe** (oba trzeba mieć, serwer już Karol dostał)
+
+✅ wcześniej / 🧪 teraz:
+🧪 **Umierające jelenie przy torach po wejściu na serwer**: serwer trzymał stare wpisy tych samych martwych jeleni i co minutę je podsuwał, gra robiła dla nich nowe jelenie i zabijała je na oczach. Teraz gra mówi serwerowi „ta tusza już tu leży" i serwer stary wpis kasuje, a tusza zrobiona dla starego wpisu od razu leży, bez animacji umierania.
+🧪 **Pociąg na N jedzie do tyłu**: `train_flip` (F1, w kabinie) teraz odwraca przód pociągu (tak jak gra robi to na obrotnicy), a nie tylko kierunek jazdy. Wpisz raz `train_flip`, sprawdź N i R. Stara wersja: `train_flip dir`. Jak dalej źle, wciśnij F11 i daj logi.
+
+Nieprzetestowane w grze.
+DLL: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
