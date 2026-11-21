@@ -1,9 +1,0 @@
-#updates
-**Nowy winhttp.dll** (serwer zaktualizuje się sam, gdy nikt nie będzie grał)
-
-🧪 **Crash gry po powrocie z alt-taba** (AkSoundEngine): po zminimalizowaniu gra wstrzymywała silnik dźwięku, a co-op dalej grał. Po powrocie silnik dostawał wszystkie dźwięki naraz i padał. Teraz w co-op silnik dźwięku dalej pracuje w tle, tylko bez głosu.
-🧪 **Kolejne tusze jeleni przy torach**: serwer trzymał tę samą tuszę kilka razy (po kilka wpisów w jednym miejscu). Teraz serwer co 30 s łączy martwe zwierzęta leżące w tym samym miejscu w jedno, a gra nie robi drugiej tuszy tam, gdzie właśnie zrobiła pierwszą.
-✅ **train_flip** odwraca przód pociągu (potwierdził Shatsca)
-🧪 **Serwer aktualizuje się sam** z GitHuba, kiedy jest pusty (pierwsza aktualizacja zadziałała 15:32). Do wyłączania serwera jest stop_server.bat.
-
-DLL: https://github.com/cgpt28641-ops/polar-link/releases/download/dll-latest/winhttp.dll
